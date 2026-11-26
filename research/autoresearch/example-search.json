@@ -1,0 +1,24 @@
+{
+  "schema": "balilla-search/1",
+  "baseline_reference": "frozen-b7e1c3d-capitals-trace-parameter-control",
+  "seed": 42,
+  "baseline": {
+    "threshold": 0.5,
+    "simplify_px": 0
+  },
+  "search": {
+    "threshold": [
+      0.45,
+      0.5,
+      0.55
+    ],
+    "simplify_px": [
+      0,
+      0.2
+    ]
+  },
+  "max_candidates": 6,
+  "calibration_keep": 3,
+  "min_validation_iou_gain": 0.001,
+  "robustness_noise": 0.01
+}

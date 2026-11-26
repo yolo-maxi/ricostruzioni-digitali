@@ -21,6 +21,13 @@ fonts and recorded reports. Tests require no historical Git commits or archives.
 Font bytes and authorized original images are pinned in docs/frozen-inputs.json.
 Tests use a DOM stand-in, not a real browser; browser/visual proof is unavailable.
 
+## Bounded tracing research (no production promotion)
+
+See [autoresearch](../research/autoresearch/README.md). Its code, schema and
+empty synthetic fixture are included; private corpora and local receipts are not.
+The fixture intentionally exits 2 with INSUFFICIENT_SAMPLES. No source originals
+or new historical evidence are added by this environment.
+
 ## Optional font rebuilding
 
 ```sh

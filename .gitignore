@@ -7,3 +7,5 @@ __pycache__/
 .DS_Store
 node_modules/
 .public-source/
+research/autoresearch/.runs/
+research/autoresearch/local-corpora/

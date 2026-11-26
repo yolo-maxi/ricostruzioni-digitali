@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Balilla corpus v1 (semantic checks also required)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "version",
+    "fixture",
+    "policy",
+    "faces",
+    "observations"
+  ],
+  "properties": {
+    "schema": {
+      "const": "balilla-corpus/1"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fixture": {
+      "type": "boolean"
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "train",
+        "validation",
+        "holdout",
+        "min_quality",
+        "min_confidence"
+      ],
+      "properties": {
+        "train": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 1000
+        },
+        "validation": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 1000
+        },
+        "holdout": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "min_quality": {
+          "type": "number",
+          "minimum": 0.8,
+          "maximum": 1
+        },
+        "min_confidence": {
+          "type": "number",
+          "minimum": 0.8,
+          "maximum": 1
+        }
+      }
+    },
+    "faces": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1
+        }
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "face_id",
+          "source",
+          "target",
+          "crop",
+          "label",
+          "status",
+          "kind",
+          "quality",
+          "confidence",
+          "split",
+          "independence_group",
+          "face_match_basis"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "face_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          },
+          "target": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          },
+          "crop": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1
+          },
+          "status": {
+            "const": "observed"
+          },
+          "kind": {
+            "enum": [
+              "printed",
+              "synthetic"
+            ]
+          },
+          "quality": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "split": {
+            "enum": [
+              "train",
+              "validation",
+              "holdout"
+            ]
+          },
+          "independence_group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "face_match_basis": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

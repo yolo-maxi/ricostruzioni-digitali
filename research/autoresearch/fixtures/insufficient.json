@@ -1,0 +1,18 @@
+{
+  "schema": "balilla-corpus/1",
+  "version": "synthetic-empty-v1",
+  "fixture": true,
+  "policy": {
+    "train": 3,
+    "validation": 2,
+    "holdout": 1,
+    "min_quality": 0.8,
+    "min_confidence": 0.9
+  },
+  "faces": {
+    "synthetic-demo": [
+      "A"
+    ]
+  },
+  "observations": []
+}
