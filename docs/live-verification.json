@@ -1,0 +1,239 @@
+{
+  "target": "https://ricostruzioni-digitali.repo.box/",
+  "files_verified": 45,
+  "artifacts": [
+    {
+      "path": "assets/capitals-original.jpg",
+      "status": 200,
+      "sha256": "36742ae9d5e9b601662700510a2682e8a54d8b9b073cbd406c076464b1ded0e2"
+    },
+    {
+      "path": "downloads/balilla-type-lab-fonts-0.8.zip",
+      "status": 200,
+      "sha256": "6d0ec481d4fd366d0ce02c3e22f9a5afc02490437c46442cf2b7519713516d55"
+    },
+    {
+      "path": "evaluation/panel-glyph-s-overlay.png",
+      "status": 200,
+      "sha256": "0695bf7f1a2249125e315f75d3379f07b162a0ceafef99bb3156459008d60aa0"
+    },
+    {
+      "path": "evaluation/panel-glyph-s-reconstruction.png",
+      "status": 200,
+      "sha256": "5ec05befd2464ff3b7f10f08c1d330cf46c5d4d8c64f8e57f203061aaddedce6"
+    },
+    {
+      "path": "evaluation/panel-glyph-s-source.jpg",
+      "status": 200,
+      "sha256": "016d84dfb7130ebe3777c40195e5f8719c52767930082ed4241d4f85be18fbb6"
+    },
+    {
+      "path": "evaluation/panel-glyph-t-overlay.png",
+      "status": 200,
+      "sha256": "9703c1e8560e4a3c3a00ac10db13054fb07abec59a9051704aea389443538c35"
+    },
+    {
+      "path": "evaluation/panel-glyph-t-reconstruction.png",
+      "status": 200,
+      "sha256": "1c7c7c1ae87dd6fb35eca1fc4b68ee07cc4ffa711b544aed7c1862212d037447"
+    },
+    {
+      "path": "evaluation/panel-glyph-t-source.jpg",
+      "status": 200,
+      "sha256": "38272817acbba653d3744abc21b0fb400fc3c4ff4a2a916e98770e90c1ca64b7"
+    },
+    {
+      "path": "evaluation/panel-glyph-z-overlay.png",
+      "status": 200,
+      "sha256": "8dc3677ecaf3fc5ca563e94baaf8c2b36b906ec816e5375c7c2ab9729ca7e4db"
+    },
+    {
+      "path": "evaluation/panel-glyph-z-reconstruction.png",
+      "status": 200,
+      "sha256": "86becb8059aa3f47d636b5ccf083e66998649146e08e673884595eaac01a7b6c"
+    },
+    {
+      "path": "evaluation/panel-glyph-z-source.jpg",
+      "status": 200,
+      "sha256": "52de18358f6fc4a8e4f8218a892ee4834b39bfa1d09ef9e7170378ab632dedf7"
+    },
+    {
+      "path": "evaluation/panel-lines-overlay.png",
+      "status": 200,
+      "sha256": "d3eea91ffb841c708c56a4e68681fb7f677ae03c773b0b228a626ec6e8ea4120"
+    },
+    {
+      "path": "evaluation/panel-lines-reconstruction.png",
+      "status": 200,
+      "sha256": "a6e479f14dc3adb6f480f3d4618970f7a334c19193f2378675a3623e0497fda6"
+    },
+    {
+      "path": "evaluation/panel-lines-source.jpg",
+      "status": 200,
+      "sha256": "fce645d5ebb4a1045b43e56d1b87ee72f296629abee9e23331b810f5f81fe044"
+    },
+    {
+      "path": "evaluation/panel-report.json",
+      "status": 200,
+      "sha256": "f2dc571f94cca19de87a2df0f02c582d8ad5907e2438970cc103b0bec7107532"
+    },
+    {
+      "path": "evaluation/panel-shapes-overlay.png",
+      "status": 200,
+      "sha256": "fcfba43206156a69bf6479b250a090c5cebb4a93d603bf40c7b79fafee4b744b"
+    },
+    {
+      "path": "evaluation/report.json",
+      "status": 200,
+      "sha256": "d210f8459ba92a3c972259dba995ef524d06bffdfdea16c0f636b5e2a5281bde"
+    },
+    {
+      "path": "evaluation/selected-overlay.png",
+      "status": 200,
+      "sha256": "054c7ec4e12fde617bd07b64649e5988fd659ee687e6fe825b2511f56d579a37"
+    },
+    {
+      "path": "evaluation/selected-reconstruction.png",
+      "status": 200,
+      "sha256": "6eab417ab5d71fbc663803d7a7636831723b18adda26ccbe14a9c305bee8fbdc"
+    },
+    {
+      "path": "evaluation/selected-source.png",
+      "status": 200,
+      "sha256": "9ed29c65b65dddb63b6c5ccbc279a94f894179f78bcc0169ae980d5f9b61f277"
+    },
+    {
+      "path": "experiments/Alphabet-Sheet-EXPERIMENTAL-Observed-Only.ttf",
+      "status": 200,
+      "sha256": "6be821e0220744d3909c8bdf3b61f95895f6f2d7ea36b1b5ec75576c9bdb0c15"
+    },
+    {
+      "path": "experiments/Alphabet-Sheet-EXPERIMENTAL-Observed-Only.woff2",
+      "status": 200,
+      "sha256": "09438a3cc46789e3ededf19a8e8b98fc8f173ba3ddbf6960df19f8d83faab0f8"
+    },
+    {
+      "path": "experiments/alphabet-contact.png",
+      "status": 200,
+      "sha256": "1bbc0dfda608f019b0e419d4fb23969daa76507b7e56e80f087158afbaf7aa81"
+    },
+    {
+      "path": "experiments/alphabet-source.jpg",
+      "status": 200,
+      "sha256": "2d56b789a9d3589e3df55546cb437d66fdb4563a6c1222819579c94b608d2d5d"
+    },
+    {
+      "path": "experiments/blackletter-proof.png",
+      "status": 200,
+      "sha256": "7d7367b93f8dd2fcb001080725e3b755f2114914446e3fe3b3046351fd3ee49c"
+    },
+    {
+      "path": "experiments/blackletter-source.png",
+      "status": 200,
+      "sha256": "56b729257aaa2e832bfbaae2f63d00aa172e475000b47a5d1cdd5b4317803c13"
+    },
+    {
+      "path": "experiments/cursive-proof.png",
+      "status": 200,
+      "sha256": "f7697bdbe698d74a87ab34ce040093647ca5c15c609dd0e3910c8a679cc46d9a"
+    },
+    {
+      "path": "experiments/cursive-source.png",
+      "status": 200,
+      "sha256": "b46dd52abbbdd814e8c6eb663739658b13a23779a5f3328852f1f5b4198b9d53"
+    },
+    {
+      "path": "fonts/Balilla-Panel-Reconstructed.ttf",
+      "status": 200,
+      "sha256": "22d9f0c4e3a3f87354df7ef5c32fff4a8ba8b13a012da74d3fc91a46a138c756"
+    },
+    {
+      "path": "fonts/Balilla-Panel-Reconstructed.woff2",
+      "status": 200,
+      "sha256": "27ac023b1f3735baf3187359317e4e8e94ac0b8caec8c24e3a08ce329fbc2388"
+    },
+    {
+      "path": "fonts/Balilla-Reconstructed.ttf",
+      "status": 200,
+      "sha256": "7bf270f3f6cd60609258abeab8673ec586a58a1dc063fed7120c2e625a2c97d5"
+    },
+    {
+      "path": "fonts/Balilla-Reconstructed.woff2",
+      "status": 200,
+      "sha256": "074358fe1ff94c4bd87496a99bf7e3b2cd0a40274917d9afb65f35c730f7f605"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "ad5cd7a7f21574db1a0248f1770755482d1587a042090d69fe84da02c0cec9ba"
+    },
+    {
+      "path": "source-pages/HXwNV_7W8AAs8y6.jpg",
+      "status": 200,
+      "sha256": "bd87ebd100ab1238cffe15831c1d6262a3dae2fa08cb37b8567321ba9bba89a8"
+    },
+    {
+      "path": "source-pages/HXwNW6bWQAAleia.jpg",
+      "status": 200,
+      "sha256": "ce1fc5168f4bfe4556335d78875b1d6868684dd23c49dcf314a78cb3f8da526f"
+    },
+    {
+      "path": "source-pages/HXwNXsUWEAALJek.jpg",
+      "status": 200,
+      "sha256": "5d67f5157c5440498ff0d5821f21c8ffc225542f5354af47b2360f1308260467"
+    },
+    {
+      "path": "source-pages/HXwNYdeXgAE-ocC.jpg",
+      "status": 200,
+      "sha256": "cfa8f5515d396211a069c39d9cea377f93fca7c81f5a78471dbf2918afe701cc"
+    },
+    {
+      "path": "source-pages/alphabet-sheet-source.jpg",
+      "status": 200,
+      "sha256": "2d56b789a9d3589e3df55546cb437d66fdb4563a6c1222819579c94b608d2d5d"
+    },
+    {
+      "path": "source-pages/blackletter-source.jpg",
+      "status": 200,
+      "sha256": "423d999ee385896b888bd711fc3112080a2690dcfc3cfbd73008b2780a0dc497"
+    },
+    {
+      "path": "source-pages/brown-capitals-original.jpg",
+      "status": 200,
+      "sha256": "ff675b4c1dbb421ccb78d2b2b8c7ce96dbda77199bbe02c800e507ab0bdfb55a"
+    },
+    {
+      "path": "source-pages/capitals-original.jpg",
+      "status": 200,
+      "sha256": "36742ae9d5e9b601662700510a2682e8a54d8b9b073cbd406c076464b1ded0e2"
+    },
+    {
+      "path": "source-pages/cover-original.jpg",
+      "status": 200,
+      "sha256": "7eee6892b137b42aad27c4ae17ae05c94e35091db412f822acc64ba8259fe131"
+    },
+    {
+      "path": "source-pages/cursive-source.jpg",
+      "status": 200,
+      "sha256": "262dfe485891ad653bf8f22ca1f18301b28437862bee9bc6420cbae53b9b52ac"
+    },
+    {
+      "path": "source-pages/green-original.jpg",
+      "status": 200,
+      "sha256": "7b5e58ef6bbd44f5d72805dd158c104e01227d23c845cce7d8b28789116f9efc"
+    },
+    {
+      "path": "source-pages/school-original.jpg",
+      "status": 200,
+      "sha256": "41074dcbbc6e631a3298c376c7da6c3059c0c15b55e8451f31368cf3ea8fcda6"
+    }
+  ],
+  "retired_404": [
+    "downloads/balilla-type-lab-original-materials.zip",
+    "fonts/Balilla-Rounded-Reconstructed.ttf",
+    "fonts/Balilla-Rounded-Reconstructed.woff2"
+  ],
+  "face_cards": 2,
+  "lazy_original_images": 12,
+  "browser_proof": false
+}
