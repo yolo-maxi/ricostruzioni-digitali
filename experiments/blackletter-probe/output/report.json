@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "label": "Experimental feasibility probe — not a historical or production font",
+  "source_sha256": "423d999ee385896b888bd711fc3112080a2690dcfc3cfbd73008b2780a0dc497",
+  "config_sha256": "31890a8d0cdd843b065cc0764182db0bb54fa9b99cbd04327c5f0147a0faeabb",
+  "helpers": [
+    "pipeline.blocks.make_frame",
+    "pipeline.blocks.extract",
+    "pipeline.blocks.normalise_ink",
+    "pipeline.blocks.components",
+    "build_font.trace"
+  ],
+  "helper_source_sha256": {
+    "pipeline/blocks.py": "ee3961c03a43a4010f707ed5ede76aa3b5421fd3acf7b1712f45bfcaf102944a",
+    "pipeline/geometry.py": "ef87b2808003d8cf884b40defc85f9cf1f509969f7ad925182f31c87e6ddff7d",
+    "build_font.py": "041d78ac3e0823ac51cc57db7413dbbb79959978592ce3f36f662aee7b806bca"
+  },
+  "normalisation": {
+    "axis": [
+      0.0029669694901013496,
+      0.002993225857270388,
+      0.0029144567557632724
+    ],
+    "ground_rgb": [
+      206.0,
+      195.0,
+      166.0
+    ],
+    "ink_rgb": [
+      93.0,
+      81.0,
+      55.0
+    ],
+    "ink_level": 1.2740828746061896
+  },
+  "photo_to_block": [
+    [
+      1.0,
+      0.0,
+      -454.0
+    ],
+    [
+      0.0,
+      1.0,
+      -10.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "baseline_y": 52.0,
+  "mask_size": [
+    120,
+    62
+  ],
+  "ornate_initial": "excluded; not isolated or exported as a glyph",
+  "observed_subset": "wohl",
+  "inferred_glyphs": [],
+  "font_exported": false,
+  "components": [
+    {
+      "label": 1,
+      "x0": 72,
+      "x1": 96,
+      "y0": 10,
+      "y1": 60,
+      "area": 389.0,
+      "assigned_character": "h",
+      "reason": "inside manually named source window; not automatic recognition",
+      "status": "candidate"
+    },
+    {
+      "label": 2,
+      "x0": 101,
+      "x1": 112,
+      "y0": 10,
+      "y1": 52,
+      "area": 268.0,
+      "assigned_character": "l",
+      "reason": "inside manually named source window; not automatic recognition",
+      "status": "candidate"
+    },
+    {
+      "label": 3,
+      "x0": 6,
+      "x1": 16,
+      "y0": 16,
+      "y1": 52,
+      "area": 180.0,
+      "assigned_character": "w",
+      "reason": "inside manually named source window; not automatic recognition",
+      "status": "candidate"
+    },
+    {
+      "label": 4,
+      "x0": 18,
+      "x1": 43,
+      "y0": 20,
+      "y1": 52,
+      "area": 310.0,
+      "assigned_character": "w",
+      "reason": "inside manually named source window; not automatic recognition",
+      "status": "candidate"
+    },
+    {
+      "label": 5,
+      "x0": 47,
+      "x1": 70,
+      "y0": 20,
+      "y1": 51,
+      "area": 318.0,
+      "assigned_character": "o",
+      "reason": "inside manually named source window; not automatic recognition",
+      "status": "candidate"
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.4,
+      "ink_pixels": 1661,
+      "components_at_min_area": 5
+    },
+    {
+      "threshold": 0.5,
+      "ink_pixels": 1465,
+      "components_at_min_area": 5
+    },
+    {
+      "threshold": 0.6,
+      "ink_pixels": 1257,
+      "components_at_min_area": 8
+    }
+  ],
+  "glyphs": [
+    {
+      "character": "w",
+      "evidence": "manually identified source-observed occurrence",
+      "x_window": [
+        0,
+        45
+      ],
+      "component_labels": [
+        3,
+        4
+      ],
+      "crossing_component_labels": [],
+      "selected_ink_pixels": 490,
+      "outline_area": 507.3185424949237,
+      "status": "rejected_ambiguous",
+      "reasons": [
+        "not exactly one isolated component: fragmentation or missing evidence",
+        "threshold-sensitive mask"
+      ],
+      "threshold_sensitivity": [
+        {
+          "threshold": 0.4,
+          "iou_with_nominal_window": 0.8781362007168458
+        },
+        {
+          "threshold": 0.5,
+          "iou_with_nominal_window": 1.0
+        },
+        {
+          "threshold": 0.6,
+          "iou_with_nominal_window": 0.8469387755102041
+        }
+      ]
+    },
+    {
+      "character": "o",
+      "evidence": "manually identified source-observed occurrence",
+      "x_window": [
+        45,
+        71
+      ],
+      "component_labels": [
+        5
+      ],
+      "crossing_component_labels": [],
+      "selected_ink_pixels": 318,
+      "outline_area": 328.27691193458134,
+      "status": "observed_outline_candidate",
+      "reasons": [],
+      "threshold_sensitivity": [
+        {
+          "threshold": 0.4,
+          "iou_with_nominal_window": 0.9008498583569405
+        },
+        {
+          "threshold": 0.5,
+          "iou_with_nominal_window": 1.0
+        },
+        {
+          "threshold": 0.6,
+          "iou_with_nominal_window": 0.889937106918239
+        }
+      ]
+    },
+    {
+      "character": "h",
+      "evidence": "manually identified source-observed occurrence",
+      "x_window": [
+        71,
+        98
+      ],
+      "component_labels": [
+        1
+      ],
+      "crossing_component_labels": [],
+      "selected_ink_pixels": 389,
+      "outline_area": 404.16168824543166,
+      "status": "rejected_ambiguous",
+      "reasons": [
+        "threshold-sensitive mask"
+      ],
+      "threshold_sensitivity": [
+        {
+          "threshold": 0.4,
+          "iou_with_nominal_window": 0.8644444444444445
+        },
+        {
+          "threshold": 0.5,
+          "iou_with_nominal_window": 1.0
+        },
+        {
+          "threshold": 0.6,
+          "iou_with_nominal_window": 0.8200514138817481
+        }
+      ]
+    },
+    {
+      "character": "l",
+      "evidence": "manually identified source-observed occurrence",
+      "x_window": [
+        98,
+        120
+      ],
+      "component_labels": [
+        2
+      ],
+      "crossing_component_labels": [],
+      "selected_ink_pixels": 268,
+      "outline_area": 273.50609665441,
+      "status": "observed_outline_candidate",
+      "reasons": [],
+      "threshold_sensitivity": [
+        {
+          "threshold": 0.4,
+          "iou_with_nominal_window": 0.8933333333333333
+        },
+        {
+          "threshold": 0.5,
+          "iou_with_nominal_window": 1.0
+        },
+        {
+          "threshold": 0.6,
+          "iou_with_nominal_window": 0.8955223880597015
+        }
+      ]
+    }
+  ],
+  "accepted_outline_candidates": [
+    "o",
+    "l"
+  ],
+  "rejected_ambiguous_glyphs": [
+    "w",
+    "h"
+  ],
+  "result": "partial_manual_outline_probe",
+  "automatic_font_digitisation_demonstrated": false,
+  "successes": [
+    "pinned source crop and local baseline normalisation",
+    "ink masks and component inventory",
+    "diagnostic contour tracing with counters preserved"
+  ],
+  "failures_and_limits": [
+    "No automatic glyph recognition, page rectification or whole-page segmentation.",
+    "Manual windows and baseline are required; one occurrence per letter only.",
+    "Threshold IoU measures sensitivity, not historical fidelity or contour accuracy.",
+    "No missing glyphs, ligature splitting, long-s mapping, metrics, kerning or font export."
+  ],
+  "artifacts": {
+    "accepted-outline-candidates.svg": "8ce3672f66a89c04fb5dc45bee891f6589f087fefd0906149ab2f86b22d28d6e",
+    "components.png": "2bd60d53f0549c31be01a900d6dc5ce8a224a8e19da0dc392452f8856cba8e59",
+    "contour-overlay.png": "7d7367b93f8dd2fcb001080725e3b755f2114914446e3fe3b3046351fd3ee49c",
+    "diagnostic-outlines.svg": "dcef88e259ec7d9fbe5516dc1d10159a4e8bf0cdf87d74e2da314520c0fa4bf0",
+    "h-diagnostic.svg": "86059ae3f38fae771a0ef9102561d5f6083911795333dff4c04515249a0b53a5",
+    "h-selected-mask.png": "8277123e1468a2d4042215e455d46ea0463aaf1696c21a45f8a5d3a42fcdc587",
+    "l-diagnostic.svg": "ba3811ea09b0fda442c6ccb4a25ee09d28d86cf4c4670836acafc5fa0f2bd882",
+    "l-selected-mask.png": "07530f1fe91a99cfa9a61c1b4c71f08d3690ec7f9511e139d15ec9e373754184",
+    "mask-0.40.png": "dabae259de07d0427bc2070bc6663de3afb001e521a523d5c3b0e2254a4c4edb",
+    "mask-0.50.png": "beb74f0047d6edae4e87a7b0b09ed1ede3e65305bbe8adc9fe20f9b05ebb6b61",
+    "mask-0.60.png": "c844fb5fe2e1da07cf72d435bd74e33057e09357c68c52d34730bb0bd509c81a",
+    "mask.png": "beb74f0047d6edae4e87a7b0b09ed1ede3e65305bbe8adc9fe20f9b05ebb6b61",
+    "o-diagnostic.svg": "f439317534441b7531ea1e19e12135d6d38e69a28cd59e2cf6701d21e27f0c8f",
+    "o-selected-mask.png": "dc2f5007c3beccf8581030a812337e769632893edeccf6fad163c88a28f509d6",
+    "source-crop.png": "56b729257aaa2e832bfbaae2f63d00aa172e475000b47a5d1cdd5b4317803c13",
+    "source-selection.png": "075d1ee75c90204a79703774edf86fb5011f8b299273af9d1bdf4ce3c41a8920",
+    "w-diagnostic.svg": "844e47170205730ae425c760383b660862e732f65ee2c1e96b5bc887492d9b40",
+    "w-selected-mask.png": "a42f9c38cff0675004a091529cab03e0279a01d8c327a15064c2765c0e4d8809"
+  }
+}

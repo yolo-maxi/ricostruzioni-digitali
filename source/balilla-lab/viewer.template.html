@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ricostruzioni Digitali — Fonts</title>
+<meta name="description" content="Two reconstructed fonts from Italian booklet lettering. Explore the samples, download each face, and inspect the original evidence.">
+<style>
+@font-face{font-family:BalillaCoverFace;src:url('./fonts/Balilla-Reconstructed.woff2') format('woff2'),url('./fonts/Balilla-Reconstructed.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:BalillaPanelFace;src:url('./fonts/Balilla-Panel-Reconstructed.woff2') format('woff2'),url('./fonts/Balilla-Panel-Reconstructed.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+:root{--ink:#252822;--paper:#eee9dd;--card:#fbf8f1;--muted:#5c5a53;--line:#d6d0c4;--band:#5c2420;--cream:#e6cdb6;--tan:#cdb9a3;--brown:#3a0b06;--green:#2f3d2c;--pale:#efd0b8;--ok:#2f5a3c;--bad:#8a2a22;--focus:#1c5fb8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:ui-sans-serif,system-ui,sans-serif;line-height:1.55}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.top{border-bottom:1px solid var(--line);padding:18px clamp(16px,4vw,64px) 0;display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{padding-bottom:14px}
+.eyebrow{font:650 10px/1.6 ui-sans-serif,system-ui;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.wordmark{font:30px/1.15 BalillaCoverFace,sans-serif;letter-spacing:.02em;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;font-synthesis:none}
+.wordmark .p{font-family:BalillaPanelFace,sans-serif;letter-spacing:0}
+.tabs{display:flex;gap:4px;margin-bottom:-1px;flex-wrap:wrap}
+.experiment{margin:28px 0;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+.experiment .proof-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+.tabs [role=tab]{font:650 14px/1 ui-sans-serif,system-ui;letter-spacing:.04em;padding:13px 22px;border:1px solid transparent;border-bottom:none;border-radius:8px 8px 0 0;background:none;color:var(--muted);cursor:pointer}
+.tabs [role=tab]:hover{color:var(--ink)}
+.tabs [role=tab][aria-selected=true]{color:var(--ink);background:var(--paper);border-color:var(--line)}
+main{max-width:1200px;margin:auto;padding:8px clamp(16px,4vw,64px) 64px}
+.tabpanel{padding-top:20px}.tabpanel:focus-visible{outline-offset:6px}
+.source-carousel{min-width:0;max-width:100%}
+.source-carousel h2{margin:0 0 12px;padding:0;border:0}
+.source-slides{display:flex;gap:14px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;padding:0 0 14px}
+.source-page{display:block;flex:0 0 auto;width:auto;height:65vh;max-height:680px;scroll-snap-align:start;margin:0;border:0;padding:0;background:none}
+h1{font:400 clamp(30px,5vw,58px)/1.06 Georgia,serif;letter-spacing:-.03em;margin:10px 0 14px;max-width:20ch}
+h2{font:400 28px/1.2 Georgia,serif;letter-spacing:-.02em;margin:56px 0 6px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font:650 12px/1.5 ui-sans-serif,system-ui;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:26px 0 6px}
+h4{font:400 20px/1.2 Georgia,serif;margin:22px 0 6px}
+p,li{font-size:15px;max-width:780px}ul,ol{padding-left:20px;margin:8px 0}
+.lead{font-size:17px;max-width:640px}
+.note{font-size:13px;color:var(--muted)}
+.cta{display:inline-block;background:var(--ink);color:var(--paper);font:650 16px/1 ui-sans-serif,system-ui;padding:16px 26px;border-radius:40px;text-decoration:none;margin:10px 0 6px}
+.cta:hover{background:#000}
+.pill{font-size:12px;border:1px solid #8f8a7c;border-radius:30px;padding:9px 14px;color:var(--ink);text-decoration:none;display:inline-block;margin:2px 0}
+.faces{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:26px 0}
+.face{height:490px;min-width:0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.specimen{position:relative;height:300px;padding:22px 22px 60px;border-radius:9px 9px 0 0;font-synthesis:none;font-weight:400;font-style:normal}
+.sample-fit{height:100%;width:100%;display:flex;align-items:center}
+.sample-text{display:block;width:100%;font-size:18px;line-height:1.2;overflow-wrap:anywhere}
+.recycle{position:absolute;right:12px;bottom:12px;width:40px;height:40px;border:1px solid currentColor;border-radius:50%;background:transparent;color:inherit;cursor:pointer;font:20px/1 system-ui}
+.recycle:hover{background:#ffffff20}
+.specimen.caps{background:var(--band);color:var(--cream);font-family:BalillaCoverFace,sans-serif}
+.specimen.panel{background:var(--green);color:var(--pale);font-family:BalillaPanelFace,sans-serif}
+.face-body{height:188px;padding:12px 20px}
+.face-body h3{font:400 22px/1.2 Georgia,serif;letter-spacing:-.01em;text-transform:none;color:var(--ink);margin:0 0 4px}
+.face-body p{margin:4px 0;font-size:14px}
+.face-body label{font-size:12px;color:var(--muted);display:block}
+input[type=text]{width:100%;font:inherit;font-size:14px;padding:10px;border:1px solid #b9b1a2;border-radius:6px;background:#fff;margin-top:4px;color:var(--ink)}
+.scope{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:12px 0 8px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.scope h3{font:400 19px/1.2 Georgia,serif;margin:0 0 5px}.scope p{margin:0;font-size:15px;line-height:1.5}
+.scope-meta{margin:0 0 20px;color:var(--muted);font-size:14px;line-height:1.55}.scope-meta a{font-weight:700}
+.license-strip{display:flex;align-items:baseline;gap:10px;margin:16px 0 0;padding:13px 15px;border:1px solid var(--line);background:var(--paper);border-radius:8px;font-size:15px;line-height:1.45}.license-strip strong{font-family:Georgia,serif;font-size:17px;white-space:nowrap}
+.downloads{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:14px 0}
+.dl{border:1px solid var(--line);background:var(--card);padding:14px 16px;border-radius:8px}
+.dl b{display:block;font:400 19px/1.2 Georgia,serif;margin-bottom:8px}
+.dl.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}.dl.main .note{color:#cfc9bb}
+.dl.main .cta{background:var(--paper);color:var(--ink);margin:2px 0 8px}.dl.main .cta:hover{background:#fff}
+figure{margin:12px 0;border:1px solid var(--line);background:#f6f2e9}
+figure img{display:block;width:100%;height:auto}
+figcaption{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:8px 10px;border-top:1px solid var(--line)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:16px 0}
+.tile{border:1px solid var(--line);background:var(--card);padding:12px 14px}
+.tile b{display:block;font:400 30px/1.1 Georgia,serif;font-variant-numeric:tabular-nums}
+.tile span{font-size:12px;color:var(--muted);letter-spacing:.02em}
+.gate{color:var(--ok)}.gate.fail{color:var(--bad)}
+.set{margin:10px 0 16px}.set .glyphs{font:32px/1.5 BalillaCoverFace,sans-serif;overflow-wrap:anywhere;letter-spacing:.02em;font-synthesis:none}
+.set .glyphs.panel{font-family:BalillaPanelFace,sans-serif;letter-spacing:0}
+.set .tag{font:650 10px/1.6 ui-sans-serif,system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.proof{border:1px solid var(--line);background:var(--card);padding:6px 16px 12px;margin:14px 0;border-radius:8px}
+.proof-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.proof figure{margin:6px 0;background:#fff}
+.proof figure img{width:auto;max-width:100%;max-height:260px;margin:auto;padding:8px}
+.proof .big{font:64px/1 BalillaPanelFace,sans-serif;float:right;margin:4px 0 0 12px}
+.toc{columns:2;column-gap:28px;max-width:780px}.toc li{break-inside:avoid}
+.tablewrap{overflow-x:auto}
+table.data{border-collapse:collapse;font-size:13px;margin:10px 0;font-variant-numeric:tabular-nums;min-width:520px}
+table.data th,table.data td{border:1px solid var(--line);padding:6px 10px;text-align:left}
+table.data th{font:650 10px/1.5 ui-sans-serif,system-ui;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--card)}
+table.data td.g{font:26px/1 BalillaPanelFace,sans-serif}
+code{font-size:12px;overflow-wrap:anywhere}
+pre{background:var(--card);border:1px solid var(--line);padding:12px 14px;overflow-x:auto;font-size:12px;max-width:900px}
+footer{margin-top:56px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media (max-width:720px){.faces,.scope{grid-template-columns:1fr}.proof-row{grid-template-columns:1fr}.toc{columns:1}.license-strip{display:block}.license-strip strong{display:block;margin-bottom:4px}.tabs [role=tab]{padding:12px 16px}}
+@media (max-width:720px){.experiment .proof-row{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<noscript><style>.tabs{display:none}</style></noscript>
+</head><body>
+<header class="top">
+<div class="brand"><div class="wordmark" aria-hidden="true"><span>BALILLA</span><span class="p">nazionale</span></div></div>
+<div class="tabs" role="tablist" aria-label="Parts of this page">
+<a role="tab" href="#fonts" id="tab-fonts" aria-controls="fonts" aria-selected="true" tabindex="0">Fonts</a>
+<a role="tab" href="#study" id="tab-study" aria-controls="study" aria-selected="false" tabindex="-1">Study</a>
+<a role="tab" href="#experiments" id="tab-experiments" aria-controls="experiments" aria-selected="false" tabindex="-1">Experiments</a>
+</div>
+</header>
+<main>
+
+<section class="tabpanel" id="fonts" role="tabpanel" aria-labelledby="tab-fonts" tabindex="0">
+<h1>Two fonts, reconstructed</h1>
+<p class="lead">Lettering from Italian booklet covers, with the originals and evidence in <a href="#study">Study</a>.</p>
+<div class="faces">
+<article class="face" id="face-capitals">
+<div class="specimen caps">
+<div class="sample-fit" id="fit-a"><span class="sample-text" id="live-a" lang="it" aria-live="polite">IL GATTO HA OCCUPATO IL DIVANO. LE TRATTATIVE PER SEDERSI SONO ANCORA IN CORSO.</span></div>
+<button class="recycle" id="recycle-a" type="button" aria-label="Show another Italian sentence in Cover Capitals">♻️</button>
+</div>
+<div class="face-body">
+<h3>Cover Capitals</h3>
+<label for="tester-a" lang="it">Scrivi qualcosa</label><input type="text" id="tester-a" lang="it" placeholder="La tua frase…" autocomplete="off">
+<a class="pill" href="./fonts/Balilla-Reconstructed.ttf" download>↓ TTF</a> <a class="pill" href="./fonts/Balilla-Reconstructed.woff2" download>↓ WOFF2</a>
+</div>
+</article>
+<article class="face" id="face-panel">
+<div class="specimen panel">
+<div class="sample-fit" id="fit-p"><span class="sample-text" id="live-p" lang="it" aria-live="polite">ho comprato una pianta per sentirmi adulto. ora siamo in due ad aspettare che qualcuno ci dia da bere.</span></div>
+<button class="recycle" id="recycle-p" type="button" aria-label="Show another Italian sentence in Panel lettering">♻️</button>
+</div>
+<div class="face-body">
+<h3>Panel lettering</h3>
+<label for="tester-p" lang="it">Scrivi qualcosa</label><input type="text" id="tester-p" lang="it" placeholder="La tua frase…" autocomplete="off">
+<a class="pill" href="./fonts/Balilla-Panel-Reconstructed.ttf" download>↓ TTF</a> <a class="pill" href="./fonts/Balilla-Panel-Reconstructed.woff2" download>↓ WOFF2</a>
+</div>
+</article>
+</div>
+<p class="license-strip"><strong>CC BY 4.0</strong><span>Use, share and adapt the reconstructed fonts with attribution to <em>Balilla Type Lab</em>. <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Read the licence</a>.</span></p>
+</section>
+
+<section class="tabpanel" id="study" role="tabpanel" aria-labelledby="tab-study" tabindex="0">
+<section class="source-carousel" id="study-source-pages" aria-roledescription="carousel" aria-labelledby="source-pages-heading">
+<h2 id="source-pages-heading">Full source pages</h2>
+<p class="note">Complete original images supplied for this study, not technical crops or generated proofs. Display permission does not grant a source-image licence; CC BY 4.0 applies only to the reconstructed fonts.</p>
+<div class="source-slides" id="source-slides" tabindex="0" role="region" aria-label="Scrollable full source pages">
+{{SOURCE_PAGE_SLIDES}}
+</div>
+</section>
+<h1 id="study-method">How it was made</h1>
+<p class="lead">Photos → rectified images (perspective straightened) → isolated printed shapes → font outlines and spacing metrics → checked against the same samples.</p>
+<p id="study-limits">Only observed printed glyphs are source evidence. Missing glyphs are marked as additions, not historical evidence. Each face uses its own printed sample; repeated letters use one representative shape. Handwriting is excluded. These are not complete historical alphabets or a claim of 100% fidelity. Comparing with the same samples is not an independent test.</p>
+<p class="note" id="study-withheld">A tentative third face remains withheld: its evidence did not support a source-faithful full alphabet.</p>
+<p><a href="#study-capitals">Cover capitals</a> · <a href="#study-panel">Panel lettering</a> · <a href="#study-stz">s, t, z proofs</a> · <a href="#study-build">Code and instructions</a></p>
+
+<h2 id="study-capitals">{{A_LABEL}}</h2>
+<p>The burgundy cover’s heavy capitals: the middle row, EDUCAZIONE. We compare {{A_SCORED_TEXT}}; the end letters are cut by the photo. Other observed capitals come from adjacent rows of the same lettering. Lower-case keys show capitals.</p>
+<figure><img src="assets/capitals-original.jpg" alt="Supplied photo crop with three rows of capitals" loading="lazy"><figcaption>The middle row is the selected sample.</figcaption></figure>
+<div class="proof-row">
+<figure><img src="evaluation/selected-source.png" alt="Rectified source row of capitals" loading="lazy"><figcaption>Source</figcaption></figure>
+<figure><img src="evaluation/selected-reconstruction.png" alt="Rendering of the capitals font file" loading="lazy"><figcaption>Font, using its own spacing</figcaption></figure>
+<figure><img src="evaluation/selected-overlay.png" alt="Difference image of the capitals" loading="lazy"><figcaption>Difference: grey = both · red = source only · blue = font only</figcaption></figure>
+</div>
+<p class="note">{{A_DICE_PCT}}% shape overlap (Dice) on this selected line, not the whole alphabet. <a href="evaluation/report.json">Detailed report</a>.</p>
+
+<h2 id="study-panel">{{P_LABEL}}</h2>
+<p>The pale “ministero educazione nazionale” lettering in the obelisk cover’s green panel: six lines, 14 different letters and a hyphen. Repeated printed letters vary; the font keeps one observed shape per letter. Capital keys show lower case, and i has no dot.</p>
+<div class="proof-row">
+<figure><img src="evaluation/{{P_IMG_LINES_SOURCE}}" alt="Rectified six-line panel source" loading="lazy"><figcaption>Source</figcaption></figure>
+<figure><img src="evaluation/{{P_IMG_LINES_RECON}}" alt="Six lines rendered from the panel font" loading="lazy"><figcaption>Font, placed at the source positions</figcaption></figure>
+<figure><img src="evaluation/{{P_IMG_LINES_OVERLAY}}" alt="Difference image of the six panel lines" loading="lazy"><figcaption>Difference: grey = both · red = source only · blue = font only</figcaption></figure>
+</div>
+<p class="note">{{P_TRACED_DICE_PCT}}% shape overlap on the traced shapes; {{P_DICE_PCT}}% across all 31 printed shapes, including repeats. This measures shapes, not spacing or additions. <a href="evaluation/panel-report.json">Detailed report</a> · <a href="evaluation/{{P_IMG_SHAPES_OVERLAY}}">All-shapes comparison</a>.</p>
+
+<h2 id="study-stz">Panel face: proofs for s, t and z</h2>
+<p>Source, font and difference side by side. These letters are traced from the printed shapes, not constructed additions.</p>
+{{P_PROOFS}}
+
+<h2 id="study-build">Code and instructions</h2>
+<p>{{SOURCE_REPOSITORY_LINK}} Build scripts, evaluation methods, glyph labels and step-by-step local instructions belong there.</p>
+<h2 id="study-originals">Original materials</h2>
+<p>User-supplied images are study inputs, not granted a licence by this project. CC BY 4.0 applies to the reconstructed fonts, not historical source materials.</p>
+</section>
+
+<section class="tabpanel" id="experiments" role="tabpanel" aria-labelledby="tab-experiments" tabindex="0">
+<h1>Experiments from three more sources</h1>
+<p class="lead">Can these supplied images yield honest standalone letterforms? One sheet supports an experimental font; two text samples stop at diagnostic evidence.</p>
+<article class="experiment" id="experiment-blackletter">
+<h2>Blackletter text probe</h2>
+<p><strong>No font — diagnostic outlines only</strong></p>
+<p>Only <code>o</code> and <code>l</code> were retained as diagnostic observed-outline candidates. <code>w</code> and <code>h</code> were rejected. The decorative initial is excluded; no alphabet or font was extracted.</p>
+<div class="proof-row">
+<figure><img src="experiments/blackletter-source.png" alt="Selected text crop from the supplied blackletter image, excluding the decorative initial" loading="lazy"><figcaption>Supplied source · selected text crop</figcaption></figure>
+<figure><img src="experiments/blackletter-proof.png" alt="Blackletter diagnostic contour overlay showing candidate and rejected selections" loading="lazy"><figcaption>Diagnostic contour proof · not a font</figcaption></figure>
+</div>
+</article>
+<article class="experiment" id="experiment-alphabet">
+<h2>Alphabet-sheet probe</h2>
+<p><strong>Experimental / observed-only / 63 characters (A–Z, a–z, 0–9, &amp;)</strong></p>
+<p>Extracted only the 63 observed characters on the supplied sheet. No missing characters were invented. Side bearings and advances are experimental settings, not recovered historical spacing. This is not production-quality or historical verification.</p>
+<div class="proof-row">
+<figure><img src="experiments/alphabet-source.jpg" alt="Complete supplied alphabet sheet with uppercase, lowercase, digits and ampersand" loading="lazy"><figcaption>Supplied source sheet</figcaption></figure>
+<figure><img src="experiments/alphabet-contact.png" alt="Contact sheet of the 63 source characters with red component bounding boxes" loading="lazy"><figcaption>Observed-character contact proof · source components</figcaption></figure>
+</div>
+<p><a href="experiments/Alphabet-Sheet-EXPERIMENTAL-Observed-Only.ttf" download>Download experimental TTF</a> · <a href="experiments/Alphabet-Sheet-EXPERIMENTAL-Observed-Only.woff2" download>Download experimental WOFF2</a></p>
+</article>
+<article class="experiment" id="experiment-cursive">
+<h2>Engraved cursive probe</h2>
+<p><strong>No font — zero complete glyphs accepted</strong></p>
+<p>Connected strokes and fragile hairlines prevent honest standalone-glyph extraction from this sample without intervention. Only segmentation diagnostics were produced: no complete glyphs, repaired contours or font. The blackletter heading is excluded.</p>
+<div class="proof-row">
+<figure><img src="experiments/cursive-source.png" alt="Selected engraved cursive source crop, excluding the blackletter heading" loading="lazy"><figcaption>Supplied source · cursive crop</figcaption></figure>
+<figure><img src="experiments/cursive-proof.png" alt="Connected-component diagnostic showing joined strokes and fragments in the cursive sample" loading="lazy"><figcaption>Segmentation proof · components are not glyphs</figcaption></figure>
+</div>
+</article>
+<p class="note">CC BY 4.0 applies to reconstructed font files, not supplied or historical source images. Technical evidence and per-glyph records belong in the source repository; see <a href="#study-source-repository">Code and instructions</a>.</p>
+</section>
+
+</main>
+<script>
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role=tab]'));
+  function panelOf(tab) { return document.getElementById(tab.getAttribute('aria-controls')); }
+  function select(tab, opts) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      panelOf(t).hidden = !on;
+    });
+    if (opts && opts.focus) { tab.focus(); }
+    if (opts && opts.hash) { location.hash = '#' + panelOf(tab).id; }
+    fitAll();
+  }
+  function fromHash(scroll) {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var target = id ? document.getElementById(id) : null;
+    var panel = target ? target.closest('[role=tabpanel]') : null;
+    if (!panel) { return false; }
+    select(document.getElementById(panel.getAttribute('aria-labelledby')));
+    if (scroll && target !== panel) { target.scrollIntoView(); }
+    if (scroll && target === panel) { window.scrollTo(0, 0); }
+    return true;
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener('click', function (e) { e.preventDefault(); select(tab, {hash: true}); });
+    tab.addEventListener('keydown', function (e) {
+      var to = {ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1}[e.key];
+      if (to === undefined) { return; }
+      e.preventDefault();
+      select(tabs[(to + tabs.length) % tabs.length], {focus: true, hash: true});
+    });
+  });
+  window.addEventListener('hashchange', function () { fromHash(true); });
+  if (!fromHash(true)) { select(tabs[0]); }
+  var sentences = {
+    a: [
+      'IL GATTO HA OCCUPATO IL DIVANO. LE TRATTATIVE PER SEDERSI SONO ANCORA IN CORSO.',
+      'HO UN PIANO INFALLIBILE: PRIMA IL CAFFÈ, POI VEDIAMO SE SERVE DAVVERO UN PIANO.',
+      'IL FRIGO È VUOTO, MA LO APRO ANCORA: MAGARI NEL FRATTEMPO HA FATTO LA SPESA.',
+      'CERCASI EROE PER PIEGARE IL LENZUOLO CON GLI ANGOLI. OFFRESI GLORIA E UNA SEDIA.',
+      'OGGI CONQUISTO IL MONDO. DOPO IL PISOLINO.'
+    ],
+    p: [
+      'ho comprato una pianta per sentirmi adulto. ora siamo in due ad aspettare che qualcuno ci dia da bere.',
+      'la nonna dice che sono sciupato. il terzo piatto di lasagne è una visita di controllo.',
+      'il mio cane capisce ogni parola. soprattutto quelle che fanno il rumore del sacchetto dei biscotti.',
+      'volevo fare ordine nei pensieri, ma ho trovato uno scontrino del duemiladodici.',
+      'la sveglia suona. io faccio finta di essere un mobile.'
+    ]
+  };
+  // Measure actual laid-out text in both dimensions; reserve control and ink padding.
+  function fitSample(k) {
+    var box = document.getElementById('fit-' + k), text = document.getElementById('live-' + k);
+    if (!box.clientWidth || !box.clientHeight) { return; } // hidden tab: fit when selected
+    var low = 0, high = 120;
+    for (var i = 0; i < 24; i++) {
+      var size = (low + high) / 2;
+      text.style.fontSize = size + 'px';
+      if (text.scrollWidth <= box.clientWidth && text.getBoundingClientRect().height <= box.clientHeight && text.scrollHeight <= box.clientHeight) { low = size; }
+      else { high = size; }
+    }
+    text.style.fontSize = (low * 0.98) + 'px';
+  }
+  function fitAll() { ['a', 'p'].forEach(fitSample); }
+  ['a', 'p'].forEach(function (k, faceIndex) {
+    var index = 0, seed = faceIndex + 23;
+    var input = document.getElementById('tester-' + k);
+    input.addEventListener('input', function () {
+      document.getElementById('live-' + k).textContent = input.value;
+      fitSample(k);
+    });
+    document.getElementById('recycle-' + k).addEventListener('click', function () {
+      seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+      index = (index + 1 + (seed >>> 16) % (sentences[k].length - 1)) % sentences[k].length;
+      document.getElementById('live-' + k).textContent = sentences[k][index];
+      input.value = '';
+      fitSample(k);
+    });
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(function () { fitSample(k); }).observe(document.getElementById('fit-' + k));
+    }
+  });
+  window.addEventListener('resize', fitAll);
+  if (document.fonts) { document.fonts.ready.then(fitAll); }
+  fitAll();
+})();
+</script></body></html>

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "label": "Experimental feasibility probe — not a historical or production font",
+  "source": "input/blackletter-source.jpg",
+  "source_sha256": "423d999ee385896b888bd711fc3112080a2690dcfc3cfbd73008b2780a0dc497",
+  "source_size": [1280, 533],
+  "excluded_initial_box": [0, 0, 260, 260],
+  "sample": {
+    "text": "wohl",
+    "location": "first printed line, after es and before her",
+    "baseline": [[454, 62], [574, 62]],
+    "up": 52,
+    "down": 10,
+    "pad": 0,
+    "plane_h": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+    "geometry_note": "Manual horizontal local baseline; identity plane, no asserted perspective recovery. Crop bounds are x454..574, y10..72. Initial visual review corrected windows at x39/67/96 to x45/71/98 and extended bottom from y68 to y72 to avoid cutting observed ink; no shape repair.",
+    "supersample": 1,
+    "interpolation_order": 1,
+    "polarity": "dark",
+    "stroke_px": 5,
+    "threshold": 0.5,
+    "sensitivity_thresholds": [0.4, 0.5, 0.6],
+    "min_area": 12,
+    "connectivity": 8,
+    "selection_policy": "Only components fully inside each manual x window, at least min_area and not touching crop boundary. No joins, gap filling, morphology, inference or smoothing.",
+    "glyphs": [
+      {"character": "w", "x_window": [0, 45], "status": "observed", "note": "First letter of wohl; fractured strokes are possible."},
+      {"character": "o", "x_window": [45, 71], "status": "observed", "note": "Second letter of wohl; visible counter."},
+      {"character": "h", "x_window": [71, 98], "status": "observed", "note": "Third letter of wohl; ascender and right foot."},
+      {"character": "l", "x_window": [98, 120], "status": "observed", "note": "Fourth letter of wohl; narrow ascender."}
+    ]
+  },
+  "acceptance": {
+    "max_components_per_glyph": 1,
+    "min_threshold_iou": 0.85,
+    "note": "Conservative diagnostic acceptance, not typeface fidelity. Reject fragmented, merged, boundary-cut or threshold-unstable candidates. No font export even if individual outline candidates pass."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "input": "input/alphabet-sheet-source.jpg",
+  "sha256": "2d56b789a9d3589e3df55546cb437d66fdb4563a6c1222819579c94b608d2d5d",
+  "image_size": [746, 676],
+  "threshold": 128,
+  "units_per_pixel": 10,
+  "side_bearing_pixels": 4,
+  "manual_choices": "Visual transcription, rectangular row crops and horizontal baselines below; grayscale <128; no rectification, morphology, denoising, smoothing, outline repair or inferred glyphs. All coordinates are original image pixels; crops use exclusive right/bottom. Baselines are pixel edges. Advances are experimental ink width plus two fixed side bearings, NOT recovered type metrics.",
+  "rows": [
+    {"id": "upper-1", "text": "ABCDEFGHIJK", "crop": [30, 25, 730, 120], "baseline_y": 97, "exclude": {}},
+    {"id": "upper-2", "text": "LMNOPQRSTUV", "crop": [30, 135, 730, 228], "baseline_y": 205, "exclude": {}},
+    {"id": "upper-3", "text": "WXYZ", "crop": [30, 242, 730, 328], "baseline_y": 313, "exclude": {}},
+    {"id": "lower-1", "text": "abcdefghijklm", "crop": [30, 352, 730, 447], "baseline_y": 420, "exclude": {}},
+    {"id": "lower-2", "text": "nopqrstuvwxyz", "crop": [30, 465, 730, 550], "baseline_y": 529, "exclude": {}},
+    {"id": "digits-ampersand", "text": "1234567890&", "crop": [30, 568, 730, 651], "baseline_y": 637, "exclude": {}}
+  ]
+}

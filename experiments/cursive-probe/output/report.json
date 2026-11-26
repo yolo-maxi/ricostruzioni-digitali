@@ -1,0 +1,6656 @@
+{
+  "controls": {
+    "source_sha256": "262dfe485891ad653bf8f22ca1f18301b28437862bee9bc6420cbae53b9b52ac",
+    "segment_name": "line-5-you-with-a-dash",
+    "transcription_context_only": "You with a dash in time may drain a Mine",
+    "crop_xyxy_exclusive": [
+      150,
+      307,
+      690,
+      355
+    ],
+    "baseline_source_xy": [
+      [
+        165,
+        337
+      ],
+      [
+        674,
+        337
+      ]
+    ],
+    "baseline_use": "manual visual guide only; no resampling or deskew",
+    "excluded": "blackletter title and every other cursive line",
+    "polarity": "dark",
+    "stroke_px": 2.0,
+    "thresholds": [
+      0.35,
+      0.5,
+      0.65
+    ],
+    "primary_threshold": 0.5,
+    "min_component_area": 1,
+    "manual_selections": [
+      {
+        "name": "first isolated a",
+        "source_window_xyxy": [
+          282,
+          324,
+          301,
+          342
+        ],
+        "interpretation": "observed a candidate; select whole components only"
+      },
+      {
+        "name": "second isolated a",
+        "source_window_xyxy": [
+          573,
+          324,
+          593,
+          342
+        ],
+        "interpretation": "observed a candidate; select whole components only"
+      }
+    ],
+    "prohibited": [
+      "stroke cutting",
+      "morphology",
+      "contour smoothing",
+      "missing-character inference",
+      "font export"
+    ]
+  },
+  "normalisation": {
+    "axis": [
+      0.0018779342723004694,
+      0.0018779342723004694,
+      0.0018779342723004694
+    ],
+    "ground_rgb": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "ink_rgb": [
+      77.5,
+      77.5,
+      77.5
+    ],
+    "ink_level": 1.2926476369113822
+  },
+  "variants": [
+    {
+      "threshold": 0.35,
+      "ink_pixels": 1988,
+      "component_count": 94,
+      "manual_selection_labels": {
+        "first isolated a": [
+          37,
+          38,
+          80
+        ],
+        "second isolated a": [
+          63,
+          64,
+          85
+        ]
+      },
+      "components": [
+        {
+          "label": 1,
+          "x0": 130,
+          "x1": 139,
+          "y0": 4,
+          "y1": 15,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            280,
+            311,
+            289,
+            322
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 2,
+          "x0": 214,
+          "x1": 218,
+          "y0": 4,
+          "y1": 10,
+          "area": 9.0,
+          "source_bbox_xyxy": [
+            364,
+            311,
+            368,
+            317
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 3,
+          "x0": 114,
+          "x1": 135,
+          "y0": 5,
+          "y1": 30,
+          "area": 89.0,
+          "source_bbox_xyxy": [
+            264,
+            312,
+            285,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 4,
+          "x0": 189,
+          "x1": 213,
+          "y0": 5,
+          "y1": 30,
+          "area": 70.0,
+          "source_bbox_xyxy": [
+            339,
+            312,
+            363,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 5,
+          "x0": 16,
+          "x1": 47,
+          "y0": 10,
+          "y1": 45,
+          "area": 96.0,
+          "source_bbox_xyxy": [
+            166,
+            317,
+            197,
+            352
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 6,
+          "x0": 161,
+          "x1": 178,
+          "y0": 10,
+          "y1": 30,
+          "area": 52.0,
+          "source_bbox_xyxy": [
+            311,
+            317,
+            328,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 7,
+          "x0": 368,
+          "x1": 385,
+          "y0": 10,
+          "y1": 30,
+          "area": 53.0,
+          "source_bbox_xyxy": [
+            518,
+            317,
+            535,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 8,
+          "x0": 22,
+          "x1": 34,
+          "y0": 11,
+          "y1": 30,
+          "area": 57.0,
+          "source_bbox_xyxy": [
+            172,
+            318,
+            184,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 9,
+          "x0": 212,
+          "x1": 215,
+          "y0": 11,
+          "y1": 13,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            362,
+            318,
+            365,
+            320
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 10,
+          "x0": 459,
+          "x1": 492,
+          "y0": 11,
+          "y1": 30,
+          "area": 146.0,
+          "source_bbox_xyxy": [
+            609,
+            318,
+            642,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 11,
+          "x0": 18,
+          "x1": 27,
+          "y0": 12,
+          "y1": 23,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            168,
+            319,
+            177,
+            330
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 12,
+          "x0": 107,
+          "x1": 110,
+          "y0": 15,
+          "y1": 18,
+          "area": 6.0,
+          "source_bbox_xyxy": [
+            257,
+            322,
+            260,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 13,
+          "x0": 106,
+          "x1": 118,
+          "y0": 15,
+          "y1": 30,
+          "area": 42.0,
+          "source_bbox_xyxy": [
+            256,
+            322,
+            268,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 14,
+          "x0": 127,
+          "x1": 129,
+          "y0": 15,
+          "y1": 17,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            277,
+            322,
+            279,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 15,
+          "x0": 188,
+          "x1": 192,
+          "y0": 15,
+          "y1": 18,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            338,
+            322,
+            342,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 16,
+          "x0": 219,
+          "x1": 221,
+          "y0": 15,
+          "y1": 18,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            369,
+            322,
+            371,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 17,
+          "x0": 244,
+          "x1": 256,
+          "y0": 15,
+          "y1": 30,
+          "area": 40.0,
+          "source_bbox_xyxy": [
+            394,
+            322,
+            406,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 18,
+          "x0": 260,
+          "x1": 263,
+          "y0": 15,
+          "y1": 18,
+          "area": 7.0,
+          "source_bbox_xyxy": [
+            410,
+            322,
+            413,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 19,
+          "x0": 406,
+          "x1": 408,
+          "y0": 15,
+          "y1": 18,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            556,
+            322,
+            558,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 20,
+          "x0": 492,
+          "x1": 495,
+          "y0": 15,
+          "y1": 18,
+          "area": 7.0,
+          "source_bbox_xyxy": [
+            642,
+            322,
+            645,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 21,
+          "x0": 79,
+          "x1": 88,
+          "y0": 18,
+          "y1": 30,
+          "area": 38.0,
+          "source_bbox_xyxy": [
+            229,
+            325,
+            238,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 22,
+          "x0": 302,
+          "x1": 310,
+          "y0": 18,
+          "y1": 30,
+          "area": 36.0,
+          "source_bbox_xyxy": [
+            452,
+            325,
+            460,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 23,
+          "x0": 478,
+          "x1": 481,
+          "y0": 18,
+          "y1": 21,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            628,
+            325,
+            631,
+            328
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 24,
+          "x0": 179,
+          "x1": 191,
+          "y0": 19,
+          "y1": 30,
+          "area": 34.0,
+          "source_bbox_xyxy": [
+            329,
+            326,
+            341,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 25,
+          "x0": 354,
+          "x1": 358,
+          "y0": 19,
+          "y1": 25,
+          "area": 6.0,
+          "source_bbox_xyxy": [
+            504,
+            326,
+            508,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 26,
+          "x0": 379,
+          "x1": 381,
+          "y0": 20,
+          "y1": 22,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            529,
+            327,
+            531,
+            329
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 27,
+          "x0": 299,
+          "x1": 302,
+          "y0": 21,
+          "y1": 26,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            449,
+            328,
+            452,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 28,
+          "x0": 522,
+          "x1": 525,
+          "y0": 21,
+          "y1": 26,
+          "area": 6.0,
+          "source_bbox_xyxy": [
+            672,
+            328,
+            675,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 29,
+          "x0": 37,
+          "x1": 45,
+          "y0": 22,
+          "y1": 30,
+          "area": 26.0,
+          "source_bbox_xyxy": [
+            187,
+            329,
+            195,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 30,
+          "x0": 42,
+          "x1": 48,
+          "y0": 22,
+          "y1": 29,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            192,
+            329,
+            198,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 31,
+          "x0": 48,
+          "x1": 55,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            198,
+            329,
+            205,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 32,
+          "x0": 54,
+          "x1": 63,
+          "y0": 22,
+          "y1": 30,
+          "area": 28.0,
+          "source_bbox_xyxy": [
+            204,
+            329,
+            213,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 33,
+          "x0": 72,
+          "x1": 78,
+          "y0": 22,
+          "y1": 35,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            222,
+            329,
+            228,
+            342
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 34,
+          "x0": 88,
+          "x1": 93,
+          "y0": 22,
+          "y1": 30,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            238,
+            329,
+            243,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 35,
+          "x0": 94,
+          "x1": 99,
+          "y0": 22,
+          "y1": 28,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            244,
+            329,
+            249,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 36,
+          "x0": 99,
+          "x1": 106,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            249,
+            329,
+            256,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 37,
+          "x0": 135,
+          "x1": 143,
+          "y0": 22,
+          "y1": 30,
+          "area": 24.0,
+          "source_bbox_xyxy": [
+            285,
+            329,
+            293,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 38,
+          "x0": 141,
+          "x1": 148,
+          "y0": 22,
+          "y1": 30,
+          "area": 24.0,
+          "source_bbox_xyxy": [
+            291,
+            329,
+            298,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 39,
+          "x0": 155,
+          "x1": 162,
+          "y0": 22,
+          "y1": 30,
+          "area": 24.0,
+          "source_bbox_xyxy": [
+            305,
+            329,
+            312,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 40,
+          "x0": 167,
+          "x1": 175,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            317,
+            329,
+            325,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 41,
+          "x0": 173,
+          "x1": 180,
+          "y0": 22,
+          "y1": 30,
+          "area": 22.0,
+          "source_bbox_xyxy": [
+            323,
+            329,
+            330,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 42,
+          "x0": 197,
+          "x1": 203,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            347,
+            329,
+            353,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 43,
+          "x0": 210,
+          "x1": 217,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            360,
+            329,
+            367,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 44,
+          "x0": 218,
+          "x1": 232,
+          "y0": 22,
+          "y1": 30,
+          "area": 50.0,
+          "source_bbox_xyxy": [
+            368,
+            329,
+            382,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 45,
+          "x0": 250,
+          "x1": 258,
+          "y0": 22,
+          "y1": 30,
+          "area": 26.0,
+          "source_bbox_xyxy": [
+            400,
+            329,
+            408,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 46,
+          "x0": 260,
+          "x1": 268,
+          "y0": 22,
+          "y1": 30,
+          "area": 29.0,
+          "source_bbox_xyxy": [
+            410,
+            329,
+            418,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 47,
+          "x0": 268,
+          "x1": 276,
+          "y0": 22,
+          "y1": 30,
+          "area": 23.0,
+          "source_bbox_xyxy": [
+            418,
+            329,
+            426,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 48,
+          "x0": 275,
+          "x1": 281,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            425,
+            329,
+            431,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 49,
+          "x0": 281,
+          "x1": 292,
+          "y0": 22,
+          "y1": 30,
+          "area": 31.0,
+          "source_bbox_xyxy": [
+            431,
+            329,
+            442,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 50,
+          "x0": 310,
+          "x1": 317,
+          "y0": 22,
+          "y1": 30,
+          "area": 26.0,
+          "source_bbox_xyxy": [
+            460,
+            329,
+            467,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 51,
+          "x0": 317,
+          "x1": 323,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            467,
+            329,
+            473,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 52,
+          "x0": 323,
+          "x1": 332,
+          "y0": 22,
+          "y1": 30,
+          "area": 23.0,
+          "source_bbox_xyxy": [
+            473,
+            329,
+            482,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 53,
+          "x0": 330,
+          "x1": 337,
+          "y0": 22,
+          "y1": 30,
+          "area": 26.0,
+          "source_bbox_xyxy": [
+            480,
+            329,
+            487,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 54,
+          "x0": 337,
+          "x1": 344,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            487,
+            329,
+            494,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 55,
+          "x0": 328,
+          "x1": 352,
+          "y0": 22,
+          "y1": 47,
+          "area": 68.0,
+          "source_bbox_xyxy": [
+            478,
+            329,
+            502,
+            354
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 56,
+          "x0": 362,
+          "x1": 369,
+          "y0": 22,
+          "y1": 30,
+          "area": 22.0,
+          "source_bbox_xyxy": [
+            512,
+            329,
+            519,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 57,
+          "x0": 377,
+          "x1": 383,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            527,
+            329,
+            533,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 58,
+          "x0": 384,
+          "x1": 392,
+          "y0": 22,
+          "y1": 30,
+          "area": 26.0,
+          "source_bbox_xyxy": [
+            534,
+            329,
+            542,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 59,
+          "x0": 391,
+          "x1": 397,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            541,
+            329,
+            547,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 60,
+          "x0": 397,
+          "x1": 404,
+          "y0": 22,
+          "y1": 30,
+          "area": 27.0,
+          "source_bbox_xyxy": [
+            547,
+            329,
+            554,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 61,
+          "x0": 406,
+          "x1": 412,
+          "y0": 22,
+          "y1": 30,
+          "area": 22.0,
+          "source_bbox_xyxy": [
+            556,
+            329,
+            562,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 62,
+          "x0": 413,
+          "x1": 419,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            563,
+            329,
+            569,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 63,
+          "x0": 427,
+          "x1": 435,
+          "y0": 22,
+          "y1": 30,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            577,
+            329,
+            585,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 64,
+          "x0": 433,
+          "x1": 439,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            583,
+            329,
+            589,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 65,
+          "x0": 462,
+          "x1": 463,
+          "y0": 22,
+          "y1": 23,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            612,
+            329,
+            613,
+            330
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 66,
+          "x0": 483,
+          "x1": 491,
+          "y0": 22,
+          "y1": 30,
+          "area": 29.0,
+          "source_bbox_xyxy": [
+            633,
+            329,
+            641,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 67,
+          "x0": 490,
+          "x1": 506,
+          "y0": 22,
+          "y1": 30,
+          "area": 59.0,
+          "source_bbox_xyxy": [
+            640,
+            329,
+            656,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 68,
+          "x0": 507,
+          "x1": 518,
+          "y0": 22,
+          "y1": 30,
+          "area": 37.0,
+          "source_bbox_xyxy": [
+            657,
+            329,
+            668,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 69,
+          "x0": 89,
+          "x1": 90,
+          "y0": 23,
+          "y1": 24,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            239,
+            330,
+            240,
+            331
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 70,
+          "x0": 465,
+          "x1": 468,
+          "y0": 23,
+          "y1": 26,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            615,
+            330,
+            618,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 71,
+          "x0": 185,
+          "x1": 186,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            335,
+            331,
+            336,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 72,
+          "x0": 218,
+          "x1": 220,
+          "y0": 24,
+          "y1": 26,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            368,
+            331,
+            370,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 73,
+          "x0": 234,
+          "x1": 238,
+          "y0": 25,
+          "y1": 29,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            384,
+            332,
+            388,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 74,
+          "x0": 257,
+          "x1": 261,
+          "y0": 25,
+          "y1": 28,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            407,
+            332,
+            411,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 75,
+          "x0": 374,
+          "x1": 377,
+          "y0": 25,
+          "y1": 28,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            524,
+            332,
+            527,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 76,
+          "x0": 403,
+          "x1": 407,
+          "y0": 25,
+          "y1": 28,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            553,
+            332,
+            557,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 77,
+          "x0": 447,
+          "x1": 450,
+          "y0": 25,
+          "y1": 30,
+          "area": 13.0,
+          "source_bbox_xyxy": [
+            597,
+            332,
+            600,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 78,
+          "x0": 419,
+          "x1": 421,
+          "y0": 26,
+          "y1": 28,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            569,
+            333,
+            571,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 79,
+          "x0": 462,
+          "x1": 464,
+          "y0": 26,
+          "y1": 28,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            612,
+            333,
+            614,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 80,
+          "x0": 147,
+          "x1": 148,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            297,
+            334,
+            298,
+            335
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 81,
+          "x0": 202,
+          "x1": 203,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            352,
+            334,
+            353,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 82,
+          "x0": 290,
+          "x1": 291,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            440,
+            334,
+            441,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 83,
+          "x0": 352,
+          "x1": 353,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            502,
+            334,
+            503,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 84,
+          "x0": 382,
+          "x1": 383,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            532,
+            334,
+            533,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 85,
+          "x0": 438,
+          "x1": 439,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            588,
+            334,
+            589,
+            335
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 86,
+          "x0": 519,
+          "x1": 521,
+          "y0": 27,
+          "y1": 28,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            669,
+            334,
+            671,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 87,
+          "x0": 111,
+          "x1": 112,
+          "y0": 28,
+          "y1": 29,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            261,
+            335,
+            262,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 88,
+          "x0": 350,
+          "x1": 351,
+          "y0": 28,
+          "y1": 29,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            500,
+            335,
+            501,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 89,
+          "x0": 455,
+          "x1": 457,
+          "y0": 29,
+          "y1": 30,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            605,
+            336,
+            607,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 90,
+          "x0": 514,
+          "x1": 516,
+          "y0": 29,
+          "y1": 30,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            664,
+            336,
+            666,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 91,
+          "x0": 33,
+          "x1": 34,
+          "y0": 32,
+          "y1": 33,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            183,
+            339,
+            184,
+            340
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 92,
+          "x0": 35,
+          "x1": 37,
+          "y0": 33,
+          "y1": 35,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            185,
+            340,
+            187,
+            342
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 93,
+          "x0": 12,
+          "x1": 23,
+          "y0": 34,
+          "y1": 45,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            162,
+            341,
+            173,
+            352
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 94,
+          "x0": 324,
+          "x1": 337,
+          "y0": 35,
+          "y1": 47,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            474,
+            342,
+            487,
+            354
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.5,
+      "ink_pixels": 1507,
+      "component_count": 102,
+      "manual_selection_labels": {
+        "first isolated a": [
+          39,
+          40
+        ],
+        "second isolated a": [
+          69,
+          70
+        ]
+      },
+      "components": [
+        {
+          "label": 1,
+          "x0": 132,
+          "x1": 139,
+          "y0": 4,
+          "y1": 13,
+          "area": 10.0,
+          "source_bbox_xyxy": [
+            282,
+            311,
+            289,
+            320
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 2,
+          "x0": 216,
+          "x1": 217,
+          "y0": 4,
+          "y1": 5,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            366,
+            311,
+            367,
+            312
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 3,
+          "x0": 114,
+          "x1": 135,
+          "y0": 5,
+          "y1": 30,
+          "area": 51.0,
+          "source_bbox_xyxy": [
+            264,
+            312,
+            285,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 4,
+          "x0": 189,
+          "x1": 212,
+          "y0": 5,
+          "y1": 30,
+          "area": 54.0,
+          "source_bbox_xyxy": [
+            339,
+            312,
+            362,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 5,
+          "x0": 216,
+          "x1": 217,
+          "y0": 7,
+          "y1": 9,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            366,
+            314,
+            367,
+            316
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 6,
+          "x0": 46,
+          "x1": 47,
+          "y0": 10,
+          "y1": 11,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            196,
+            317,
+            197,
+            318
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 7,
+          "x0": 161,
+          "x1": 177,
+          "y0": 10,
+          "y1": 30,
+          "area": 44.0,
+          "source_bbox_xyxy": [
+            311,
+            317,
+            327,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 8,
+          "x0": 368,
+          "x1": 385,
+          "y0": 10,
+          "y1": 30,
+          "area": 44.0,
+          "source_bbox_xyxy": [
+            518,
+            317,
+            535,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 9,
+          "x0": 30,
+          "x1": 31,
+          "y0": 11,
+          "y1": 12,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            180,
+            318,
+            181,
+            319
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 10,
+          "x0": 19,
+          "x1": 45,
+          "y0": 11,
+          "y1": 43,
+          "area": 71.0,
+          "source_bbox_xyxy": [
+            169,
+            318,
+            195,
+            350
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 11,
+          "x0": 459,
+          "x1": 474,
+          "y0": 11,
+          "y1": 21,
+          "area": 22.0,
+          "source_bbox_xyxy": [
+            609,
+            318,
+            624,
+            328
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 12,
+          "x0": 469,
+          "x1": 482,
+          "y0": 11,
+          "y1": 29,
+          "area": 41.0,
+          "source_bbox_xyxy": [
+            619,
+            318,
+            632,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 13,
+          "x0": 477,
+          "x1": 492,
+          "y0": 11,
+          "y1": 30,
+          "area": 44.0,
+          "source_bbox_xyxy": [
+            627,
+            318,
+            642,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 14,
+          "x0": 18,
+          "x1": 26,
+          "y0": 12,
+          "y1": 22,
+          "area": 13.0,
+          "source_bbox_xyxy": [
+            168,
+            319,
+            176,
+            329
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 15,
+          "x0": 22,
+          "x1": 34,
+          "y0": 12,
+          "y1": 30,
+          "area": 45.0,
+          "source_bbox_xyxy": [
+            172,
+            319,
+            184,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 16,
+          "x0": 46,
+          "x1": 47,
+          "y0": 12,
+          "y1": 13,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            196,
+            319,
+            197,
+            320
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 17,
+          "x0": 108,
+          "x1": 110,
+          "y0": 15,
+          "y1": 17,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            258,
+            322,
+            260,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 18,
+          "x0": 106,
+          "x1": 118,
+          "y0": 15,
+          "y1": 30,
+          "area": 37.0,
+          "source_bbox_xyxy": [
+            256,
+            322,
+            268,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 19,
+          "x0": 128,
+          "x1": 129,
+          "y0": 15,
+          "y1": 16,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            278,
+            322,
+            279,
+            323
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 20,
+          "x0": 188,
+          "x1": 192,
+          "y0": 15,
+          "y1": 18,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            338,
+            322,
+            342,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 21,
+          "x0": 219,
+          "x1": 221,
+          "y0": 15,
+          "y1": 17,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            369,
+            322,
+            371,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 22,
+          "x0": 244,
+          "x1": 256,
+          "y0": 15,
+          "y1": 30,
+          "area": 36.0,
+          "source_bbox_xyxy": [
+            394,
+            322,
+            406,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 23,
+          "x0": 260,
+          "x1": 263,
+          "y0": 15,
+          "y1": 18,
+          "area": 6.0,
+          "source_bbox_xyxy": [
+            410,
+            322,
+            413,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 24,
+          "x0": 406,
+          "x1": 408,
+          "y0": 15,
+          "y1": 18,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            556,
+            322,
+            558,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 25,
+          "x0": 492,
+          "x1": 495,
+          "y0": 15,
+          "y1": 17,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            642,
+            322,
+            645,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 26,
+          "x0": 80,
+          "x1": 88,
+          "y0": 18,
+          "y1": 30,
+          "area": 30.0,
+          "source_bbox_xyxy": [
+            230,
+            325,
+            238,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 27,
+          "x0": 302,
+          "x1": 310,
+          "y0": 18,
+          "y1": 30,
+          "area": 32.0,
+          "source_bbox_xyxy": [
+            452,
+            325,
+            460,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 28,
+          "x0": 80,
+          "x1": 81,
+          "y0": 19,
+          "y1": 20,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            230,
+            326,
+            231,
+            327
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 29,
+          "x0": 184,
+          "x1": 190,
+          "y0": 20,
+          "y1": 30,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            334,
+            327,
+            340,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 30,
+          "x0": 379,
+          "x1": 381,
+          "y0": 20,
+          "y1": 22,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            529,
+            327,
+            531,
+            329
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 31,
+          "x0": 37,
+          "x1": 45,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            187,
+            329,
+            195,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 32,
+          "x0": 44,
+          "x1": 48,
+          "y0": 22,
+          "y1": 28,
+          "area": 11.0,
+          "source_bbox_xyxy": [
+            194,
+            329,
+            198,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 33,
+          "x0": 49,
+          "x1": 55,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            199,
+            329,
+            205,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 34,
+          "x0": 56,
+          "x1": 63,
+          "y0": 22,
+          "y1": 30,
+          "area": 24.0,
+          "source_bbox_xyxy": [
+            206,
+            329,
+            213,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 35,
+          "x0": 88,
+          "x1": 93,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            238,
+            329,
+            243,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 36,
+          "x0": 95,
+          "x1": 99,
+          "y0": 22,
+          "y1": 27,
+          "area": 10.0,
+          "source_bbox_xyxy": [
+            245,
+            329,
+            249,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 37,
+          "x0": 99,
+          "x1": 106,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            249,
+            329,
+            256,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 38,
+          "x0": 121,
+          "x1": 127,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            271,
+            329,
+            277,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 39,
+          "x0": 135,
+          "x1": 143,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            285,
+            329,
+            293,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 40,
+          "x0": 142,
+          "x1": 148,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            292,
+            329,
+            298,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 41,
+          "x0": 155,
+          "x1": 162,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            305,
+            329,
+            312,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 42,
+          "x0": 168,
+          "x1": 175,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            318,
+            329,
+            325,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 43,
+          "x0": 174,
+          "x1": 180,
+          "y0": 22,
+          "y1": 30,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            324,
+            329,
+            330,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 44,
+          "x0": 197,
+          "x1": 202,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            347,
+            329,
+            352,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 45,
+          "x0": 211,
+          "x1": 216,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            361,
+            329,
+            366,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 46,
+          "x0": 219,
+          "x1": 228,
+          "y0": 22,
+          "y1": 30,
+          "area": 24.0,
+          "source_bbox_xyxy": [
+            369,
+            329,
+            378,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 47,
+          "x0": 227,
+          "x1": 232,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            377,
+            329,
+            382,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 48,
+          "x0": 252,
+          "x1": 258,
+          "y0": 22,
+          "y1": 30,
+          "area": 18.0,
+          "source_bbox_xyxy": [
+            402,
+            329,
+            408,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 49,
+          "x0": 260,
+          "x1": 267,
+          "y0": 22,
+          "y1": 30,
+          "area": 23.0,
+          "source_bbox_xyxy": [
+            410,
+            329,
+            417,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 50,
+          "x0": 268,
+          "x1": 273,
+          "y0": 22,
+          "y1": 30,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            418,
+            329,
+            423,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 51,
+          "x0": 277,
+          "x1": 278,
+          "y0": 22,
+          "y1": 23,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            427,
+            329,
+            428,
+            330
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 52,
+          "x0": 275,
+          "x1": 281,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            425,
+            329,
+            431,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 53,
+          "x0": 282,
+          "x1": 288,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            432,
+            329,
+            438,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 54,
+          "x0": 288,
+          "x1": 291,
+          "y0": 22,
+          "y1": 26,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            438,
+            329,
+            441,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 55,
+          "x0": 310,
+          "x1": 315,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            460,
+            329,
+            465,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 56,
+          "x0": 319,
+          "x1": 320,
+          "y0": 22,
+          "y1": 23,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            469,
+            329,
+            470,
+            330
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 57,
+          "x0": 317,
+          "x1": 323,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            467,
+            329,
+            473,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 58,
+          "x0": 324,
+          "x1": 331,
+          "y0": 22,
+          "y1": 30,
+          "area": 18.0,
+          "source_bbox_xyxy": [
+            474,
+            329,
+            481,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 59,
+          "x0": 330,
+          "x1": 337,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            480,
+            329,
+            487,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 60,
+          "x0": 337,
+          "x1": 344,
+          "y0": 22,
+          "y1": 30,
+          "area": 18.0,
+          "source_bbox_xyxy": [
+            487,
+            329,
+            494,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 61,
+          "x0": 331,
+          "x1": 352,
+          "y0": 22,
+          "y1": 45,
+          "area": 49.0,
+          "source_bbox_xyxy": [
+            481,
+            329,
+            502,
+            352
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 62,
+          "x0": 362,
+          "x1": 369,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            512,
+            329,
+            519,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 63,
+          "x0": 377,
+          "x1": 383,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            527,
+            329,
+            533,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 64,
+          "x0": 384,
+          "x1": 392,
+          "y0": 22,
+          "y1": 30,
+          "area": 23.0,
+          "source_bbox_xyxy": [
+            534,
+            329,
+            542,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 65,
+          "x0": 391,
+          "x1": 397,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            541,
+            329,
+            547,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 66,
+          "x0": 397,
+          "x1": 404,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            547,
+            329,
+            554,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 67,
+          "x0": 406,
+          "x1": 411,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            556,
+            329,
+            561,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 68,
+          "x0": 413,
+          "x1": 419,
+          "y0": 22,
+          "y1": 30,
+          "area": 20.0,
+          "source_bbox_xyxy": [
+            563,
+            329,
+            569,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 69,
+          "x0": 427,
+          "x1": 435,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            577,
+            329,
+            585,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 70,
+          "x0": 434,
+          "x1": 439,
+          "y0": 22,
+          "y1": 30,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            584,
+            329,
+            589,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 71,
+          "x0": 484,
+          "x1": 491,
+          "y0": 22,
+          "y1": 30,
+          "area": 23.0,
+          "source_bbox_xyxy": [
+            634,
+            329,
+            641,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 72,
+          "x0": 492,
+          "x1": 499,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            642,
+            329,
+            649,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 73,
+          "x0": 501,
+          "x1": 506,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            651,
+            329,
+            656,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 74,
+          "x0": 507,
+          "x1": 514,
+          "y0": 22,
+          "y1": 30,
+          "area": 21.0,
+          "source_bbox_xyxy": [
+            657,
+            329,
+            664,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 75,
+          "x0": 514,
+          "x1": 517,
+          "y0": 22,
+          "y1": 26,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            664,
+            329,
+            667,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 76,
+          "x0": 74,
+          "x1": 76,
+          "y0": 23,
+          "y1": 25,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            224,
+            330,
+            226,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 77,
+          "x0": 122,
+          "x1": 123,
+          "y0": 23,
+          "y1": 24,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            272,
+            330,
+            273,
+            331
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 78,
+          "x0": 269,
+          "x1": 270,
+          "y0": 23,
+          "y1": 24,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            419,
+            330,
+            420,
+            331
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 79,
+          "x0": 523,
+          "x1": 524,
+          "y0": 23,
+          "y1": 24,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            673,
+            330,
+            674,
+            331
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 80,
+          "x0": 274,
+          "x1": 275,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            424,
+            331,
+            425,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 81,
+          "x0": 299,
+          "x1": 300,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            449,
+            331,
+            450,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 82,
+          "x0": 310,
+          "x1": 311,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            460,
+            331,
+            461,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 83,
+          "x0": 354,
+          "x1": 355,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            504,
+            331,
+            505,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 84,
+          "x0": 466,
+          "x1": 467,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            616,
+            331,
+            617,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 85,
+          "x0": 500,
+          "x1": 501,
+          "y0": 24,
+          "y1": 25,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            650,
+            331,
+            651,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 86,
+          "x0": 179,
+          "x1": 184,
+          "y0": 25,
+          "y1": 29,
+          "area": 11.0,
+          "source_bbox_xyxy": [
+            329,
+            332,
+            334,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 87,
+          "x0": 404,
+          "x1": 406,
+          "y0": 25,
+          "y1": 27,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            554,
+            332,
+            556,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 88,
+          "x0": 447,
+          "x1": 450,
+          "y0": 25,
+          "y1": 30,
+          "area": 12.0,
+          "source_bbox_xyxy": [
+            597,
+            332,
+            600,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 89,
+          "x0": 72,
+          "x1": 75,
+          "y0": 26,
+          "y1": 34,
+          "area": 9.0,
+          "source_bbox_xyxy": [
+            222,
+            333,
+            225,
+            341
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 90,
+          "x0": 235,
+          "x1": 237,
+          "y0": 26,
+          "y1": 28,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            385,
+            333,
+            387,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 91,
+          "x0": 251,
+          "x1": 252,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            401,
+            333,
+            402,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 92,
+          "x0": 259,
+          "x1": 260,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            409,
+            333,
+            410,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 93,
+          "x0": 286,
+          "x1": 287,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            436,
+            333,
+            437,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 94,
+          "x0": 375,
+          "x1": 376,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            525,
+            333,
+            526,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 95,
+          "x0": 491,
+          "x1": 492,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            641,
+            333,
+            642,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 96,
+          "x0": 512,
+          "x1": 513,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            662,
+            333,
+            663,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 97,
+          "x0": 419,
+          "x1": 420,
+          "y0": 27,
+          "y1": 28,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            569,
+            334,
+            570,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 98,
+          "x0": 515,
+          "x1": 516,
+          "y0": 29,
+          "y1": 30,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            665,
+            336,
+            666,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 99,
+          "x0": 19,
+          "x1": 20,
+          "y0": 36,
+          "y1": 37,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            169,
+            343,
+            170,
+            344
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 100,
+          "x0": 12,
+          "x1": 16,
+          "y0": 39,
+          "y1": 45,
+          "area": 9.0,
+          "source_bbox_xyxy": [
+            162,
+            346,
+            166,
+            352
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 101,
+          "x0": 324,
+          "x1": 326,
+          "y0": 42,
+          "y1": 47,
+          "area": 6.0,
+          "source_bbox_xyxy": [
+            474,
+            349,
+            476,
+            354
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 102,
+          "x0": 328,
+          "x1": 330,
+          "y0": 45,
+          "y1": 47,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            478,
+            352,
+            480,
+            354
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        }
+      ]
+    },
+    {
+      "threshold": 0.65,
+      "ink_pixels": 1171,
+      "component_count": 83,
+      "manual_selection_labels": {
+        "first isolated a": [
+          37,
+          38
+        ],
+        "second isolated a": [
+          65,
+          66
+        ]
+      },
+      "components": [
+        {
+          "label": 1,
+          "x0": 133,
+          "x1": 139,
+          "y0": 4,
+          "y1": 12,
+          "area": 8.0,
+          "source_bbox_xyxy": [
+            283,
+            311,
+            289,
+            319
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 2,
+          "x0": 210,
+          "x1": 211,
+          "y0": 6,
+          "y1": 7,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            360,
+            313,
+            361,
+            314
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 3,
+          "x0": 114,
+          "x1": 133,
+          "y0": 7,
+          "y1": 29,
+          "area": 39.0,
+          "source_bbox_xyxy": [
+            264,
+            314,
+            283,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 4,
+          "x0": 189,
+          "x1": 209,
+          "y0": 7,
+          "y1": 30,
+          "area": 41.0,
+          "source_bbox_xyxy": [
+            339,
+            314,
+            359,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 5,
+          "x0": 216,
+          "x1": 217,
+          "y0": 7,
+          "y1": 8,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            366,
+            314,
+            367,
+            315
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 6,
+          "x0": 161,
+          "x1": 177,
+          "y0": 10,
+          "y1": 30,
+          "area": 38.0,
+          "source_bbox_xyxy": [
+            311,
+            317,
+            327,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 7,
+          "x0": 368,
+          "x1": 384,
+          "y0": 10,
+          "y1": 30,
+          "area": 38.0,
+          "source_bbox_xyxy": [
+            518,
+            317,
+            534,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 8,
+          "x0": 22,
+          "x1": 45,
+          "y0": 11,
+          "y1": 41,
+          "area": 55.0,
+          "source_bbox_xyxy": [
+            172,
+            318,
+            195,
+            348
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 9,
+          "x0": 459,
+          "x1": 473,
+          "y0": 11,
+          "y1": 20,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            609,
+            318,
+            623,
+            327
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 10,
+          "x0": 469,
+          "x1": 482,
+          "y0": 11,
+          "y1": 29,
+          "area": 33.0,
+          "source_bbox_xyxy": [
+            619,
+            318,
+            632,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 11,
+          "x0": 25,
+          "x1": 26,
+          "y0": 12,
+          "y1": 13,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            175,
+            319,
+            176,
+            320
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 12,
+          "x0": 22,
+          "x1": 34,
+          "y0": 12,
+          "y1": 29,
+          "area": 38.0,
+          "source_bbox_xyxy": [
+            172,
+            319,
+            184,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 13,
+          "x0": 477,
+          "x1": 491,
+          "y0": 12,
+          "y1": 30,
+          "area": 38.0,
+          "source_bbox_xyxy": [
+            627,
+            319,
+            641,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 14,
+          "x0": 23,
+          "x1": 24,
+          "y0": 13,
+          "y1": 14,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            173,
+            320,
+            174,
+            321
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 15,
+          "x0": 19,
+          "x1": 22,
+          "y0": 15,
+          "y1": 18,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            169,
+            322,
+            172,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 16,
+          "x0": 108,
+          "x1": 110,
+          "y0": 15,
+          "y1": 17,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            258,
+            322,
+            260,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 17,
+          "x0": 107,
+          "x1": 118,
+          "y0": 15,
+          "y1": 30,
+          "area": 29.0,
+          "source_bbox_xyxy": [
+            257,
+            322,
+            268,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 18,
+          "x0": 191,
+          "x1": 192,
+          "y0": 15,
+          "y1": 16,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            341,
+            322,
+            342,
+            323
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 19,
+          "x0": 219,
+          "x1": 221,
+          "y0": 15,
+          "y1": 17,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            369,
+            322,
+            371,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 20,
+          "x0": 244,
+          "x1": 255,
+          "y0": 15,
+          "y1": 30,
+          "area": 29.0,
+          "source_bbox_xyxy": [
+            394,
+            322,
+            405,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 21,
+          "x0": 260,
+          "x1": 263,
+          "y0": 15,
+          "y1": 18,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            410,
+            322,
+            413,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 22,
+          "x0": 406,
+          "x1": 408,
+          "y0": 15,
+          "y1": 18,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            556,
+            322,
+            558,
+            325
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 23,
+          "x0": 493,
+          "x1": 495,
+          "y0": 15,
+          "y1": 17,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            643,
+            322,
+            645,
+            324
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 24,
+          "x0": 81,
+          "x1": 88,
+          "y0": 18,
+          "y1": 29,
+          "area": 25.0,
+          "source_bbox_xyxy": [
+            231,
+            325,
+            238,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 25,
+          "x0": 302,
+          "x1": 310,
+          "y0": 18,
+          "y1": 30,
+          "area": 24.0,
+          "source_bbox_xyxy": [
+            452,
+            325,
+            460,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 26,
+          "x0": 18,
+          "x1": 19,
+          "y0": 19,
+          "y1": 21,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            168,
+            326,
+            169,
+            328
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 27,
+          "x0": 188,
+          "x1": 190,
+          "y0": 20,
+          "y1": 22,
+          "area": 2.0,
+          "source_bbox_xyxy": [
+            338,
+            327,
+            340,
+            329
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 28,
+          "x0": 379,
+          "x1": 381,
+          "y0": 20,
+          "y1": 22,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            529,
+            327,
+            531,
+            329
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 29,
+          "x0": 37,
+          "x1": 44,
+          "y0": 22,
+          "y1": 29,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            187,
+            329,
+            194,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 30,
+          "x0": 44,
+          "x1": 48,
+          "y0": 22,
+          "y1": 28,
+          "area": 9.0,
+          "source_bbox_xyxy": [
+            194,
+            329,
+            198,
+            335
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 31,
+          "x0": 49,
+          "x1": 55,
+          "y0": 22,
+          "y1": 29,
+          "area": 13.0,
+          "source_bbox_xyxy": [
+            199,
+            329,
+            205,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 32,
+          "x0": 56,
+          "x1": 63,
+          "y0": 22,
+          "y1": 29,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            206,
+            329,
+            213,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 33,
+          "x0": 89,
+          "x1": 93,
+          "y0": 22,
+          "y1": 30,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            239,
+            329,
+            243,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 34,
+          "x0": 95,
+          "x1": 99,
+          "y0": 22,
+          "y1": 27,
+          "area": 9.0,
+          "source_bbox_xyxy": [
+            245,
+            329,
+            249,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 35,
+          "x0": 100,
+          "x1": 106,
+          "y0": 22,
+          "y1": 29,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            250,
+            329,
+            256,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 36,
+          "x0": 121,
+          "x1": 127,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            271,
+            329,
+            277,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 37,
+          "x0": 135,
+          "x1": 143,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            285,
+            329,
+            293,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 38,
+          "x0": 142,
+          "x1": 147,
+          "y0": 22,
+          "y1": 30,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            292,
+            329,
+            297,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "first isolated a"
+          ]
+        },
+        {
+          "label": 39,
+          "x0": 155,
+          "x1": 162,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            305,
+            329,
+            312,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 40,
+          "x0": 168,
+          "x1": 175,
+          "y0": 22,
+          "y1": 30,
+          "area": 18.0,
+          "source_bbox_xyxy": [
+            318,
+            329,
+            325,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 41,
+          "x0": 174,
+          "x1": 180,
+          "y0": 22,
+          "y1": 29,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            324,
+            329,
+            330,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 42,
+          "x0": 198,
+          "x1": 202,
+          "y0": 22,
+          "y1": 29,
+          "area": 12.0,
+          "source_bbox_xyxy": [
+            348,
+            329,
+            352,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 43,
+          "x0": 211,
+          "x1": 216,
+          "y0": 22,
+          "y1": 29,
+          "area": 13.0,
+          "source_bbox_xyxy": [
+            361,
+            329,
+            366,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 44,
+          "x0": 219,
+          "x1": 225,
+          "y0": 22,
+          "y1": 29,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            369,
+            329,
+            375,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 45,
+          "x0": 227,
+          "x1": 232,
+          "y0": 22,
+          "y1": 30,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            377,
+            329,
+            382,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 46,
+          "x0": 252,
+          "x1": 258,
+          "y0": 22,
+          "y1": 29,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            402,
+            329,
+            408,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 47,
+          "x0": 260,
+          "x1": 266,
+          "y0": 22,
+          "y1": 30,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            410,
+            329,
+            416,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 48,
+          "x0": 268,
+          "x1": 273,
+          "y0": 22,
+          "y1": 29,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            418,
+            329,
+            423,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 49,
+          "x0": 275,
+          "x1": 281,
+          "y0": 22,
+          "y1": 30,
+          "area": 18.0,
+          "source_bbox_xyxy": [
+            425,
+            329,
+            431,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 50,
+          "x0": 283,
+          "x1": 288,
+          "y0": 22,
+          "y1": 30,
+          "area": 12.0,
+          "source_bbox_xyxy": [
+            433,
+            329,
+            438,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 51,
+          "x0": 288,
+          "x1": 291,
+          "y0": 22,
+          "y1": 26,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            438,
+            329,
+            441,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 52,
+          "x0": 310,
+          "x1": 315,
+          "y0": 22,
+          "y1": 30,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            460,
+            329,
+            465,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 53,
+          "x0": 317,
+          "x1": 323,
+          "y0": 22,
+          "y1": 29,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            467,
+            329,
+            473,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 54,
+          "x0": 325,
+          "x1": 331,
+          "y0": 22,
+          "y1": 29,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            475,
+            329,
+            481,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 55,
+          "x0": 330,
+          "x1": 337,
+          "y0": 22,
+          "y1": 30,
+          "area": 17.0,
+          "source_bbox_xyxy": [
+            480,
+            329,
+            487,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 56,
+          "x0": 338,
+          "x1": 344,
+          "y0": 22,
+          "y1": 29,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            488,
+            329,
+            494,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 57,
+          "x0": 335,
+          "x1": 351,
+          "y0": 22,
+          "y1": 42,
+          "area": 36.0,
+          "source_bbox_xyxy": [
+            485,
+            329,
+            501,
+            349
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 58,
+          "x0": 362,
+          "x1": 369,
+          "y0": 22,
+          "y1": 30,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            512,
+            329,
+            519,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 59,
+          "x0": 377,
+          "x1": 383,
+          "y0": 22,
+          "y1": 29,
+          "area": 11.0,
+          "source_bbox_xyxy": [
+            527,
+            329,
+            533,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 60,
+          "x0": 384,
+          "x1": 392,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            534,
+            329,
+            542,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 61,
+          "x0": 391,
+          "x1": 397,
+          "y0": 22,
+          "y1": 30,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            541,
+            329,
+            547,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 62,
+          "x0": 397,
+          "x1": 404,
+          "y0": 22,
+          "y1": 30,
+          "area": 19.0,
+          "source_bbox_xyxy": [
+            547,
+            329,
+            554,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 63,
+          "x0": 406,
+          "x1": 411,
+          "y0": 22,
+          "y1": 30,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            556,
+            329,
+            561,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 64,
+          "x0": 413,
+          "x1": 419,
+          "y0": 22,
+          "y1": 29,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            563,
+            329,
+            569,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 65,
+          "x0": 427,
+          "x1": 435,
+          "y0": 22,
+          "y1": 29,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            577,
+            329,
+            585,
+            336
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 66,
+          "x0": 434,
+          "x1": 439,
+          "y0": 22,
+          "y1": 30,
+          "area": 14.0,
+          "source_bbox_xyxy": [
+            584,
+            329,
+            589,
+            337
+          ],
+          "status": "ambiguous-a-fragment",
+          "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+          "manual_selection": [
+            "second isolated a"
+          ]
+        },
+        {
+          "label": 67,
+          "x0": 485,
+          "x1": 491,
+          "y0": 22,
+          "y1": 29,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            635,
+            329,
+            641,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 68,
+          "x0": 493,
+          "x1": 499,
+          "y0": 22,
+          "y1": 29,
+          "area": 16.0,
+          "source_bbox_xyxy": [
+            643,
+            329,
+            649,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 69,
+          "x0": 501,
+          "x1": 506,
+          "y0": 22,
+          "y1": 30,
+          "area": 15.0,
+          "source_bbox_xyxy": [
+            651,
+            329,
+            656,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 70,
+          "x0": 507,
+          "x1": 514,
+          "y0": 22,
+          "y1": 30,
+          "area": 18.0,
+          "source_bbox_xyxy": [
+            657,
+            329,
+            664,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 71,
+          "x0": 515,
+          "x1": 517,
+          "y0": 22,
+          "y1": 25,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            665,
+            329,
+            667,
+            332
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 72,
+          "x0": 186,
+          "x1": 188,
+          "y0": 23,
+          "y1": 29,
+          "area": 7.0,
+          "source_bbox_xyxy": [
+            336,
+            330,
+            338,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 73,
+          "x0": 225,
+          "x1": 226,
+          "y0": 25,
+          "y1": 26,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            375,
+            332,
+            376,
+            333
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 74,
+          "x0": 447,
+          "x1": 450,
+          "y0": 25,
+          "y1": 30,
+          "area": 11.0,
+          "source_bbox_xyxy": [
+            597,
+            332,
+            600,
+            337
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 75,
+          "x0": 72,
+          "x1": 74,
+          "y0": 26,
+          "y1": 31,
+          "area": 5.0,
+          "source_bbox_xyxy": [
+            222,
+            333,
+            224,
+            338
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 76,
+          "x0": 181,
+          "x1": 184,
+          "y0": 26,
+          "y1": 29,
+          "area": 6.0,
+          "source_bbox_xyxy": [
+            331,
+            333,
+            334,
+            336
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 77,
+          "x0": 286,
+          "x1": 287,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            436,
+            333,
+            437,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 78,
+          "x0": 375,
+          "x1": 376,
+          "y0": 26,
+          "y1": 27,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            525,
+            333,
+            526,
+            334
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 79,
+          "x0": 73,
+          "x1": 74,
+          "y0": 32,
+          "y1": 33,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            223,
+            339,
+            224,
+            340
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 80,
+          "x0": 12,
+          "x1": 14,
+          "y0": 41,
+          "y1": 45,
+          "area": 4.0,
+          "source_bbox_xyxy": [
+            162,
+            348,
+            164,
+            352
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 81,
+          "x0": 331,
+          "x1": 334,
+          "y0": 42,
+          "y1": 45,
+          "area": 3.0,
+          "source_bbox_xyxy": [
+            481,
+            349,
+            484,
+            352
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 82,
+          "x0": 325,
+          "x1": 326,
+          "y0": 43,
+          "y1": 44,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            475,
+            350,
+            476,
+            351
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        },
+        {
+          "label": 83,
+          "x0": 325,
+          "x1": 326,
+          "y0": 46,
+          "y1": 47,
+          "area": 1.0,
+          "source_bbox_xyxy": [
+            475,
+            353,
+            476,
+            354
+          ],
+          "status": "ambiguous",
+          "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+          "manual_selection": []
+        }
+      ]
+    }
+  ],
+  "font_exported": false,
+  "inferred_characters": [],
+  "scope": "One observed line only. Components are not automatically glyphs.",
+  "rejected_or_ambiguous": [
+    {
+      "label": 1,
+      "x0": 132,
+      "x1": 139,
+      "y0": 4,
+      "y1": 13,
+      "area": 10.0,
+      "source_bbox_xyxy": [
+        282,
+        311,
+        289,
+        320
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 2,
+      "x0": 216,
+      "x1": 217,
+      "y0": 4,
+      "y1": 5,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        366,
+        311,
+        367,
+        312
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 3,
+      "x0": 114,
+      "x1": 135,
+      "y0": 5,
+      "y1": 30,
+      "area": 51.0,
+      "source_bbox_xyxy": [
+        264,
+        312,
+        285,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 4,
+      "x0": 189,
+      "x1": 212,
+      "y0": 5,
+      "y1": 30,
+      "area": 54.0,
+      "source_bbox_xyxy": [
+        339,
+        312,
+        362,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 5,
+      "x0": 216,
+      "x1": 217,
+      "y0": 7,
+      "y1": 9,
+      "area": 2.0,
+      "source_bbox_xyxy": [
+        366,
+        314,
+        367,
+        316
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 6,
+      "x0": 46,
+      "x1": 47,
+      "y0": 10,
+      "y1": 11,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        196,
+        317,
+        197,
+        318
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 7,
+      "x0": 161,
+      "x1": 177,
+      "y0": 10,
+      "y1": 30,
+      "area": 44.0,
+      "source_bbox_xyxy": [
+        311,
+        317,
+        327,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 8,
+      "x0": 368,
+      "x1": 385,
+      "y0": 10,
+      "y1": 30,
+      "area": 44.0,
+      "source_bbox_xyxy": [
+        518,
+        317,
+        535,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 9,
+      "x0": 30,
+      "x1": 31,
+      "y0": 11,
+      "y1": 12,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        180,
+        318,
+        181,
+        319
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 10,
+      "x0": 19,
+      "x1": 45,
+      "y0": 11,
+      "y1": 43,
+      "area": 71.0,
+      "source_bbox_xyxy": [
+        169,
+        318,
+        195,
+        350
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 11,
+      "x0": 459,
+      "x1": 474,
+      "y0": 11,
+      "y1": 21,
+      "area": 22.0,
+      "source_bbox_xyxy": [
+        609,
+        318,
+        624,
+        328
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 12,
+      "x0": 469,
+      "x1": 482,
+      "y0": 11,
+      "y1": 29,
+      "area": 41.0,
+      "source_bbox_xyxy": [
+        619,
+        318,
+        632,
+        336
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 13,
+      "x0": 477,
+      "x1": 492,
+      "y0": 11,
+      "y1": 30,
+      "area": 44.0,
+      "source_bbox_xyxy": [
+        627,
+        318,
+        642,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 14,
+      "x0": 18,
+      "x1": 26,
+      "y0": 12,
+      "y1": 22,
+      "area": 13.0,
+      "source_bbox_xyxy": [
+        168,
+        319,
+        176,
+        329
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 15,
+      "x0": 22,
+      "x1": 34,
+      "y0": 12,
+      "y1": 30,
+      "area": 45.0,
+      "source_bbox_xyxy": [
+        172,
+        319,
+        184,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 16,
+      "x0": 46,
+      "x1": 47,
+      "y0": 12,
+      "y1": 13,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        196,
+        319,
+        197,
+        320
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 17,
+      "x0": 108,
+      "x1": 110,
+      "y0": 15,
+      "y1": 17,
+      "area": 4.0,
+      "source_bbox_xyxy": [
+        258,
+        322,
+        260,
+        324
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 18,
+      "x0": 106,
+      "x1": 118,
+      "y0": 15,
+      "y1": 30,
+      "area": 37.0,
+      "source_bbox_xyxy": [
+        256,
+        322,
+        268,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 19,
+      "x0": 128,
+      "x1": 129,
+      "y0": 15,
+      "y1": 16,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        278,
+        322,
+        279,
+        323
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 20,
+      "x0": 188,
+      "x1": 192,
+      "y0": 15,
+      "y1": 18,
+      "area": 4.0,
+      "source_bbox_xyxy": [
+        338,
+        322,
+        342,
+        325
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 21,
+      "x0": 219,
+      "x1": 221,
+      "y0": 15,
+      "y1": 17,
+      "area": 4.0,
+      "source_bbox_xyxy": [
+        369,
+        322,
+        371,
+        324
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 22,
+      "x0": 244,
+      "x1": 256,
+      "y0": 15,
+      "y1": 30,
+      "area": 36.0,
+      "source_bbox_xyxy": [
+        394,
+        322,
+        406,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 23,
+      "x0": 260,
+      "x1": 263,
+      "y0": 15,
+      "y1": 18,
+      "area": 6.0,
+      "source_bbox_xyxy": [
+        410,
+        322,
+        413,
+        325
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 24,
+      "x0": 406,
+      "x1": 408,
+      "y0": 15,
+      "y1": 18,
+      "area": 4.0,
+      "source_bbox_xyxy": [
+        556,
+        322,
+        558,
+        325
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 25,
+      "x0": 492,
+      "x1": 495,
+      "y0": 15,
+      "y1": 17,
+      "area": 5.0,
+      "source_bbox_xyxy": [
+        642,
+        322,
+        645,
+        324
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 26,
+      "x0": 80,
+      "x1": 88,
+      "y0": 18,
+      "y1": 30,
+      "area": 30.0,
+      "source_bbox_xyxy": [
+        230,
+        325,
+        238,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 27,
+      "x0": 302,
+      "x1": 310,
+      "y0": 18,
+      "y1": 30,
+      "area": 32.0,
+      "source_bbox_xyxy": [
+        452,
+        325,
+        460,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 28,
+      "x0": 80,
+      "x1": 81,
+      "y0": 19,
+      "y1": 20,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        230,
+        326,
+        231,
+        327
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 29,
+      "x0": 184,
+      "x1": 190,
+      "y0": 20,
+      "y1": 30,
+      "area": 14.0,
+      "source_bbox_xyxy": [
+        334,
+        327,
+        340,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 30,
+      "x0": 379,
+      "x1": 381,
+      "y0": 20,
+      "y1": 22,
+      "area": 3.0,
+      "source_bbox_xyxy": [
+        529,
+        327,
+        531,
+        329
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 31,
+      "x0": 37,
+      "x1": 45,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        187,
+        329,
+        195,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 32,
+      "x0": 44,
+      "x1": 48,
+      "y0": 22,
+      "y1": 28,
+      "area": 11.0,
+      "source_bbox_xyxy": [
+        194,
+        329,
+        198,
+        335
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 33,
+      "x0": 49,
+      "x1": 55,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        199,
+        329,
+        205,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 34,
+      "x0": 56,
+      "x1": 63,
+      "y0": 22,
+      "y1": 30,
+      "area": 24.0,
+      "source_bbox_xyxy": [
+        206,
+        329,
+        213,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 35,
+      "x0": 88,
+      "x1": 93,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        238,
+        329,
+        243,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 36,
+      "x0": 95,
+      "x1": 99,
+      "y0": 22,
+      "y1": 27,
+      "area": 10.0,
+      "source_bbox_xyxy": [
+        245,
+        329,
+        249,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 37,
+      "x0": 99,
+      "x1": 106,
+      "y0": 22,
+      "y1": 30,
+      "area": 21.0,
+      "source_bbox_xyxy": [
+        249,
+        329,
+        256,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 38,
+      "x0": 121,
+      "x1": 127,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        271,
+        329,
+        277,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 39,
+      "x0": 135,
+      "x1": 143,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        285,
+        329,
+        293,
+        337
+      ],
+      "status": "ambiguous-a-fragment",
+      "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+      "manual_selection": [
+        "first isolated a"
+      ]
+    },
+    {
+      "label": 40,
+      "x0": 142,
+      "x1": 148,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        292,
+        329,
+        298,
+        337
+      ],
+      "status": "ambiguous-a-fragment",
+      "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+      "manual_selection": [
+        "first isolated a"
+      ]
+    },
+    {
+      "label": 41,
+      "x0": 155,
+      "x1": 162,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        305,
+        329,
+        312,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 42,
+      "x0": 168,
+      "x1": 175,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        318,
+        329,
+        325,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 43,
+      "x0": 174,
+      "x1": 180,
+      "y0": 22,
+      "y1": 30,
+      "area": 17.0,
+      "source_bbox_xyxy": [
+        324,
+        329,
+        330,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 44,
+      "x0": 197,
+      "x1": 202,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        347,
+        329,
+        352,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 45,
+      "x0": 211,
+      "x1": 216,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        361,
+        329,
+        366,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 46,
+      "x0": 219,
+      "x1": 228,
+      "y0": 22,
+      "y1": 30,
+      "area": 24.0,
+      "source_bbox_xyxy": [
+        369,
+        329,
+        378,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 47,
+      "x0": 227,
+      "x1": 232,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        377,
+        329,
+        382,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 48,
+      "x0": 252,
+      "x1": 258,
+      "y0": 22,
+      "y1": 30,
+      "area": 18.0,
+      "source_bbox_xyxy": [
+        402,
+        329,
+        408,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 49,
+      "x0": 260,
+      "x1": 267,
+      "y0": 22,
+      "y1": 30,
+      "area": 23.0,
+      "source_bbox_xyxy": [
+        410,
+        329,
+        417,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 50,
+      "x0": 268,
+      "x1": 273,
+      "y0": 22,
+      "y1": 30,
+      "area": 15.0,
+      "source_bbox_xyxy": [
+        418,
+        329,
+        423,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 51,
+      "x0": 277,
+      "x1": 278,
+      "y0": 22,
+      "y1": 23,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        427,
+        329,
+        428,
+        330
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 52,
+      "x0": 275,
+      "x1": 281,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        425,
+        329,
+        431,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 53,
+      "x0": 282,
+      "x1": 288,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        432,
+        329,
+        438,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 54,
+      "x0": 288,
+      "x1": 291,
+      "y0": 22,
+      "y1": 26,
+      "area": 5.0,
+      "source_bbox_xyxy": [
+        438,
+        329,
+        441,
+        333
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 55,
+      "x0": 310,
+      "x1": 315,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        460,
+        329,
+        465,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 56,
+      "x0": 319,
+      "x1": 320,
+      "y0": 22,
+      "y1": 23,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        469,
+        329,
+        470,
+        330
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 57,
+      "x0": 317,
+      "x1": 323,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        467,
+        329,
+        473,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 58,
+      "x0": 324,
+      "x1": 331,
+      "y0": 22,
+      "y1": 30,
+      "area": 18.0,
+      "source_bbox_xyxy": [
+        474,
+        329,
+        481,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 59,
+      "x0": 330,
+      "x1": 337,
+      "y0": 22,
+      "y1": 30,
+      "area": 21.0,
+      "source_bbox_xyxy": [
+        480,
+        329,
+        487,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 60,
+      "x0": 337,
+      "x1": 344,
+      "y0": 22,
+      "y1": 30,
+      "area": 18.0,
+      "source_bbox_xyxy": [
+        487,
+        329,
+        494,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 61,
+      "x0": 331,
+      "x1": 352,
+      "y0": 22,
+      "y1": 45,
+      "area": 49.0,
+      "source_bbox_xyxy": [
+        481,
+        329,
+        502,
+        352
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 62,
+      "x0": 362,
+      "x1": 369,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        512,
+        329,
+        519,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 63,
+      "x0": 377,
+      "x1": 383,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        527,
+        329,
+        533,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 64,
+      "x0": 384,
+      "x1": 392,
+      "y0": 22,
+      "y1": 30,
+      "area": 23.0,
+      "source_bbox_xyxy": [
+        534,
+        329,
+        542,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 65,
+      "x0": 391,
+      "x1": 397,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        541,
+        329,
+        547,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 66,
+      "x0": 397,
+      "x1": 404,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        547,
+        329,
+        554,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 67,
+      "x0": 406,
+      "x1": 411,
+      "y0": 22,
+      "y1": 30,
+      "area": 16.0,
+      "source_bbox_xyxy": [
+        556,
+        329,
+        561,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 68,
+      "x0": 413,
+      "x1": 419,
+      "y0": 22,
+      "y1": 30,
+      "area": 20.0,
+      "source_bbox_xyxy": [
+        563,
+        329,
+        569,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 69,
+      "x0": 427,
+      "x1": 435,
+      "y0": 22,
+      "y1": 30,
+      "area": 21.0,
+      "source_bbox_xyxy": [
+        577,
+        329,
+        585,
+        337
+      ],
+      "status": "ambiguous-a-fragment",
+      "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+      "manual_selection": [
+        "second isolated a"
+      ]
+    },
+    {
+      "label": 70,
+      "x0": 434,
+      "x1": 439,
+      "y0": 22,
+      "y1": 30,
+      "area": 17.0,
+      "source_bbox_xyxy": [
+        584,
+        329,
+        589,
+        337
+      ],
+      "status": "ambiguous-a-fragment",
+      "reason": "Whole component in a manually observed isolated a region; fragmented raster is not a complete glyph",
+      "manual_selection": [
+        "second isolated a"
+      ]
+    },
+    {
+      "label": 71,
+      "x0": 484,
+      "x1": 491,
+      "y0": 22,
+      "y1": 30,
+      "area": 23.0,
+      "source_bbox_xyxy": [
+        634,
+        329,
+        641,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 72,
+      "x0": 492,
+      "x1": 499,
+      "y0": 22,
+      "y1": 30,
+      "area": 21.0,
+      "source_bbox_xyxy": [
+        642,
+        329,
+        649,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 73,
+      "x0": 501,
+      "x1": 506,
+      "y0": 22,
+      "y1": 30,
+      "area": 19.0,
+      "source_bbox_xyxy": [
+        651,
+        329,
+        656,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 74,
+      "x0": 507,
+      "x1": 514,
+      "y0": 22,
+      "y1": 30,
+      "area": 21.0,
+      "source_bbox_xyxy": [
+        657,
+        329,
+        664,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 75,
+      "x0": 514,
+      "x1": 517,
+      "y0": 22,
+      "y1": 26,
+      "area": 5.0,
+      "source_bbox_xyxy": [
+        664,
+        329,
+        667,
+        333
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 76,
+      "x0": 74,
+      "x1": 76,
+      "y0": 23,
+      "y1": 25,
+      "area": 2.0,
+      "source_bbox_xyxy": [
+        224,
+        330,
+        226,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 77,
+      "x0": 122,
+      "x1": 123,
+      "y0": 23,
+      "y1": 24,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        272,
+        330,
+        273,
+        331
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 78,
+      "x0": 269,
+      "x1": 270,
+      "y0": 23,
+      "y1": 24,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        419,
+        330,
+        420,
+        331
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 79,
+      "x0": 523,
+      "x1": 524,
+      "y0": 23,
+      "y1": 24,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        673,
+        330,
+        674,
+        331
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 80,
+      "x0": 274,
+      "x1": 275,
+      "y0": 24,
+      "y1": 25,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        424,
+        331,
+        425,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 81,
+      "x0": 299,
+      "x1": 300,
+      "y0": 24,
+      "y1": 25,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        449,
+        331,
+        450,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 82,
+      "x0": 310,
+      "x1": 311,
+      "y0": 24,
+      "y1": 25,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        460,
+        331,
+        461,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 83,
+      "x0": 354,
+      "x1": 355,
+      "y0": 24,
+      "y1": 25,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        504,
+        331,
+        505,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 84,
+      "x0": 466,
+      "x1": 467,
+      "y0": 24,
+      "y1": 25,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        616,
+        331,
+        617,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 85,
+      "x0": 500,
+      "x1": 501,
+      "y0": 24,
+      "y1": 25,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        650,
+        331,
+        651,
+        332
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 86,
+      "x0": 179,
+      "x1": 184,
+      "y0": 25,
+      "y1": 29,
+      "area": 11.0,
+      "source_bbox_xyxy": [
+        329,
+        332,
+        334,
+        336
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 87,
+      "x0": 404,
+      "x1": 406,
+      "y0": 25,
+      "y1": 27,
+      "area": 2.0,
+      "source_bbox_xyxy": [
+        554,
+        332,
+        556,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 88,
+      "x0": 447,
+      "x1": 450,
+      "y0": 25,
+      "y1": 30,
+      "area": 12.0,
+      "source_bbox_xyxy": [
+        597,
+        332,
+        600,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 89,
+      "x0": 72,
+      "x1": 75,
+      "y0": 26,
+      "y1": 34,
+      "area": 9.0,
+      "source_bbox_xyxy": [
+        222,
+        333,
+        225,
+        341
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 90,
+      "x0": 235,
+      "x1": 237,
+      "y0": 26,
+      "y1": 28,
+      "area": 2.0,
+      "source_bbox_xyxy": [
+        385,
+        333,
+        387,
+        335
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 91,
+      "x0": 251,
+      "x1": 252,
+      "y0": 26,
+      "y1": 27,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        401,
+        333,
+        402,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 92,
+      "x0": 259,
+      "x1": 260,
+      "y0": 26,
+      "y1": 27,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        409,
+        333,
+        410,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 93,
+      "x0": 286,
+      "x1": 287,
+      "y0": 26,
+      "y1": 27,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        436,
+        333,
+        437,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 94,
+      "x0": 375,
+      "x1": 376,
+      "y0": 26,
+      "y1": 27,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        525,
+        333,
+        526,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 95,
+      "x0": 491,
+      "x1": 492,
+      "y0": 26,
+      "y1": 27,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        641,
+        333,
+        642,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 96,
+      "x0": 512,
+      "x1": 513,
+      "y0": 26,
+      "y1": 27,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        662,
+        333,
+        663,
+        334
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 97,
+      "x0": 419,
+      "x1": 420,
+      "y0": 27,
+      "y1": 28,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        569,
+        334,
+        570,
+        335
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 98,
+      "x0": 515,
+      "x1": 516,
+      "y0": 29,
+      "y1": 30,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        665,
+        336,
+        666,
+        337
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 99,
+      "x0": 19,
+      "x1": 20,
+      "y0": 36,
+      "y1": 37,
+      "area": 1.0,
+      "source_bbox_xyxy": [
+        169,
+        343,
+        170,
+        344
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 100,
+      "x0": 12,
+      "x1": 16,
+      "y0": 39,
+      "y1": 45,
+      "area": 9.0,
+      "source_bbox_xyxy": [
+        162,
+        346,
+        166,
+        352
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 101,
+      "x0": 324,
+      "x1": 326,
+      "y0": 42,
+      "y1": 47,
+      "area": 6.0,
+      "source_bbox_xyxy": [
+        474,
+        349,
+        476,
+        354
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    },
+    {
+      "label": 102,
+      "x0": 328,
+      "x1": 330,
+      "y0": 45,
+      "y1": 47,
+      "area": 2.0,
+      "source_bbox_xyxy": [
+        478,
+        352,
+        480,
+        354
+      ],
+      "status": "ambiguous",
+      "reason": "Connected run, detached stroke/dot, or raster fragment; no defensible automatic character assignment",
+      "manual_selection": []
+    }
+  ],
+  "accepted_glyphs": [],
+  "conclusion": "The two manually located standalone a occurrences can be spatially isolated, but their masks fragment too; zero complete glyphs accepted. Cursive joins and threshold-sensitive hairline fragmentation prevent reliable character segmentation of the line. No joined component is promoted to a glyph or font; component count is not character count."
+}

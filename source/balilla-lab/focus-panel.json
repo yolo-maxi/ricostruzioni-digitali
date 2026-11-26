@@ -1,0 +1,272 @@
+{
+  "face": {
+    "family": "Balilla Panel Reconstructed",
+    "file_stem": "Balilla-Panel-Reconstructed",
+    "version": "0.1",
+    "label": "Balilla Panel — pale panel lettering"
+  },
+  "selected_sample": {
+    "id": "C.panel",
+    "description": "The pale thin lettering \"mini- stero educa- zione nazio- nale\" (ministero educazione nazionale) inside the dark green panel of the obelisk cover: six lines, 28 letters and 3 hyphens",
+    "phrase": "ministero educazione nazionale",
+    "scored_blocks": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6"
+    ],
+    "why": [
+      "it is the lettering that the owner named: the pale thin lettering inside the dark green panel",
+      "it is the only sample of this lettering in the supplied photos at this size (letter height about 62 photo pixels, stroke about 8 photo pixels)",
+      "flat two-colour print: the letters are the paper colour inside the green panel; all 31 shapes are complete and separate",
+      "the six lines give 14 different letters (a c d e i l m n o r s t u z) and the hyphen"
+    ],
+    "limits": "The lettering is drawn by hand: repeated letters (a e i n o z and the hyphen) are not identical, and the font holds one observed shape for each letter. The letters c, d, l, m, r, s, t and u occur once. The letter i has no dot in this lettering. The six lines are not exactly parallel, so each line is measured on its own baseline. The sample shows no space between words and no capitals.",
+    "not_to_be_confused_with": [
+      "the black title lettering \"opera balilla\" on the same cover",
+      "the capitals MINISTERO EDUCAZIONE NAZIONALE on the burgundy cover (the Balilla cover capitals face)",
+      "the numeral XII in the same panel",
+      "the small text lettering of the inside table (photo assets/HXwNYdeXgAE-ocC.jpg), which has the same forms of s and z at a letter height of about 12 photo pixels; it is not used"
+    ]
+  },
+  "photo": {
+    "key": "C",
+    "file": "assets/HXwNXsUWEAALJek.jpg",
+    "label": "Cover, green on pink (obelisk, numeral XII); third supplied photo",
+    "sha256": "5d67f5157c5440498ff0d5821f21c8ffc225542f5354af47b2360f1308260467",
+    "size": [
+      864,
+      1536
+    ]
+  },
+  "supplied_close_photo": {
+    "file": "assets/img_9eb5018c1e1c.jpg",
+    "label": "Close photo of the same cover, supplied by the owner on 2026-11-23 to name this lettering",
+    "sha256": "f05b1fc249af0f400094f5ce599de37c46e783c04bb843d5c3d55d8ca940caf9",
+    "size": [
+      720,
+      1280
+    ],
+    "relation": "It is the same exposure as assets/HXwNXsUWEAALJek.jpg, reduced to 5/6 of its size. The font is traced from the larger copy. The font file is also compared with the close photo.",
+    "max_mean_abs_difference": 3.0,
+    "min_correlation": 0.995,
+    "published": false
+  },
+  "plane": {
+    "photo": "C",
+    "channel": "G",
+    "lines": {
+      "h": [
+        {
+          "name": "top frame rule",
+          "kind": "ridge",
+          "p0": [
+            70,
+            241.5
+          ],
+          "p1": [
+            800,
+            208.5
+          ],
+          "half_width": 6
+        },
+        {
+          "name": "panel bottom edge",
+          "kind": "edge",
+          "p0": [
+            430,
+            1288.5
+          ],
+          "p1": [
+            855,
+            1272
+          ]
+        }
+      ],
+      "v": [
+        {
+          "name": "panel left edge",
+          "kind": "edge",
+          "p0": [
+            391.5,
+            470
+          ],
+          "p1": [
+            417.5,
+            1270
+          ]
+        },
+        {
+          "name": "left frame rule",
+          "kind": "ridge",
+          "p0": [
+            59.5,
+            260
+          ],
+          "p1": [
+            45.5,
+            1280
+          ],
+          "half_width": 6
+        }
+      ]
+    }
+  },
+  "blocks": {
+    "L1": {
+      "text": "mini-",
+      "baseline": [
+        [
+          433,
+          545
+        ],
+        [
+          673,
+          532
+        ]
+      ],
+      "up": 72,
+      "down": 8
+    },
+    "L2": {
+      "text": "stero",
+      "baseline": [
+        [
+          438,
+          629
+        ],
+        [
+          730,
+          615
+        ]
+      ],
+      "up": 80,
+      "down": 8
+    },
+    "L3": {
+      "text": "educa-",
+      "baseline": [
+        [
+          441,
+          716
+        ],
+        [
+          843,
+          698.5
+        ]
+      ],
+      "up": 76,
+      "down": 8
+    },
+    "L4": {
+      "text": "zione",
+      "baseline": [
+        [
+          445,
+          802
+        ],
+        [
+          774,
+          788
+        ]
+      ],
+      "up": 68,
+      "down": 25
+    },
+    "L5": {
+      "text": "nazio-",
+      "baseline": [
+        [
+          448,
+          892
+        ],
+        [
+          809,
+          880
+        ]
+      ],
+      "up": 68,
+      "down": 27
+    },
+    "L6": {
+      "text": "nale",
+      "baseline": [
+        [
+          452,
+          986
+        ],
+        [
+          711,
+          977.5
+        ]
+      ],
+      "up": 76,
+      "down": 8
+    }
+  },
+  "classes": {
+    "ascenders": "tdl",
+    "descenders": "z",
+    "marks": "-",
+    "flat_foot": "mintrl",
+    "right_foot": "a"
+  },
+  "pad": 3,
+  "polarity": "light",
+  "stroke": 8,
+  "min_letter_area": 40,
+  "supersample": 8,
+  "smooth": {
+    "light_units": 0.6,
+    "corner_probe_units": 1.0,
+    "corner_window_units": 2.0,
+    "corner_degrees": 28,
+    "corner_grow_units": 1.0,
+    "heavy_units": 5.0
+  },
+  "curves": {
+    "step_units": 1.0,
+    "tangent_units": 4.0,
+    "line": 0.35,
+    "curve": 0.4,
+    "max_arc_degrees": 75,
+    "extreme_snap_degrees": 10
+  },
+  "spacing": {
+    "sides": {
+      "straight": {
+        "left": "ilmnrtu",
+        "right": "ilmnu"
+      },
+      "round": {
+        "left": "acdeo",
+        "right": "os"
+      },
+      "own": {
+        "left": "z",
+        "right": "acdetz"
+      }
+    },
+    "unobserved": {
+      "left": {
+        "s": "round"
+      }
+    },
+    "arm": {
+      "r": {
+        "like": "t",
+        "also_before": "acdegq"
+      }
+    },
+    "word_space_letter_heights": 0.5
+  },
+  "close_voids_below_units2": 600,
+  "letter_height_units": 600,
+  "gate": {
+    "metric": "dice",
+    "threshold": 0.95,
+    "applies_to": "each traced glyph, compared with the source shape that it was traced from"
+  }
+}

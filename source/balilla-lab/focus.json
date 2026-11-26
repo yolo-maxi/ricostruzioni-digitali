@@ -1,0 +1,66 @@
+{
+  "face": {
+    "family": "Balilla Reconstructed",
+    "file_stem": "Balilla-Reconstructed",
+    "version": "0.2",
+    "label": "Balilla — cover capitals"
+  },
+  "catalogue_check": {
+    "reference": "Anonima Impressori (Bologna), Catalogo Caratteri in Piombo e Legno, section Razionali, as shown on https://luc.devroye.org/fonts-92349.html",
+    "used_as": "visual identification reference only; no catalogue image is stored in this repository or served by the app",
+    "fetched": "2026-11-23",
+    "findings": [
+      "The plate labelled Balilla (6 cicero) shows lower case only.",
+      "No plate in this catalogue section shows these capitals. The nearest plates (Deco Nerissimo, Geometrico Tondo) have round bowls; these capitals have square bowls."
+    ],
+    "result": "The catalogue section does not show these capitals. It does not confirm and does not contradict that they belong to the Balilla type. The name Balilla follows the owner's attribution and the source: the capitals are on the Opera Balilla cover.",
+    "status": "not shown in the catalogue section"
+  },
+  "selected_block": {
+    "id": "A.caps.L2",
+    "description": "Row 2 (EDUCAZIONE) of the knocked-out capitals on the burgundy cover",
+    "scored_text": "DUCAZION",
+    "why": [
+      "largest clean capitals in the supplied photos (cap height about 68 photo pixels)",
+      "flat two-colour print with high contrast and no overprint, stain or spray texture",
+      "middle row of the band: 8 complete letters, the most of the three rows",
+      "this lettering is the heavy capital style that the v0.1 font used for its uppercase"
+    ],
+    "limits": "The first and last letter (E) of the row are cut by the photo edge. They are not scored."
+  },
+  "photo": {
+    "key": "A",
+    "file": "assets/HXwNV_7W8AAs8y6.jpg",
+    "label": "Cover, burgundy on cream (numeral XIII)",
+    "sha256": "bd87ebd100ab1238cffe15831c1d6262a3dae2fa08cb37b8567321ba9bba89a8"
+  },
+  "plane": {
+    "photo": "A",
+    "channel": "G",
+    "lines": {
+      "h": [
+        {"name": "band top edge", "kind": "edge", "p0": [60, 1041], "p1": [820, 1023]},
+        {"name": "band bottom edge", "kind": "edge", "p0": [60, 1333], "p1": [820, 1310]}
+      ],
+      "v": [
+        {"name": "thin rule at right", "kind": "ridge", "p0": [786.5, 200], "p1": [851.5, 750], "half_width": 5},
+        {"name": "page left edge", "kind": "edge", "p0": [28, 200], "p1": [6, 450], "half_width": 6}
+      ]
+    }
+  },
+  "rows": {
+    "L1": {"text": "MINISTERO", "baseline": [[1, 1125], [863, 1105]], "complete": "INISTER", "use": "STER"},
+    "L2": {"text": "EDUCAZIONE", "baseline": [[1, 1211], [863, 1188]], "complete": "DUCAZION", "use": "DUCAZION"},
+    "L3": {"text": "NAZIONALE", "baseline": [[1, 1298], [863, 1275]], "complete": "AZIONAL", "use": "L"}
+  },
+  "selected_row": "L2",
+  "up": 75,
+  "down": 6,
+  "pad": 3,
+  "polarity": "light",
+  "stroke": 20,
+  "min_letter_area": 150,
+  "supersample": 8,
+  "simplify_units": 2.0,
+  "gate": {"metric": "dice", "threshold": 0.95}
+}

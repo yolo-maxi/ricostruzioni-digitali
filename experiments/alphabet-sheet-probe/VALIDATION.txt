@@ -1,0 +1,42 @@
+Alphabet-sheet probe — candidate validation
+
+Base: 491a4cc
+Branch: agent/balilla-alphabet-sheet-probe-20261124
+Scope: experiments/alphabet-sheet-probe/ only; no push/merge/deploy/publication.
+
+Executed gates:
+  .venv/bin/python experiments/alphabet-sheet-probe/probe.py --verify
+    {"accepted": 63, "ambiguous": 0, "rejected": 0}
+  .venv/bin/python -m pytest -q experiments/alphabet-sheet-probe/test_probe.py
+    12 passed in 3.66s
+  .venv/bin/python -m pytest -q tests
+    39 passed in 187.62s
+  node tests/tabs_check.js public/index.html
+    29 checks; all checks passed
+  git diff --check
+    exit 0; no output
+  git diff --exit-code 491a4cc -- public source release README.md requirements.txt tests
+    exit 0; no output (active assets and existing project paths unchanged)
+
+Source upload and preserved input SHA-256 both:
+  2d56b789a9d3589e3df55546cb437d66fdb4563a6c1222819579c94b608d2d5d
+
+Generated manifest: output/report.json lists 148 generated artifacts with SHA-256.
+TTF: 25928 bytes; WOFF2: 5524 bytes.
+Rebuild test verifies byte-identical generated artifacts AND report.
+Both formats decode to exactly 63 mapped observed characters; no mapped space.
+All 63 glyphs pass mask/placement/advance checks at 100 ppem, unhinted.
+Visual inspection used original upload, contact-sheet.png and font-proof.png.
+No browser acceptance or general historical/fidelity/rights claim is made.
+
+Resolved verification issues (not hidden):
+- First existing-suite invocation timed out at its 180-second command limit;
+  rerun with a 600-second limit completed, 39 passed.
+- Initial deterministic-report test compared in-memory tuples with JSON lists;
+  normalized serialization and added byte-for-byte report comparison; passed.
+- Initial standalone tab-check invocation omitted required public/index.html;
+  corrected to the documented command above; all checks passed.
+
+The invoking supervisor may independently verify the candidate commit and clean
+worktree and close the existing tmux/status card. This writer does not kill its
+own session or launch a nested runner. Production remains outside this scope.

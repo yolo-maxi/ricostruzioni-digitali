@@ -1,0 +1,9 @@
+brotli==1.2.1
+fonttools==4.68.0
+freetype-py==2.5.1
+numpy==2.5.5
+opencv-python-headless==5.1.0.95
+pillow==13.0.0
+pytest==9.2.0
+scipy==1.18.1
+shapely==2.2.0

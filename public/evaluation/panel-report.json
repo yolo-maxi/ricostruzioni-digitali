@@ -1,0 +1,1494 @@
+{
+ "schema": "balilla-panel-eval/1",
+ "face": {
+  "family": "Balilla Panel Reconstructed",
+  "file_stem": "Balilla-Panel-Reconstructed",
+  "version": "0.1",
+  "label": "Balilla Panel — pale panel lettering"
+ },
+ "selected_sample": {
+  "id": "C.panel",
+  "description": "The pale thin lettering \"mini- stero educa- zione nazio- nale\" (ministero educazione nazionale) inside the dark green panel of the obelisk cover: six lines, 28 letters and 3 hyphens",
+  "phrase": "ministero educazione nazionale",
+  "scored_blocks": [
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6"
+  ],
+  "why": [
+   "it is the lettering that the owner named: the pale thin lettering inside the dark green panel",
+   "it is the only sample of this lettering in the supplied photos at this size (letter height about 62 photo pixels, stroke about 8 photo pixels)",
+   "flat two-colour print: the letters are the paper colour inside the green panel; all 31 shapes are complete and separate",
+   "the six lines give 14 different letters (a c d e i l m n o r s t u z) and the hyphen"
+  ],
+  "limits": "The lettering is drawn by hand: repeated letters (a e i n o z and the hyphen) are not identical, and the font holds one observed shape for each letter. The letters c, d, l, m, r, s, t and u occur once. The letter i has no dot in this lettering. The six lines are not exactly parallel, so each line is measured on its own baseline. The sample shows no space between words and no capitals.",
+  "not_to_be_confused_with": [
+   "the black title lettering \"opera balilla\" on the same cover",
+   "the capitals MINISTERO EDUCAZIONE NAZIONALE on the burgundy cover (the Balilla cover capitals face)",
+   "the numeral XII in the same panel",
+   "the small text lettering of the inside table (photo assets/HXwNYdeXgAE-ocC.jpg), which has the same forms of s and z at a letter height of about 12 photo pixels; it is not used"
+  ]
+ },
+ "source_photo": {
+  "file": "assets/HXwNXsUWEAALJek.jpg",
+  "sha256": "5d67f5157c5440498ff0d5821f21c8ffc225542f5354af47b2360f1308260467"
+ },
+ "supplied_close_photo": {
+  "file": "assets/img_9eb5018c1e1c.jpg",
+  "sha256": "f05b1fc249af0f400094f5ce599de37c46e783c04bb843d5c3d55d8ca940caf9",
+  "relation": "It is the same exposure as assets/HXwNXsUWEAALJek.jpg, reduced to 5/6 of its size. The font is traced from the larger copy. The font file is also compared with the close photo.",
+  "published": false,
+  "measured": {
+   "size_ratio": 0.833333,
+   "mean_abs_difference_after_reduction": 2.14,
+   "correlation_after_reduction": 0.99855,
+   "limits": {
+    "max_mean_abs_difference": 3.0,
+    "min_correlation": 0.995
+   },
+   "same_exposure": true
+  }
+ },
+ "font": {
+  "file": "fonts/Balilla-Panel-Reconstructed.ttf",
+  "sha256": "22d9f0c4e3a3f87354df7ef5c32fff4a8ba8b13a012da74d3fc91a46a138c756",
+  "woff2_sha256": "27ac023b1f3735baf3187359317e4e8e94ac0b8caec8c24e3a08ce329fbc2388"
+ },
+ "normalisation": {
+  "samples_per_rectified_unit": 8,
+  "rectified_unit_in_photo_px": 1.0,
+  "mask_threshold": "ink map >= 0.5 (midway between ground and full ink); the shapes of the line only",
+  "render": "FreeType, no hinting, coverage >= 0.5, glyph origins quantized to 1/8 unit",
+  "baseline": "each line is level on its own measured baseline; all lines have the same scale",
+  "placement": "each glyph starts at the measured left ink edge of its shape and sits on the baseline of its line; the comparison scores letter shapes and not spacing",
+  "letter_height_units": 61.625
+ },
+ "alignment": {
+  "scale": 1.002,
+  "shift_units": [
+   0.0,
+   0.0
+  ],
+  "model": "one uniform scale and one shift for the whole sample (six lines, 31 shapes)",
+  "search": "scale 0.990..1.010 step 0.001; shift within +/-1.5 rectified units"
+ },
+ "shapes": [
+  {
+   "block": "L1",
+   "index": 0,
+   "char": "m",
+   "line_text": "mini-",
+   "traced_from_this_shape": true,
+   "dice": 0.97124,
+   "iou": 0.94408,
+   "pixels": {
+    "source": 100559,
+    "render": 101023,
+    "both": 97892,
+    "source_only": 2667,
+    "render_only": 3131
+   },
+   "boundary_distance_units": {
+    "mean": 0.2061,
+    "p95": 0.375,
+    "max": 0.5154
+   }
+  },
+  {
+   "block": "L1",
+   "index": 1,
+   "char": "i",
+   "line_text": "mini-",
+   "traced_from_this_shape": true,
+   "dice": 0.9843,
+   "iou": 0.96908,
+   "pixels": {
+    "source": 26621,
+    "render": 26747,
+    "both": 26265,
+    "source_only": 356,
+    "render_only": 482
+   },
+   "boundary_distance_units": {
+    "mean": 0.1002,
+    "p95": 0.25,
+    "max": 0.5
+   }
+  },
+  {
+   "block": "L1",
+   "index": 2,
+   "char": "n",
+   "line_text": "mini-",
+   "traced_from_this_shape": true,
+   "dice": 0.97163,
+   "iou": 0.94483,
+   "pixels": {
+    "source": 62675,
+    "render": 62887,
+    "both": 61000,
+    "source_only": 1675,
+    "render_only": 1887
+   },
+   "boundary_distance_units": {
+    "mean": 0.1913,
+    "p95": 0.375,
+    "max": 0.5
+   }
+  },
+  {
+   "block": "L1",
+   "index": 3,
+   "char": "i",
+   "line_text": "mini-",
+   "traced_from_this_shape": false,
+   "dice": 0.95864,
+   "iou": 0.92057,
+   "pixels": {
+    "source": 26130,
+    "render": 26747,
+    "both": 25345,
+    "source_only": 785,
+    "render_only": 1402
+   },
+   "boundary_distance_units": {
+    "mean": 0.2565,
+    "p95": 0.625,
+    "max": 1.0607
+   }
+  },
+  {
+   "block": "L1",
+   "index": 4,
+   "char": "-",
+   "line_text": "mini-",
+   "traced_from_this_shape": false,
+   "dice": 0.74038,
+   "iou": 0.58778,
+   "pixels": {
+    "source": 8991,
+    "render": 7695,
+    "both": 6177,
+    "source_only": 2814,
+    "render_only": 1518
+   },
+   "boundary_distance_units": {
+    "mean": 1.3783,
+    "p95": 2.3465,
+    "max": 2.809
+   }
+  },
+  {
+   "block": "L2",
+   "index": 0,
+   "char": "s",
+   "line_text": "stero",
+   "traced_from_this_shape": true,
+   "dice": 0.98429,
+   "iou": 0.96907,
+   "pixels": {
+    "source": 63367,
+    "render": 63892,
+    "both": 62630,
+    "source_only": 737,
+    "render_only": 1262
+   },
+   "boundary_distance_units": {
+    "mean": 0.1123,
+    "p95": 0.2795,
+    "max": 0.559
+   }
+  },
+  {
+   "block": "L2",
+   "index": 1,
+   "char": "t",
+   "line_text": "stero",
+   "traced_from_this_shape": true,
+   "dice": 0.98259,
+   "iou": 0.96577,
+   "pixels": {
+    "source": 33803,
+    "render": 33908,
+    "both": 33266,
+    "source_only": 537,
+    "render_only": 642
+   },
+   "boundary_distance_units": {
+    "mean": 0.1102,
+    "p95": 0.25,
+    "max": 0.375
+   }
+  },
+  {
+   "block": "L2",
+   "index": 2,
+   "char": "e",
+   "line_text": "stero",
+   "traced_from_this_shape": false,
+   "dice": 0.91001,
+   "iou": 0.83487,
+   "pixels": {
+    "source": 96933,
+    "render": 102505,
+    "both": 90745,
+    "source_only": 6188,
+    "render_only": 11760
+   },
+   "boundary_distance_units": {
+    "mean": 0.6328,
+    "p95": 1.7366,
+    "max": 2.4749
+   }
+  },
+  {
+   "block": "L2",
+   "index": 3,
+   "char": "r",
+   "line_text": "stero",
+   "traced_from_this_shape": true,
+   "dice": 0.9864,
+   "iou": 0.97316,
+   "pixels": {
+    "source": 37959,
+    "render": 38207,
+    "both": 37565,
+    "source_only": 394,
+    "render_only": 642
+   },
+   "boundary_distance_units": {
+    "mean": 0.0909,
+    "p95": 0.25,
+    "max": 0.375
+   }
+  },
+  {
+   "block": "L2",
+   "index": 4,
+   "char": "o",
+   "line_text": "stero",
+   "traced_from_this_shape": false,
+   "dice": 0.83083,
+   "iou": 0.71062,
+   "pixels": {
+    "source": 77900,
+    "render": 79691,
+    "both": 65466,
+    "source_only": 12434,
+    "render_only": 14225
+   },
+   "boundary_distance_units": {
+    "mean": 1.1421,
+    "p95": 1.908,
+    "max": 2.2947
+   }
+  },
+  {
+   "block": "L3",
+   "index": 0,
+   "char": "e",
+   "line_text": "educa-",
+   "traced_from_this_shape": false,
+   "dice": 0.88997,
+   "iou": 0.80176,
+   "pixels": {
+    "source": 94744,
+    "render": 102505,
+    "both": 87773,
+    "source_only": 6971,
+    "render_only": 14732
+   },
+   "boundary_distance_units": {
+    "mean": 0.7959,
+    "p95": 2.152,
+    "max": 3.3096
+   }
+  },
+  {
+   "block": "L3",
+   "index": 1,
+   "char": "d",
+   "line_text": "educa-",
+   "traced_from_this_shape": true,
+   "dice": 0.98394,
+   "iou": 0.96839,
+   "pixels": {
+    "source": 88748,
+    "render": 89163,
+    "both": 87527,
+    "source_only": 1221,
+    "render_only": 1636
+   },
+   "boundary_distance_units": {
+    "mean": 0.1147,
+    "p95": 0.2795,
+    "max": 0.5
+   }
+  },
+  {
+   "block": "L3",
+   "index": 2,
+   "char": "u",
+   "line_text": "educa-",
+   "traced_from_this_shape": true,
+   "dice": 0.98329,
+   "iou": 0.96713,
+   "pixels": {
+    "source": 66288,
+    "render": 66639,
+    "both": 65353,
+    "source_only": 935,
+    "render_only": 1286
+   },
+   "boundary_distance_units": {
+    "mean": 0.1185,
+    "p95": 0.2795,
+    "max": 0.5
+   }
+  },
+  {
+   "block": "L3",
+   "index": 3,
+   "char": "c",
+   "line_text": "educa-",
+   "traced_from_this_shape": true,
+   "dice": 0.98226,
+   "iou": 0.96514,
+   "pixels": {
+    "source": 65384,
+    "render": 65793,
+    "both": 64425,
+    "source_only": 959,
+    "render_only": 1368
+   },
+   "boundary_distance_units": {
+    "mean": 0.1238,
+    "p95": 0.2795,
+    "max": 0.5303
+   }
+  },
+  {
+   "block": "L3",
+   "index": 4,
+   "char": "a",
+   "line_text": "educa-",
+   "traced_from_this_shape": true,
+   "dice": 0.98815,
+   "iou": 0.97658,
+   "pixels": {
+    "source": 89742,
+    "render": 90257,
+    "both": 88933,
+    "source_only": 809,
+    "render_only": 1324
+   },
+   "boundary_distance_units": {
+    "mean": 0.0907,
+    "p95": 0.25,
+    "max": 0.375
+   }
+  },
+  {
+   "block": "L3",
+   "index": 5,
+   "char": "-",
+   "line_text": "educa-",
+   "traced_from_this_shape": false,
+   "dice": 0.91481,
+   "iou": 0.84299,
+   "pixels": {
+    "source": 7823,
+    "render": 7695,
+    "both": 7098,
+    "source_only": 725,
+    "render_only": 597
+   },
+   "boundary_distance_units": {
+    "mean": 0.45,
+    "p95": 1.1524,
+    "max": 2.0349
+   }
+  },
+  {
+   "block": "L4",
+   "index": 0,
+   "char": "z",
+   "line_text": "zione",
+   "traced_from_this_shape": true,
+   "dice": 0.98585,
+   "iou": 0.9721,
+   "pixels": {
+    "source": 80742,
+    "render": 80984,
+    "both": 79719,
+    "source_only": 1023,
+    "render_only": 1265
+   },
+   "boundary_distance_units": {
+    "mean": 0.1008,
+    "p95": 0.25,
+    "max": 0.4507
+   }
+  },
+  {
+   "block": "L4",
+   "index": 1,
+   "char": "i",
+   "line_text": "zione",
+   "traced_from_this_shape": false,
+   "dice": 0.94717,
+   "iou": 0.89964,
+   "pixels": {
+    "source": 27047,
+    "render": 26747,
+    "both": 25476,
+    "source_only": 1571,
+    "render_only": 1271
+   },
+   "boundary_distance_units": {
+    "mean": 0.335,
+    "p95": 1.0,
+    "max": 1.25
+   }
+  },
+  {
+   "block": "L4",
+   "index": 2,
+   "char": "o",
+   "line_text": "zione",
+   "traced_from_this_shape": false,
+   "dice": 0.85196,
+   "iou": 0.74209,
+   "pixels": {
+    "source": 82329,
+    "render": 79691,
+    "both": 69017,
+    "source_only": 13312,
+    "render_only": 10674
+   },
+   "boundary_distance_units": {
+    "mean": 1.0584,
+    "p95": 2.0349,
+    "max": 2.3049
+   }
+  },
+  {
+   "block": "L4",
+   "index": 3,
+   "char": "n",
+   "line_text": "zione",
+   "traced_from_this_shape": false,
+   "dice": 0.94281,
+   "iou": 0.89181,
+   "pixels": {
+    "source": 60667,
+    "render": 62887,
+    "both": 58244,
+    "source_only": 2423,
+    "render_only": 4643
+   },
+   "boundary_distance_units": {
+    "mean": 0.3752,
+    "p95": 1.0,
+    "max": 1.4577
+   }
+  },
+  {
+   "block": "L4",
+   "index": 4,
+   "char": "e",
+   "line_text": "zione",
+   "traced_from_this_shape": true,
+   "dice": 0.98231,
+   "iou": 0.96523,
+   "pixels": {
+    "source": 101728,
+    "render": 102505,
+    "both": 100310,
+    "source_only": 1418,
+    "render_only": 2195
+   },
+   "boundary_distance_units": {
+    "mean": 0.1322,
+    "p95": 0.3536,
+    "max": 0.625
+   }
+  },
+  {
+   "block": "L5",
+   "index": 0,
+   "char": "n",
+   "line_text": "nazio-",
+   "traced_from_this_shape": false,
+   "dice": 0.86555,
+   "iou": 0.76296,
+   "pixels": {
+    "source": 58955,
+    "render": 62887,
+    "both": 52730,
+    "source_only": 6225,
+    "render_only": 10157
+   },
+   "boundary_distance_units": {
+    "mean": 0.865,
+    "p95": 1.8456,
+    "max": 2.5
+   }
+  },
+  {
+   "block": "L5",
+   "index": 1,
+   "char": "a",
+   "line_text": "nazio-",
+   "traced_from_this_shape": false,
+   "dice": 0.86286,
+   "iou": 0.7588,
+   "pixels": {
+    "source": 89302,
+    "render": 90257,
+    "both": 77467,
+    "source_only": 11835,
+    "render_only": 12790
+   },
+   "boundary_distance_units": {
+    "mean": 1.0228,
+    "p95": 2.2535,
+    "max": 2.4906
+   }
+  },
+  {
+   "block": "L5",
+   "index": 2,
+   "char": "z",
+   "line_text": "nazio-",
+   "traced_from_this_shape": false,
+   "dice": 0.89781,
+   "iou": 0.81457,
+   "pixels": {
+    "source": 88295,
+    "render": 80984,
+    "both": 75990,
+    "source_only": 12305,
+    "render_only": 4994
+   },
+   "boundary_distance_units": {
+    "mean": 0.7091,
+    "p95": 1.125,
+    "max": 3.9706
+   }
+  },
+  {
+   "block": "L5",
+   "index": 3,
+   "char": "i",
+   "line_text": "nazio-",
+   "traced_from_this_shape": false,
+   "dice": 0.92097,
+   "iou": 0.85351,
+   "pixels": {
+    "source": 26217,
+    "render": 26747,
+    "both": 24389,
+    "source_only": 1828,
+    "render_only": 2358
+   },
+   "boundary_distance_units": {
+    "mean": 0.4914,
+    "p95": 1.375,
+    "max": 2.73
+   }
+  },
+  {
+   "block": "L5",
+   "index": 4,
+   "char": "o",
+   "line_text": "nazio-",
+   "traced_from_this_shape": true,
+   "dice": 0.98381,
+   "iou": 0.96814,
+   "pixels": {
+    "source": 78951,
+    "render": 79691,
+    "both": 78037,
+    "source_only": 914,
+    "render_only": 1654
+   },
+   "boundary_distance_units": {
+    "mean": 0.1162,
+    "p95": 0.2795,
+    "max": 0.8385
+   }
+  },
+  {
+   "block": "L5",
+   "index": 5,
+   "char": "-",
+   "line_text": "nazio-",
+   "traced_from_this_shape": true,
+   "dice": 0.98056,
+   "iou": 0.96187,
+   "pixels": {
+    "source": 7688,
+    "render": 7695,
+    "both": 7542,
+    "source_only": 146,
+    "render_only": 153
+   },
+   "boundary_distance_units": {
+    "mean": 0.0995,
+    "p95": 0.1768,
+    "max": 0.2795
+   }
+  },
+  {
+   "block": "L6",
+   "index": 0,
+   "char": "n",
+   "line_text": "nale",
+   "traced_from_this_shape": false,
+   "dice": 0.89238,
+   "iou": 0.80567,
+   "pixels": {
+    "source": 63277,
+    "render": 62887,
+    "both": 56293,
+    "source_only": 6984,
+    "render_only": 6594
+   },
+   "boundary_distance_units": {
+    "mean": 0.7045,
+    "p95": 1.6771,
+    "max": 2.0156
+   }
+  },
+  {
+   "block": "L6",
+   "index": 1,
+   "char": "a",
+   "line_text": "nale",
+   "traced_from_this_shape": false,
+   "dice": 0.89176,
+   "iou": 0.80467,
+   "pixels": {
+    "source": 92341,
+    "render": 90257,
+    "both": 81417,
+    "source_only": 10924,
+    "render_only": 8840
+   },
+   "boundary_distance_units": {
+    "mean": 0.8072,
+    "p95": 1.4631,
+    "max": 1.7766
+   }
+  },
+  {
+   "block": "L6",
+   "index": 2,
+   "char": "l",
+   "line_text": "nale",
+   "traced_from_this_shape": true,
+   "dice": 0.97899,
+   "iou": 0.95884,
+   "pixels": {
+    "source": 36283,
+    "render": 36294,
+    "both": 35526,
+    "source_only": 757,
+    "render_only": 768
+   },
+   "boundary_distance_units": {
+    "mean": 0.1566,
+    "p95": 0.375,
+    "max": 0.625
+   }
+  },
+  {
+   "block": "L6",
+   "index": 3,
+   "char": "e",
+   "line_text": "nale",
+   "traced_from_this_shape": false,
+   "dice": 0.91023,
+   "iou": 0.83525,
+   "pixels": {
+    "source": 103885,
+    "render": 102505,
+    "both": 93931,
+    "source_only": 9954,
+    "render_only": 8574
+   },
+   "boundary_distance_units": {
+    "mean": 0.6535,
+    "p95": 1.625,
+    "max": 1.9445
+   }
+  }
+ ],
+ "glyphs": {
+  "m": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L1",
+    "index": 0,
+    "dice": 0.97124,
+    "iou": 0.94408
+   },
+   "all_shapes": [
+    {
+     "block": "L1",
+     "index": 0,
+     "dice": 0.97124,
+     "iou": 0.94408
+    }
+   ],
+   "mean_dice": 0.97124,
+   "lowest_dice": 0.97124
+  },
+  "i": {
+   "occurrences": 4,
+   "traced_shape": {
+    "block": "L1",
+    "index": 1,
+    "dice": 0.9843,
+    "iou": 0.96908
+   },
+   "all_shapes": [
+    {
+     "block": "L1",
+     "index": 1,
+     "dice": 0.9843,
+     "iou": 0.96908
+    },
+    {
+     "block": "L1",
+     "index": 3,
+     "dice": 0.95864,
+     "iou": 0.92057
+    },
+    {
+     "block": "L4",
+     "index": 1,
+     "dice": 0.94717,
+     "iou": 0.89964
+    },
+    {
+     "block": "L5",
+     "index": 3,
+     "dice": 0.92097,
+     "iou": 0.85351
+    }
+   ],
+   "mean_dice": 0.95277,
+   "lowest_dice": 0.92097
+  },
+  "n": {
+   "occurrences": 4,
+   "traced_shape": {
+    "block": "L1",
+    "index": 2,
+    "dice": 0.97163,
+    "iou": 0.94483
+   },
+   "all_shapes": [
+    {
+     "block": "L1",
+     "index": 2,
+     "dice": 0.97163,
+     "iou": 0.94483
+    },
+    {
+     "block": "L4",
+     "index": 3,
+     "dice": 0.94281,
+     "iou": 0.89181
+    },
+    {
+     "block": "L5",
+     "index": 0,
+     "dice": 0.86555,
+     "iou": 0.76296
+    },
+    {
+     "block": "L6",
+     "index": 0,
+     "dice": 0.89238,
+     "iou": 0.80567
+    }
+   ],
+   "mean_dice": 0.91809,
+   "lowest_dice": 0.86555
+  },
+  "-": {
+   "occurrences": 3,
+   "traced_shape": {
+    "block": "L5",
+    "index": 5,
+    "dice": 0.98056,
+    "iou": 0.96187
+   },
+   "all_shapes": [
+    {
+     "block": "L1",
+     "index": 4,
+     "dice": 0.74038,
+     "iou": 0.58778
+    },
+    {
+     "block": "L3",
+     "index": 5,
+     "dice": 0.91481,
+     "iou": 0.84299
+    },
+    {
+     "block": "L5",
+     "index": 5,
+     "dice": 0.98056,
+     "iou": 0.96187
+    }
+   ],
+   "mean_dice": 0.87858,
+   "lowest_dice": 0.74038
+  },
+  "s": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L2",
+    "index": 0,
+    "dice": 0.98429,
+    "iou": 0.96907
+   },
+   "all_shapes": [
+    {
+     "block": "L2",
+     "index": 0,
+     "dice": 0.98429,
+     "iou": 0.96907
+    }
+   ],
+   "mean_dice": 0.98429,
+   "lowest_dice": 0.98429
+  },
+  "t": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L2",
+    "index": 1,
+    "dice": 0.98259,
+    "iou": 0.96577
+   },
+   "all_shapes": [
+    {
+     "block": "L2",
+     "index": 1,
+     "dice": 0.98259,
+     "iou": 0.96577
+    }
+   ],
+   "mean_dice": 0.98259,
+   "lowest_dice": 0.98259
+  },
+  "e": {
+   "occurrences": 4,
+   "traced_shape": {
+    "block": "L4",
+    "index": 4,
+    "dice": 0.98231,
+    "iou": 0.96523
+   },
+   "all_shapes": [
+    {
+     "block": "L2",
+     "index": 2,
+     "dice": 0.91001,
+     "iou": 0.83487
+    },
+    {
+     "block": "L3",
+     "index": 0,
+     "dice": 0.88997,
+     "iou": 0.80176
+    },
+    {
+     "block": "L4",
+     "index": 4,
+     "dice": 0.98231,
+     "iou": 0.96523
+    },
+    {
+     "block": "L6",
+     "index": 3,
+     "dice": 0.91023,
+     "iou": 0.83525
+    }
+   ],
+   "mean_dice": 0.92313,
+   "lowest_dice": 0.88997
+  },
+  "r": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L2",
+    "index": 3,
+    "dice": 0.9864,
+    "iou": 0.97316
+   },
+   "all_shapes": [
+    {
+     "block": "L2",
+     "index": 3,
+     "dice": 0.9864,
+     "iou": 0.97316
+    }
+   ],
+   "mean_dice": 0.9864,
+   "lowest_dice": 0.9864
+  },
+  "o": {
+   "occurrences": 3,
+   "traced_shape": {
+    "block": "L5",
+    "index": 4,
+    "dice": 0.98381,
+    "iou": 0.96814
+   },
+   "all_shapes": [
+    {
+     "block": "L2",
+     "index": 4,
+     "dice": 0.83083,
+     "iou": 0.71062
+    },
+    {
+     "block": "L4",
+     "index": 2,
+     "dice": 0.85196,
+     "iou": 0.74209
+    },
+    {
+     "block": "L5",
+     "index": 4,
+     "dice": 0.98381,
+     "iou": 0.96814
+    }
+   ],
+   "mean_dice": 0.88887,
+   "lowest_dice": 0.83083
+  },
+  "d": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L3",
+    "index": 1,
+    "dice": 0.98394,
+    "iou": 0.96839
+   },
+   "all_shapes": [
+    {
+     "block": "L3",
+     "index": 1,
+     "dice": 0.98394,
+     "iou": 0.96839
+    }
+   ],
+   "mean_dice": 0.98394,
+   "lowest_dice": 0.98394
+  },
+  "u": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L3",
+    "index": 2,
+    "dice": 0.98329,
+    "iou": 0.96713
+   },
+   "all_shapes": [
+    {
+     "block": "L3",
+     "index": 2,
+     "dice": 0.98329,
+     "iou": 0.96713
+    }
+   ],
+   "mean_dice": 0.98329,
+   "lowest_dice": 0.98329
+  },
+  "c": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L3",
+    "index": 3,
+    "dice": 0.98226,
+    "iou": 0.96514
+   },
+   "all_shapes": [
+    {
+     "block": "L3",
+     "index": 3,
+     "dice": 0.98226,
+     "iou": 0.96514
+    }
+   ],
+   "mean_dice": 0.98226,
+   "lowest_dice": 0.98226
+  },
+  "a": {
+   "occurrences": 3,
+   "traced_shape": {
+    "block": "L3",
+    "index": 4,
+    "dice": 0.98815,
+    "iou": 0.97658
+   },
+   "all_shapes": [
+    {
+     "block": "L3",
+     "index": 4,
+     "dice": 0.98815,
+     "iou": 0.97658
+    },
+    {
+     "block": "L5",
+     "index": 1,
+     "dice": 0.86286,
+     "iou": 0.7588
+    },
+    {
+     "block": "L6",
+     "index": 1,
+     "dice": 0.89176,
+     "iou": 0.80467
+    }
+   ],
+   "mean_dice": 0.91426,
+   "lowest_dice": 0.86286
+  },
+  "z": {
+   "occurrences": 2,
+   "traced_shape": {
+    "block": "L4",
+    "index": 0,
+    "dice": 0.98585,
+    "iou": 0.9721
+   },
+   "all_shapes": [
+    {
+     "block": "L4",
+     "index": 0,
+     "dice": 0.98585,
+     "iou": 0.9721
+    },
+    {
+     "block": "L5",
+     "index": 2,
+     "dice": 0.89781,
+     "iou": 0.81457
+    }
+   ],
+   "mean_dice": 0.94183,
+   "lowest_dice": 0.89781
+  },
+  "l": {
+   "occurrences": 1,
+   "traced_shape": {
+    "block": "L6",
+    "index": 2,
+    "dice": 0.97899,
+    "iou": 0.95884
+   },
+   "all_shapes": [
+    {
+     "block": "L6",
+     "index": 2,
+     "dice": 0.97899,
+     "iou": 0.95884
+    }
+   ],
+   "mean_dice": 0.97899,
+   "lowest_dice": 0.97899
+  }
+ },
+ "aggregate": {
+  "scope": "the 31 observed shapes of the selected sample; no extrapolated glyph is scored",
+  "all_observed_shapes": {
+   "shapes": 31,
+   "dice": 0.93426,
+   "iou": 0.87662,
+   "pixels": {
+    "source": 1945374,
+    "render": 1958372,
+    "both": 1823548,
+    "source_only": 121826,
+    "render_only": 134824
+   }
+  },
+  "traced_shapes": {
+   "shapes": 15,
+   "dice": 0.98185,
+   "iou": 0.96434,
+   "pixels": {
+    "source": 940538,
+    "render": 945685,
+    "both": 925990,
+    "source_only": 14548,
+    "render_only": 19695
+   },
+   "note": "the 15 shapes that the font glyphs were traced from"
+  },
+  "other_occurrences": {
+   "shapes": 16,
+   "dice": 0.88976,
+   "iou": 0.80142,
+   "pixels": {
+    "source": 1004836,
+    "render": 1012687,
+    "both": 897558,
+    "source_only": 107278,
+    "render_only": 115129
+   },
+   "note": "the 16 other occurrences of the repeated letters and the hyphen; hand-drawn, so each differs from the traced one"
+  },
+  "without_search_dice": 0.93397
+ },
+ "dice": 0.93426,
+ "iou": 0.87662,
+ "pixels": {
+  "source": 1945374,
+  "render": 1958372,
+  "both": 1823548,
+  "source_only": 121826,
+  "render_only": 134824
+ },
+ "spacing": {
+  "model": "gap = right bearing of the left letter + left bearing of the right letter; straight sides share one value, round sides share one value, other sides have their own value; least squares on 21 gaps between letters; the right side of r has the bearing of t, and the measured distance r-o is a kerning pair",
+  "gaps": [
+   {
+    "left": "m",
+    "right": "i",
+    "measured_units": 164.3,
+    "font_units": 162,
+    "difference_units": -2.3
+   },
+   {
+    "left": "i",
+    "right": "n",
+    "measured_units": 163.1,
+    "font_units": 162,
+    "difference_units": -1.1
+   },
+   {
+    "left": "n",
+    "right": "i",
+    "measured_units": 164.3,
+    "font_units": 162,
+    "difference_units": -2.3
+   },
+   {
+    "left": "i",
+    "right": "-",
+    "measured_units": 185.0,
+    "font_units": 131,
+    "difference_units": -54.0
+   },
+   {
+    "left": "s",
+    "right": "t",
+    "measured_units": 142.4,
+    "font_units": 152,
+    "difference_units": 9.6
+   },
+   {
+    "left": "t",
+    "right": "e",
+    "measured_units": 96.1,
+    "font_units": 96,
+    "difference_units": -0.1
+   },
+   {
+    "left": "e",
+    "right": "r",
+    "measured_units": 135.1,
+    "font_units": 140,
+    "difference_units": 4.9
+   },
+   {
+    "left": "r",
+    "right": "o",
+    "measured_units": 24.3,
+    "font_units": 24,
+    "difference_units": -0.3
+   },
+   {
+    "left": "e",
+    "right": "d",
+    "measured_units": 135.1,
+    "font_units": 130,
+    "difference_units": -5.1
+   },
+   {
+    "left": "d",
+    "right": "u",
+    "measured_units": 157.0,
+    "font_units": 157,
+    "difference_units": 0.0
+   },
+   {
+    "left": "u",
+    "right": "c",
+    "measured_units": 161.9,
+    "font_units": 152,
+    "difference_units": -9.9
+   },
+   {
+    "left": "c",
+    "right": "a",
+    "measured_units": 141.2,
+    "font_units": 141,
+    "difference_units": -0.2
+   },
+   {
+    "left": "a",
+    "right": "-",
+    "measured_units": 86.4,
+    "font_units": 108,
+    "difference_units": 21.6
+   },
+   {
+    "left": "z",
+    "right": "i",
+    "measured_units": 144.8,
+    "font_units": 153,
+    "difference_units": 8.2
+   },
+   {
+    "left": "i",
+    "right": "o",
+    "measured_units": 144.8,
+    "font_units": 152,
+    "difference_units": 7.2
+   },
+   {
+    "left": "o",
+    "right": "n",
+    "measured_units": 157.0,
+    "font_units": 152,
+    "difference_units": -5.0
+   },
+   {
+    "left": "n",
+    "right": "e",
+    "measured_units": 171.6,
+    "font_units": 152,
+    "difference_units": -19.6
+   },
+   {
+    "left": "n",
+    "right": "a",
+    "measured_units": 157.0,
+    "font_units": 152,
+    "difference_units": -5.0
+   },
+   {
+    "left": "a",
+    "right": "z",
+    "measured_units": 124.1,
+    "font_units": 125,
+    "difference_units": 0.9
+   },
+   {
+    "left": "z",
+    "right": "i",
+    "measured_units": 161.9,
+    "font_units": 153,
+    "difference_units": -8.9
+   },
+   {
+    "left": "i",
+    "right": "o",
+    "measured_units": 136.3,
+    "font_units": 152,
+    "difference_units": 15.7
+   },
+   {
+    "left": "o",
+    "right": "-",
+    "measured_units": 121.7,
+    "font_units": 121,
+    "difference_units": -0.7
+   },
+   {
+    "left": "n",
+    "right": "a",
+    "measured_units": 163.1,
+    "font_units": 152,
+    "difference_units": -11.1
+   },
+   {
+    "left": "a",
+    "right": "l",
+    "measured_units": 138.7,
+    "font_units": 139,
+    "difference_units": 0.3
+   },
+   {
+    "left": "l",
+    "right": "e",
+    "measured_units": 132.7,
+    "font_units": 152,
+    "difference_units": 19.3
+   }
+  ],
+  "letter_gap_rms_difference_units": 8.6,
+  "letter_gap_max_difference_units": 19.6
+ },
+ "gate": {
+  "metric": "dice",
+  "threshold": 0.95,
+  "applies_to": "each traced glyph, compared with the source shape that it was traced from",
+  "value": 0.97124,
+  "pass": true
+ },
+ "claim_100_percent": false,
+ "cross_check_supplied_close_photo": {
+  "note": "the same comparison with the close photo that the owner supplied (the same exposure at 5/6 of the size); not gated",
+  "rectified_unit_in_photo_px": 0.9999,
+  "letter_height_units": 51.25,
+  "alignment": {
+   "scale": 1.004,
+   "shift_units": [
+    0.0,
+    0.0
+   ]
+  },
+  "all_observed_shapes": {
+   "shapes": 31,
+   "dice": 0.9332,
+   "iou": 0.87477,
+   "pixels": {
+    "source": 1349325,
+    "render": 1359899,
+    "both": 1264129,
+    "source_only": 85196,
+    "render_only": 95770
+   }
+  },
+  "traced_shapes": {
+   "shapes": 15,
+   "dice": 0.97775,
+   "iou": 0.95646,
+   "pixels": {
+    "source": 652059,
+    "render": 656714,
+    "both": 639825,
+    "source_only": 12234,
+    "render_only": 16889
+   }
+  },
+  "glyphs": {
+   "m": {
+    "traced_shape_dice": 0.97758,
+    "mean_dice": 0.97758,
+    "lowest_dice": 0.97758
+   },
+   "i": {
+    "traced_shape_dice": 0.98396,
+    "mean_dice": 0.95208,
+    "lowest_dice": 0.91783
+   },
+   "n": {
+    "traced_shape_dice": 0.9574,
+    "mean_dice": 0.91566,
+    "lowest_dice": 0.88187
+   },
+   "-": {
+    "traced_shape_dice": 0.9799,
+    "mean_dice": 0.8778,
+    "lowest_dice": 0.73822
+   },
+   "s": {
+    "traced_shape_dice": 0.98012,
+    "mean_dice": 0.98012,
+    "lowest_dice": 0.98012
+   },
+   "t": {
+    "traced_shape_dice": 0.98509,
+    "mean_dice": 0.98509,
+    "lowest_dice": 0.98509
+   },
+   "e": {
+    "traced_shape_dice": 0.96994,
+    "mean_dice": 0.92256,
+    "lowest_dice": 0.89873
+   },
+   "r": {
+    "traced_shape_dice": 0.98413,
+    "mean_dice": 0.98413,
+    "lowest_dice": 0.98413
+   },
+   "o": {
+    "traced_shape_dice": 0.98098,
+    "mean_dice": 0.88948,
+    "lowest_dice": 0.83435
+   },
+   "d": {
+    "traced_shape_dice": 0.98165,
+    "mean_dice": 0.98165,
+    "lowest_dice": 0.98165
+   },
+   "u": {
+    "traced_shape_dice": 0.98339,
+    "mean_dice": 0.98339,
+    "lowest_dice": 0.98339
+   },
+   "c": {
+    "traced_shape_dice": 0.97358,
+    "mean_dice": 0.97358,
+    "lowest_dice": 0.97358
+   },
+   "a": {
+    "traced_shape_dice": 0.98149,
+    "mean_dice": 0.91385,
+    "lowest_dice": 0.86352
+   },
+   "z": {
+    "traced_shape_dice": 0.97784,
+    "mean_dice": 0.93644,
+    "lowest_dice": 0.89503
+   },
+   "l": {
+    "traced_shape_dice": 0.98387,
+    "mean_dice": 0.98387,
+    "lowest_dice": 0.98387
+   }
+  }
+ },
+ "images": {
+  "lines": {
+   "source": "panel-lines-source.jpg",
+   "reconstruction": "panel-lines-reconstruction.png",
+   "overlay": "panel-lines-overlay.png"
+  },
+  "glyphs": {
+   "s": {
+    "source": "panel-glyph-s-source.jpg",
+    "reconstruction": "panel-glyph-s-reconstruction.png",
+    "overlay": "panel-glyph-s-overlay.png"
+   },
+   "t": {
+    "source": "panel-glyph-t-source.jpg",
+    "reconstruction": "panel-glyph-t-reconstruction.png",
+    "overlay": "panel-glyph-t-overlay.png"
+   },
+   "z": {
+    "source": "panel-glyph-z-source.jpg",
+    "reconstruction": "panel-glyph-z-reconstruction.png",
+    "overlay": "panel-glyph-z-overlay.png"
+   }
+  },
+  "all_shapes_overlay": "panel-shapes-overlay.png"
+ },
+ "scope_note": "The glyphs were traced from this sample. Each glyph holds one observed shape; the other occurrences of a repeated letter are drawn differently by hand and score lower. The scores are not an independent test. They do not cover spacing or the extrapolated glyphs."
+}

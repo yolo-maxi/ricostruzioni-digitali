@@ -1,0 +1,72 @@
+{
+ "schema": "balilla-focus-eval/1",
+ "selected_block": {
+  "id": "A.caps.L2",
+  "description": "Row 2 (EDUCAZIONE) of the knocked-out capitals on the burgundy cover",
+  "scored_text": "DUCAZION",
+  "why": [
+   "largest clean capitals in the supplied photos (cap height about 68 photo pixels)",
+   "flat two-colour print with high contrast and no overprint, stain or spray texture",
+   "middle row of the band: 8 complete letters, the most of the three rows",
+   "this lettering is the heavy capital style that the v0.1 font used for its uppercase"
+  ],
+  "limits": "The first and last letter (E) of the row are cut by the photo edge. They are not scored."
+ },
+ "source_photo": {
+  "file": "assets/HXwNV_7W8AAs8y6.jpg",
+  "sha256": "bd87ebd100ab1238cffe15831c1d6262a3dae2fa08cb37b8567321ba9bba89a8"
+ },
+ "font": {
+  "file": "fonts/Balilla-Reconstructed.ttf",
+  "sha256": "7bf270f3f6cd60609258abeab8673ec586a58a1dc063fed7120c2e625a2c97d5",
+  "woff2_sha256": "074358fe1ff94c4bd87496a99bf7e3b2cd0a40274917d9afb65f35c730f7f605"
+ },
+ "scored_text": "DUCAZION",
+ "normalisation": {
+  "samples_per_rectified_unit": 8,
+  "rectified_unit_in_photo_px": 1.121,
+  "mask_threshold": "ink map >= 0.5 (midway between ground and full ink)",
+  "render": "FreeType, no hinting, coverage >= 0.5, font advances, glyph origins quantized to 1/8 unit",
+  "region_samples": [
+   5399,
+   512
+  ],
+  "cap_height_units": 58.0
+ },
+ "alignment": {
+  "model": "one uniform scale and one translation for the whole line",
+  "search": "scale 0.990..1.010 step 0.001; shift within +/-1.5 rectified units",
+  "scale": 1.0,
+  "shift_units": [
+   0.0,
+   0.0
+  ]
+ },
+ "dice": 0.9964,
+ "iou": 0.99282,
+ "pixels": {
+  "source": 1134545,
+  "render": 1136111,
+  "both": 1131237,
+  "source_only": 3308,
+  "render_only": 4874
+ },
+ "boundary_distance_units": {
+  "mean": 0.0613,
+  "p95": 0.125,
+  "max": 0.2795
+ },
+ "without_search": {
+  "dice": 0.9964,
+  "iou": 0.99282,
+  "note": "scale and position taken from the build, no search"
+ },
+ "gate": {
+  "metric": "dice",
+  "threshold": 0.95,
+  "value": 0.9964,
+  "pass": true
+ },
+ "claim_100_percent": false,
+ "scope_note": "The glyphs were traced from this block. The score shows how well the font file reproduces the photographed lettering after one scale and one shift. It is not an independent test and it does not cover the extrapolated glyphs."
+}

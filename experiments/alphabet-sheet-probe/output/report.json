@@ -1,0 +1,3135 @@
+{
+  "artifacts": {
+    "contact-sheet.png": "1bbc0dfda608f019b0e419d4fb23969daa76507b7e56e80f087158afbaf7aa81",
+    "font-proof.png": "e34734e65396e46b276c82ba331e49bb525100a6fe7c5acb1639d8debee6315a",
+    "fonts/Alphabet-Sheet-EXPERIMENTAL-Observed-Only.ttf": "6be821e0220744d3909c8bdf3b61f95895f6f2d7ea36b1b5ec75576c9bdb0c15",
+    "fonts/Alphabet-Sheet-EXPERIMENTAL-Observed-Only.woff2": "09438a3cc46789e3ededf19a8e8b98fc8f173ba3ddbf6960df19f8d83faab0f8",
+    "glyphs/uni0026-mask.png": "6ed2c7693c73b4b5822ac12a3262ca24bb28ecd3c9609ace4881b54e059b7011",
+    "glyphs/uni0026-source.png": "e91accc272ffa5d9b8c1c76288b242b2d784b7b9f736ba52fa49f81af976d1e5",
+    "glyphs/uni0030-mask.png": "8226b7902859ddd380d022afc8a5480174dedfad92fd9263aca64bed058ffa0b",
+    "glyphs/uni0030-source.png": "84fd430a9672bb55b71f13e81a451aa4ac819573b62ba9010ffd5708a47fc84f",
+    "glyphs/uni0031-mask.png": "555fa30d2e28225de11101aae7065359b50d087d22305ce91fe17ba83158c3c7",
+    "glyphs/uni0031-source.png": "7a15343fbf84691dae58810bda78bb9fe6bc384f185c398133a469ec322710c5",
+    "glyphs/uni0032-mask.png": "13f8fc497ac8f9121ca3f02615a061f7fd8471feb5e92827f5d8a4bd97675fa3",
+    "glyphs/uni0032-source.png": "4cef18abd3f4f2cd991c657c4ce8afd780ef1eb11b5789b5100ce14282bc961d",
+    "glyphs/uni0033-mask.png": "25b463f236034cb0703d5d0f8e0a18d219f2bb6b1925066dd9511c338e747195",
+    "glyphs/uni0033-source.png": "e1930b900f5ce942b5ed74b30e71b7e634c5769bd7a25de531b86420a0932eae",
+    "glyphs/uni0034-mask.png": "f94b22742323284c95651fb78321799325214a610a0b240fd880f65d50be2ab0",
+    "glyphs/uni0034-source.png": "3993dad499f682b4da8a10450eab671d28d22a6c80aee6f2069287a4986c75c7",
+    "glyphs/uni0035-mask.png": "171b22a49703a9360801e670c5d06ffef80f9176e37567ddd4d4253bb6696b4d",
+    "glyphs/uni0035-source.png": "677e626a4ef3f963bec70e32c917f56add0bbf7215d354075373ef4ecafc2ff1",
+    "glyphs/uni0036-mask.png": "626d93a3853517bf174629f73696e0b8298620eaa983f9e62808b0499dcd78fe",
+    "glyphs/uni0036-source.png": "4263a04eed35ae90d5b9218d2abbea2b4d5b66b8eba1a96f4107c0c9ce4592b8",
+    "glyphs/uni0037-mask.png": "59c1df7f664de9a8b24404027d1a294f44a3215278b223e949375d194aaf8778",
+    "glyphs/uni0037-source.png": "a94a5d9947895c01303284dd0b7f4260c02b7341d87287af05647bbb0934dec4",
+    "glyphs/uni0038-mask.png": "c27e253600b215a8f5454206f15302c10c0e8703ba63b388d27947a197ed037f",
+    "glyphs/uni0038-source.png": "6190759033ce96a9103cffb298e58299ef31bac336107e3f34e9fe09fc0a0ec2",
+    "glyphs/uni0039-mask.png": "447fd69eaad7090a1fcc9fcfa308704a1e4ffbfa56731405753fce19c80b71d1",
+    "glyphs/uni0039-source.png": "a002d5976d185a5bd295ad26c42fab76cb7974187af4d96a43bba4dffbe1d667",
+    "glyphs/uni0041-mask.png": "3f430e7abb436d24e301b4bf285b6685ffcf5ca395a78b3e0921dbe117fc4c42",
+    "glyphs/uni0041-source.png": "990cb60ba43c2a43a4f195bbc1135b8db9e7930994a196ba238616942469fc24",
+    "glyphs/uni0042-mask.png": "f519defc0cacfd3afce99d0f3787b4718c4a33a0b6ffa39234e9c1fbea6d33c5",
+    "glyphs/uni0042-source.png": "8b7f3ae7c3db35fae57fe492b82770d45301b0248319220c9846d49052945b18",
+    "glyphs/uni0043-mask.png": "1c0ff406820d4a6a8335e20db0b76d02fb8ae93f1976183b449c68dc6428ea9c",
+    "glyphs/uni0043-source.png": "045eb76a21ce0140ee52add2f27fc277b282ea95984cf85f0978c79707107c52",
+    "glyphs/uni0044-mask.png": "d4575f8c1d062aa27c03ac5b3c5e6447c241fa30de86b470ef3260c7cb78e7bf",
+    "glyphs/uni0044-source.png": "967e652bfd0c46f9c0f8124be81d28ad199f267e7122e5a8716c99e9fa14a2bf",
+    "glyphs/uni0045-mask.png": "c7338ad73d1354dcdc921afceb3fedb7e07ed58919dad4c17e502595f5f1487f",
+    "glyphs/uni0045-source.png": "f7a33382212a35ec145e5946a666d2f9eec1715061caee09025ba54694f950d0",
+    "glyphs/uni0046-mask.png": "3f706316ebbe749c19ff1c2473c4258021b6680b545fdd1f20aac5c4f8a79822",
+    "glyphs/uni0046-source.png": "63e64edac1484feec6119b4cf0a6c94c3b9da9b2f489907070e5107b02f428bf",
+    "glyphs/uni0047-mask.png": "0f999df3930a76870f122db7eec3161d799098ac9eee3906b38cdd870858d970",
+    "glyphs/uni0047-source.png": "3a6818ef2bcceb73f4069c2a6f30002772b9203baa14702899fc4cb3474ae21b",
+    "glyphs/uni0048-mask.png": "c35f0c7a0d893631828a6263ab8a0a63fbde3117e3f0b9c0d49dc68048df8138",
+    "glyphs/uni0048-source.png": "c0e99b2ca6a26ad0538c8c129d11d5a52166ff2c6a3b7ecbbed644dfc0ac7abb",
+    "glyphs/uni0049-mask.png": "83ef4d3a6fe802ce20b47d2af480ee806d85d1bddfbaf0037fe5549f1663482c",
+    "glyphs/uni0049-source.png": "2a741da521cbea577896e9577c24b00737304cbe4f39dba987d2ddadcce935fa",
+    "glyphs/uni004A-mask.png": "407fbde5bda896ddebcf73c7e4c83b5be7e937e4e5aeae3da6f27fee396e762a",
+    "glyphs/uni004A-source.png": "4c38c6ac57a1716dc8c8cdfbfcc140cf110221af2f0b239c441a746fe8e04028",
+    "glyphs/uni004B-mask.png": "b1689445fe00e7ded8d37b4fede0f2f317c1e1342669a8f7c71f2164dcdd94ed",
+    "glyphs/uni004B-source.png": "49f9bbfc0634984090f1b69d0358412ea1d1da3a127cf13c2df48ecbe87b417a",
+    "glyphs/uni004C-mask.png": "ff52d205f16b849d9f9313dee13da4b6c917238d4f7ebc6246f88da0ce37a28b",
+    "glyphs/uni004C-source.png": "2e0b906b346e1bd7047b093f017e435c0f2e73d2e1a7eeb8b80b70f7e16ce020",
+    "glyphs/uni004D-mask.png": "6532b8200c80566c9dbbc3ac0cb5539e3e9a77682fa0231ce396f125cd92e80c",
+    "glyphs/uni004D-source.png": "02ec048bba22557ede1d81e850a11e0d6b7540624e1c8989a33bb43f586ed381",
+    "glyphs/uni004E-mask.png": "4edb6f2022d10b634d172169b1ac0a5beb560bb6ebbcd0e8871327c8636f9450",
+    "glyphs/uni004E-source.png": "272db595bad1d99ec24bbf388b30c6d9cff0f9d2a884dda7997bbb9fd5efb035",
+    "glyphs/uni004F-mask.png": "71f477639a189ae108b385f7fe1339173c29b3152af7be92ed8f9f4da591f96f",
+    "glyphs/uni004F-source.png": "c85c32d73ee8809767798f6de14d606897ebdd226a29d45903db94d12fe23f39",
+    "glyphs/uni0050-mask.png": "aeef0fbb6e2283428742198af181afb41a031760a52bceeeb770ef65c7c7bb22",
+    "glyphs/uni0050-source.png": "ef01c3e379687b93722d04f43855b12311188df982f70a88ef7aadb6d5a4eb34",
+    "glyphs/uni0051-mask.png": "7a1998dda4a7f171006973ec7ee0c1d007239204cbf04f088e40268bd76cbe0d",
+    "glyphs/uni0051-source.png": "53fdd78f73f82885867bf2da8f2f3044b2c365b8cdc2e8b92e0da79aa34c27b7",
+    "glyphs/uni0052-mask.png": "cb6004327faaf2e9d6ab62f1ef2a3d543caa48913af1d79ab23295b8d058f0b0",
+    "glyphs/uni0052-source.png": "8d0e84636d9e861bf3f77f53c403e11120fb77416b320d9253fd1b0e9fef682d",
+    "glyphs/uni0053-mask.png": "90e5b78e3a6fe7dad704779dc18c47712b3ee27e16845395a7985a26b8705021",
+    "glyphs/uni0053-source.png": "ea99a52d43db73fee6ba5d45da023bbbc8093eb4e20550f43f44c9d35916bea1",
+    "glyphs/uni0054-mask.png": "be563c137dc06ae4717285a3b15e6fe0b781eed249a9d9905d9a31011a3c3795",
+    "glyphs/uni0054-source.png": "5a1e94d13391f71f407805534506d9ebf964e51079533b4c9fdf7ebcc1eda7b7",
+    "glyphs/uni0055-mask.png": "36a3be223880595435347d0f5f9caee6450d17d41d339d41f8f9e8d76a891cfb",
+    "glyphs/uni0055-source.png": "d0579e95d4b300274197f3324315f95a4bffc78385f61302569604a621ec7fe5",
+    "glyphs/uni0056-mask.png": "4a5540120d98ca61825ade1436d703c005dac62fb8f014775e862628c78a37de",
+    "glyphs/uni0056-source.png": "f46616d4114eb6429fa08d6a410d9047443c5e1f56bc93739e1664fc39eff0d5",
+    "glyphs/uni0057-mask.png": "276fcd388ef3d898f152ad341a1887e0e75d07134d1e92ae91e53564e78f8bd6",
+    "glyphs/uni0057-source.png": "80613105a5bb0d51460df6bc5b5236cd4ebd08e65f90bba81e4de0e674d7de82",
+    "glyphs/uni0058-mask.png": "a80260113568b890c0b8a78bff3fd7694ab6c7fa93357adba055bc2ffb282b23",
+    "glyphs/uni0058-source.png": "595b0da3e00c1615c86b8f8a53697b5c601f3c29375775479ce6c5470e2ec714",
+    "glyphs/uni0059-mask.png": "3e9544eaf700edea31c9b28fd2246944af2a65e33ec6844fd322875c57dc39b2",
+    "glyphs/uni0059-source.png": "3b93af5f37bfc856b40f2a69aac2c43d45714c6400fb3224fec73f469b402c04",
+    "glyphs/uni005A-mask.png": "9c1ee0daae2e8799c04f99ebe70cbee1deaeb5de54a1b956e28cafdf16886f8b",
+    "glyphs/uni005A-source.png": "04820e86e778941dacc50ab7b8bca8f31381b92eaa314797b6f1a71917e0b329",
+    "glyphs/uni0061-mask.png": "68d0062dc53cdc1b3616ba45ade0ff6bc3845c3c0028c7af70773f9608acb718",
+    "glyphs/uni0061-source.png": "ff14c5e4e14aa5f17060880248d9b840dcee176d3af68663a490455971ec6c80",
+    "glyphs/uni0062-mask.png": "b9630eb1e825542fd11f31db45c15cf08c63dd8d1de90afc2d01060c4b7869a3",
+    "glyphs/uni0062-source.png": "0c6113acac5c859ec972b962a47c5063d93901e3528af11f7015fa9c5b1d12e7",
+    "glyphs/uni0063-mask.png": "dc7a65f6743fecccea77df540b04be646d0e0c89e462cb2e085f2b22a2981516",
+    "glyphs/uni0063-source.png": "112aaadb632e5b9e3cd2a8340d21854adf3189e7d144c7bf13a37a62938ba683",
+    "glyphs/uni0064-mask.png": "e45b16318ec34041d7f25d78774e72fe0a2c79ac8e6422ce937ff68bc8a0e130",
+    "glyphs/uni0064-source.png": "aa642109116ea2b25ce0a93f5bcb6eaf1154c992582e36c6703efc67bfc0f41b",
+    "glyphs/uni0065-mask.png": "6523ef41319c6028ea4d9b820890d8a8c09ac33e3fdb9a21185a77582d786917",
+    "glyphs/uni0065-source.png": "f0be26014411964eff4dad8a37de844279879dff9296a865e623dbde98c69f6e",
+    "glyphs/uni0066-mask.png": "acfdfba4fc24e4aaaae4b6ab9fe45a344fb199950230f1477a74a3a4f7479213",
+    "glyphs/uni0066-source.png": "758253accf6b113a546205d0a03632bd561180760402fc31917e20430d2d1a15",
+    "glyphs/uni0067-mask.png": "155ca7e5acff9c84891248700cd774bb722c02c8043932066d83f61bea99f882",
+    "glyphs/uni0067-source.png": "c6320cd21c9be247a2c0ed5f52953e2c7e64581e8fff4ac1bafbd924cb4d0d9d",
+    "glyphs/uni0068-mask.png": "3228a2780c45fdd7cb408684399a612e0ceb2dfa1252e662a5222f04578fc725",
+    "glyphs/uni0068-source.png": "24d757b3ba3d68ed8c9dcad23ae9ba8c04995df80a5a12d85c36d621ab4deec4",
+    "glyphs/uni0069-mask.png": "e73a0c484e734b2713a678f7c1dbc4db91a43943a7833d68e57698c841aa6ae5",
+    "glyphs/uni0069-source.png": "0e628383d19dfe53c426ad6a2284c80a1f4e48697c5982eb31c3058cdf798362",
+    "glyphs/uni006A-mask.png": "43e2df5f06127f3b516fdf80be7b3d8f310e3e02c472fb77364c9ccd49da1bec",
+    "glyphs/uni006A-source.png": "2b940904241ae14c146bfdea22aeb564b8e8d61184d54fa356ac4ae3e2a05f87",
+    "glyphs/uni006B-mask.png": "9c9b222569eab9f2a1a8c968869e3f2ebb3cba3d9b37b5cf2284870d713ebb49",
+    "glyphs/uni006B-source.png": "edab5d394bae87351d7d380c8dbc3c0876bc8d44c76caa4896da25cb77c93e67",
+    "glyphs/uni006C-mask.png": "1fdb2ad125186d83e55c23c32886df9d2023cb36ba6aeaca1d31a95b17ccdaad",
+    "glyphs/uni006C-source.png": "d8517a8b6e63aca4034e0293aa6d6d9b9019a2be6447b855c21aa7f9fc33b5c0",
+    "glyphs/uni006D-mask.png": "5c5ed62b6ec0a3b58314fd1e55e6df799dde194e41786777ee0c3e5814cc8c18",
+    "glyphs/uni006D-source.png": "f422cc9b506c31ed46b807bab5ef87caf9c96d41673d5209f05dcaa21e327fa4",
+    "glyphs/uni006E-mask.png": "31232d8b62c57ba0725a790e29264c9bbf3c739741b81e067430556808527e09",
+    "glyphs/uni006E-source.png": "92bad8b6210cee4eccf5a1eb99b2f19e7d4905f3a1c377fd17de2e1464615bff",
+    "glyphs/uni006F-mask.png": "52eeca14b5c600f838c234db6a3ff2816acdf5d809b8319c384b2b163bde2c65",
+    "glyphs/uni006F-source.png": "bd4e20c71416544dacd604f4a8d45bec78265a27991d1fd453adef1d1079910f",
+    "glyphs/uni0070-mask.png": "a716ca8ebeb968f4ff7380afb94a71cb5b582d1fba710f4cab4b85ce7de5734c",
+    "glyphs/uni0070-source.png": "315e2d29c9d7b11aa24ec684b0d216fa06868aff758f664667205f12e35e62bf",
+    "glyphs/uni0071-mask.png": "eab40c1c3a07c83341a4890fd70ceb3b3f56e97204f8875c67d4ff8a29261ed0",
+    "glyphs/uni0071-source.png": "dbaef909dea7e1076c56d46262194c80983a950e969fdbff62aef6786eefa167",
+    "glyphs/uni0072-mask.png": "17b16ab5c090e8e951a223070181be43e4054e9542683f5f4de9327dbe4aa9c5",
+    "glyphs/uni0072-source.png": "f886be7016a8bd6fd5e41f05a943a20a67a77528ce3e35a1d01f0900647e5c85",
+    "glyphs/uni0073-mask.png": "b1030e8d5d8b0ca2693968088adf17775961f0eee83050d48e6e0bebffa35782",
+    "glyphs/uni0073-source.png": "81851492d9f2db1f3f164ba9d9d5a56c66384f745996180f4d06cc07a379d1bf",
+    "glyphs/uni0074-mask.png": "95901057c91b47d12f54b65dd1d8ad30fe068992f6b27a1bc2ef2af0b4bfc935",
+    "glyphs/uni0074-source.png": "62db1a37b2fd788c016a707956fc2ec29725c02df7e1410d8d129e91e11c878f",
+    "glyphs/uni0075-mask.png": "76f3c5db8235d7d04856ae93115c67fb3244cdde513e3057c86cc4e011de5696",
+    "glyphs/uni0075-source.png": "5e7638229159b514aadf46bd2c3fdad3a777be9e293c6c7863d6d351e3c17089",
+    "glyphs/uni0076-mask.png": "b999e9824fee7275f6ea7ea3bc9a1b9c3a25f8f0187e56d11d976d8fe347d6fd",
+    "glyphs/uni0076-source.png": "ca7e36ed93fdc28a3c3512f74c3169d133f486dac2e5cfc16e5b7d488ba00955",
+    "glyphs/uni0077-mask.png": "41791f2b202acc5273c177498348561b7d1b21d9a61d3b67c932af0d1fc725e1",
+    "glyphs/uni0077-source.png": "36c1d349980fecd19dad7790863fe3800f6bdeddf36887d9cf69a0cfdcba16fe",
+    "glyphs/uni0078-mask.png": "94c4889e4c682123abf575525c3f293f803ccb45b83558b9e512fe2b70fc459a",
+    "glyphs/uni0078-source.png": "066ecbe018050a3b9028bd9223b2176140489f64157924ad636e560137034458",
+    "glyphs/uni0079-mask.png": "83b4729a7fe5081c05484e7e4c32ec082968e9c5cf9e97998f0e513a93cd6a2d",
+    "glyphs/uni0079-source.png": "01623913d50fea3f1f54de660819f59f4b65f983834e930df9f5a9e5e62cb522",
+    "glyphs/uni007A-mask.png": "b96e1c3c600424089cd9f0ca734766e332bbaeb4eeb895d7a214588f9db082c5",
+    "glyphs/uni007A-source.png": "adf432f87e87a3f6c16f62f70959cb02a011e9674c1236f7cb513452b145b5b7",
+    "rows/digits-ampersand-components.png": "7cca0b044537a963450f5d8d20e570be3e7fa8757a2be9024b829a88c9d24a38",
+    "rows/digits-ampersand-mask.png": "413eca161bdba7e4c6778df9b1ca6b27e717b94b4bb36cb1d024c0836113e41e",
+    "rows/digits-ampersand-source.png": "aaf78dbdee494a70e34bb0881b3e77f5adb7c7d2c695081bd68cacf81766eb96",
+    "rows/lower-1-components.png": "71c4ba5200cb72ceec547eaeb360053f4aa537aff493f579f4645f3f3230e8a7",
+    "rows/lower-1-mask.png": "f4f3475cd1e89e61fa3a43ce5146242bc26dc5b03328a8a5930244df0d8f5b4e",
+    "rows/lower-1-source.png": "22b972fda4e257d338bc14ffdd4f75a1f5948a127cad7a9f118db192d01af75a",
+    "rows/lower-2-components.png": "c517c1343706c80a1d9c89e525cc612fefa8fda862a89051f91f0009f8fe56ef",
+    "rows/lower-2-mask.png": "3b74eea98f76fd1671df9a106a01ea73077f4385eb0f1c43146a243b02eb2868",
+    "rows/lower-2-source.png": "aea1365f761412fd5a4a9121ce0b11efcf9582714f2623b8f5ebf497de4a54d0",
+    "rows/upper-1-components.png": "aec6fad6726ae8ede229a4b2d8c940b1fa95601a6a08853045dbd87ce49e3f0f",
+    "rows/upper-1-mask.png": "08dd03b30fe7c19e2d2a754a9e3377e7b6c640d1f1e89ef73d549a34be9d8dec",
+    "rows/upper-1-source.png": "192c1ff9554c653bd9a7d804ac6811ea4940fb00bda989610900b5947d4156c7",
+    "rows/upper-2-components.png": "1734e536c92245757b0310dc081bbd197470e5927ad37fb7caa8f66a0e42bd90",
+    "rows/upper-2-mask.png": "926422d51c6d53d97106760e9fe87a3b39b75cb5f6067c55de9b90bbecfe7479",
+    "rows/upper-2-source.png": "6bdc6150ccf475633aca93af4ac15096797f00408c8221093a2c9c1d3b02be47",
+    "rows/upper-3-components.png": "f78f4d93e8c976fefd0158c5785fc44887984e25b32895d09620627575bd0d92",
+    "rows/upper-3-mask.png": "960d27fd0ed16fa4cf02ea9afa2becc5a1d3141d3784914d0f4c8bd408021a20",
+    "rows/upper-3-source.png": "c61dbe47efb97ac7d94130eb618ad54534cb2d192c167c2962b726522336dd90"
+  },
+  "config": {
+    "image_size": [
+      746,
+      676
+    ],
+    "input": "input/alphabet-sheet-source.jpg",
+    "manual_choices": "Visual transcription, rectangular row crops and horizontal baselines below; grayscale <128; no rectification, morphology, denoising, smoothing, outline repair or inferred glyphs. All coordinates are original image pixels; crops use exclusive right/bottom. Baselines are pixel edges. Advances are experimental ink width plus two fixed side bearings, NOT recovered type metrics.",
+    "rows": [
+      {
+        "baseline_y": 97,
+        "crop": [
+          30,
+          25,
+          730,
+          120
+        ],
+        "exclude": {},
+        "id": "upper-1",
+        "text": "ABCDEFGHIJK"
+      },
+      {
+        "baseline_y": 205,
+        "crop": [
+          30,
+          135,
+          730,
+          228
+        ],
+        "exclude": {},
+        "id": "upper-2",
+        "text": "LMNOPQRSTUV"
+      },
+      {
+        "baseline_y": 313,
+        "crop": [
+          30,
+          242,
+          730,
+          328
+        ],
+        "exclude": {},
+        "id": "upper-3",
+        "text": "WXYZ"
+      },
+      {
+        "baseline_y": 420,
+        "crop": [
+          30,
+          352,
+          730,
+          447
+        ],
+        "exclude": {},
+        "id": "lower-1",
+        "text": "abcdefghijklm"
+      },
+      {
+        "baseline_y": 529,
+        "crop": [
+          30,
+          465,
+          730,
+          550
+        ],
+        "exclude": {},
+        "id": "lower-2",
+        "text": "nopqrstuvwxyz"
+      },
+      {
+        "baseline_y": 637,
+        "crop": [
+          30,
+          568,
+          730,
+          651
+        ],
+        "exclude": {},
+        "id": "digits-ampersand",
+        "text": "1234567890&"
+      }
+    ],
+    "schema_version": 1,
+    "sha256": "2d56b789a9d3589e3df55546cb437d66fdb4563a6c1222819579c94b608d2d5d",
+    "side_bearing_pixels": 4,
+    "threshold": 128,
+    "units_per_pixel": 10
+  },
+  "counts": {
+    "accepted": 63,
+    "ambiguous": 0,
+    "rejected": 0
+  },
+  "coverage": [
+    38,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122
+  ],
+  "glyphs": [
+    {
+      "advance": 570,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        92,
+        41,
+        141,
+        98
+      ],
+      "character": "A",
+      "component_ids": [
+        6
+      ],
+      "glyph_name": "uni0041",
+      "index": 0,
+      "ink_pixels": 1304,
+      "lsb": 40,
+      "mask": "glyphs/uni0041-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0041-source.png",
+      "status": "accepted",
+      "unicode": 65
+    },
+    {
+      "advance": 600,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        148,
+        42,
+        200,
+        97
+      ],
+      "character": "B",
+      "component_ids": [
+        9
+      ],
+      "glyph_name": "uni0042",
+      "index": 1,
+      "ink_pixels": 1492,
+      "lsb": 40,
+      "mask": "glyphs/uni0042-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0042-source.png",
+      "status": "accepted",
+      "unicode": 66
+    },
+    {
+      "advance": 550,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        208,
+        40,
+        255,
+        98
+      ],
+      "character": "C",
+      "component_ids": [
+        1
+      ],
+      "glyph_name": "uni0043",
+      "index": 2,
+      "ink_pixels": 1138,
+      "lsb": 40,
+      "mask": "glyphs/uni0043-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0043-source.png",
+      "status": "accepted",
+      "unicode": 67
+    },
+    {
+      "advance": 600,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        261,
+        42,
+        313,
+        97
+      ],
+      "character": "D",
+      "component_ids": [
+        10
+      ],
+      "glyph_name": "uni0044",
+      "index": 3,
+      "ink_pixels": 1388,
+      "lsb": 40,
+      "mask": "glyphs/uni0044-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0044-source.png",
+      "status": "accepted",
+      "unicode": 68
+    },
+    {
+      "advance": 560,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        320,
+        40,
+        368,
+        98
+      ],
+      "character": "E",
+      "component_ids": [
+        2
+      ],
+      "glyph_name": "uni0045",
+      "index": 4,
+      "ink_pixels": 1376,
+      "lsb": 40,
+      "mask": "glyphs/uni0045-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0045-source.png",
+      "status": "accepted",
+      "unicode": 69
+    },
+    {
+      "advance": 540,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        379,
+        40,
+        425,
+        97
+      ],
+      "character": "F",
+      "component_ids": [
+        3
+      ],
+      "glyph_name": "uni0046",
+      "index": 5,
+      "ink_pixels": 1143,
+      "lsb": 40,
+      "mask": "glyphs/uni0046-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0046-source.png",
+      "status": "accepted",
+      "unicode": 70
+    },
+    {
+      "advance": 560,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        429,
+        40,
+        477,
+        98
+      ],
+      "character": "G",
+      "component_ids": [
+        4
+      ],
+      "glyph_name": "uni0047",
+      "index": 6,
+      "ink_pixels": 1389,
+      "lsb": 40,
+      "mask": "glyphs/uni0047-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0047-source.png",
+      "status": "accepted",
+      "unicode": 71
+    },
+    {
+      "advance": 570,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        482,
+        42,
+        531,
+        110
+      ],
+      "character": "H",
+      "component_ids": [
+        11
+      ],
+      "glyph_name": "uni0048",
+      "index": 7,
+      "ink_pixels": 1425,
+      "lsb": 40,
+      "mask": "glyphs/uni0048-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0048-source.png",
+      "status": "accepted",
+      "unicode": 72
+    },
+    {
+      "advance": 350,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        537,
+        41,
+        564,
+        97
+      ],
+      "character": "I",
+      "component_ids": [
+        7
+      ],
+      "glyph_name": "uni0049",
+      "index": 8,
+      "ink_pixels": 816,
+      "lsb": 40,
+      "mask": "glyphs/uni0049-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni0049-source.png",
+      "status": "accepted",
+      "unicode": 73
+    },
+    {
+      "advance": 460,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        574,
+        40,
+        612,
+        109
+      ],
+      "character": "J",
+      "component_ids": [
+        5
+      ],
+      "glyph_name": "uni004A",
+      "index": 9,
+      "ink_pixels": 1172,
+      "lsb": 40,
+      "mask": "glyphs/uni004A-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni004A-source.png",
+      "status": "accepted",
+      "unicode": 74
+    },
+    {
+      "advance": 620,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        619,
+        41,
+        673,
+        98
+      ],
+      "character": "K",
+      "component_ids": [
+        8
+      ],
+      "glyph_name": "uni004B",
+      "index": 10,
+      "ink_pixels": 1432,
+      "lsb": 40,
+      "mask": "glyphs/uni004B-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-1",
+      "source": "glyphs/uni004B-source.png",
+      "status": "accepted",
+      "unicode": 75
+    },
+    {
+      "advance": 560,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        51,
+        149,
+        99,
+        207
+      ],
+      "character": "L",
+      "component_ids": [
+        3
+      ],
+      "glyph_name": "uni004C",
+      "index": 0,
+      "ink_pixels": 1101,
+      "lsb": 40,
+      "mask": "glyphs/uni004C-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni004C-source.png",
+      "status": "accepted",
+      "unicode": 76
+    },
+    {
+      "advance": 830,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        110,
+        150,
+        185,
+        206
+      ],
+      "character": "M",
+      "component_ids": [
+        7,
+        12
+      ],
+      "glyph_name": "uni004D",
+      "index": 1,
+      "ink_pixels": 2142,
+      "lsb": 40,
+      "mask": "glyphs/uni004D-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni004D-source.png",
+      "status": "accepted",
+      "unicode": 77
+    },
+    {
+      "advance": 660,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        193,
+        150,
+        251,
+        206
+      ],
+      "character": "N",
+      "component_ids": [
+        8
+      ],
+      "glyph_name": "uni004E",
+      "index": 2,
+      "ink_pixels": 1651,
+      "lsb": 40,
+      "mask": "glyphs/uni004E-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni004E-source.png",
+      "status": "accepted",
+      "unicode": 78
+    },
+    {
+      "advance": 550,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        257,
+        148,
+        304,
+        206
+      ],
+      "character": "O",
+      "component_ids": [
+        1
+      ],
+      "glyph_name": "uni004F",
+      "index": 3,
+      "ink_pixels": 1388,
+      "lsb": 40,
+      "mask": "glyphs/uni004F-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni004F-source.png",
+      "status": "accepted",
+      "unicode": 79
+    },
+    {
+      "advance": 590,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        312,
+        150,
+        363,
+        205
+      ],
+      "character": "P",
+      "component_ids": [
+        9
+      ],
+      "glyph_name": "uni0050",
+      "index": 4,
+      "ink_pixels": 1354,
+      "lsb": 40,
+      "mask": "glyphs/uni0050-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0050-source.png",
+      "status": "accepted",
+      "unicode": 80
+    },
+    {
+      "advance": 550,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        371,
+        148,
+        418,
+        216
+      ],
+      "character": "Q",
+      "component_ids": [
+        2,
+        13
+      ],
+      "glyph_name": "uni0051",
+      "index": 5,
+      "ink_pixels": 1486,
+      "lsb": 40,
+      "mask": "glyphs/uni0051-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0051-source.png",
+      "status": "accepted",
+      "unicode": 81
+    },
+    {
+      "advance": 640,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        424,
+        150,
+        480,
+        206
+      ],
+      "character": "R",
+      "component_ids": [
+        10
+      ],
+      "glyph_name": "uni0052",
+      "index": 6,
+      "ink_pixels": 1473,
+      "lsb": 40,
+      "mask": "glyphs/uni0052-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0052-source.png",
+      "status": "accepted",
+      "unicode": 82
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        487,
+        150,
+        531,
+        206
+      ],
+      "character": "S",
+      "component_ids": [
+        11
+      ],
+      "glyph_name": "uni0053",
+      "index": 7,
+      "ink_pixels": 1459,
+      "lsb": 40,
+      "mask": "glyphs/uni0053-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0053-source.png",
+      "status": "accepted",
+      "unicode": 83
+    },
+    {
+      "advance": 600,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        537,
+        149,
+        589,
+        205
+      ],
+      "character": "T",
+      "component_ids": [
+        4
+      ],
+      "glyph_name": "uni0054",
+      "index": 8,
+      "ink_pixels": 1081,
+      "lsb": 40,
+      "mask": "glyphs/uni0054-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0054-source.png",
+      "status": "accepted",
+      "unicode": 84
+    },
+    {
+      "advance": 580,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        597,
+        149,
+        647,
+        206
+      ],
+      "character": "U",
+      "component_ids": [
+        5
+      ],
+      "glyph_name": "uni0055",
+      "index": 9,
+      "ink_pixels": 1623,
+      "lsb": 40,
+      "mask": "glyphs/uni0055-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0055-source.png",
+      "status": "accepted",
+      "unicode": 85
+    },
+    {
+      "advance": 660,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        656,
+        149,
+        714,
+        206
+      ],
+      "character": "V",
+      "component_ids": [
+        6
+      ],
+      "glyph_name": "uni0056",
+      "index": 10,
+      "ink_pixels": 1245,
+      "lsb": 40,
+      "mask": "glyphs/uni0056-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-2",
+      "source": "glyphs/uni0056-source.png",
+      "status": "accepted",
+      "unicode": 86
+    },
+    {
+      "advance": 840,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        251,
+        256,
+        327,
+        314
+      ],
+      "character": "W",
+      "component_ids": [
+        1
+      ],
+      "glyph_name": "uni0057",
+      "index": 0,
+      "ink_pixels": 1806,
+      "lsb": 40,
+      "mask": "glyphs/uni0057-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-3",
+      "source": "glyphs/uni0057-source.png",
+      "status": "accepted",
+      "unicode": 87
+    },
+    {
+      "advance": 630,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        333,
+        257,
+        388,
+        314
+      ],
+      "character": "X",
+      "component_ids": [
+        3
+      ],
+      "glyph_name": "uni0058",
+      "index": 1,
+      "ink_pixels": 1389,
+      "lsb": 40,
+      "mask": "glyphs/uni0058-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-3",
+      "source": "glyphs/uni0058-source.png",
+      "status": "accepted",
+      "unicode": 88
+    },
+    {
+      "advance": 640,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        394,
+        257,
+        450,
+        313
+      ],
+      "character": "Y",
+      "component_ids": [
+        4
+      ],
+      "glyph_name": "uni0059",
+      "index": 2,
+      "ink_pixels": 1130,
+      "lsb": 40,
+      "mask": "glyphs/uni0059-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-3",
+      "source": "glyphs/uni0059-source.png",
+      "status": "accepted",
+      "unicode": 89
+    },
+    {
+      "advance": 600,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        460,
+        256,
+        512,
+        315
+      ],
+      "character": "Z",
+      "component_ids": [
+        2
+      ],
+      "glyph_name": "uni005A",
+      "index": 3,
+      "ink_pixels": 1624,
+      "lsb": 40,
+      "mask": "glyphs/uni005A-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "upper-3",
+      "source": "glyphs/uni005A-source.png",
+      "status": "accepted",
+      "unicode": 90
+    },
+    {
+      "advance": 490,
+      "baseline_from_mask_top": 40,
+      "bbox": [
+        84,
+        380,
+        125,
+        421
+      ],
+      "character": "a",
+      "component_ids": [
+        9
+      ],
+      "glyph_name": "uni0061",
+      "index": 0,
+      "ink_pixels": 1054,
+      "lsb": 40,
+      "mask": "glyphs/uni0061-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0061-source.png",
+      "status": "accepted",
+      "unicode": 97
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        134,
+        365,
+        178,
+        421
+      ],
+      "character": "b",
+      "component_ids": [
+        2
+      ],
+      "glyph_name": "uni0062",
+      "index": 1,
+      "ink_pixels": 1187,
+      "lsb": 40,
+      "mask": "glyphs/uni0062-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0062-source.png",
+      "status": "accepted",
+      "unicode": 98
+    },
+    {
+      "advance": 450,
+      "baseline_from_mask_top": 40,
+      "bbox": [
+        189,
+        380,
+        226,
+        421
+      ],
+      "character": "c",
+      "component_ids": [
+        10
+      ],
+      "glyph_name": "uni0063",
+      "index": 2,
+      "ink_pixels": 843,
+      "lsb": 40,
+      "mask": "glyphs/uni0063-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0063-source.png",
+      "status": "accepted",
+      "unicode": 99
+    },
+    {
+      "advance": 500,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        237,
+        365,
+        279,
+        421
+      ],
+      "character": "d",
+      "component_ids": [
+        3
+      ],
+      "glyph_name": "uni0064",
+      "index": 3,
+      "ink_pixels": 1213,
+      "lsb": 40,
+      "mask": "glyphs/uni0064-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0064-source.png",
+      "status": "accepted",
+      "unicode": 100
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 40,
+      "bbox": [
+        291,
+        380,
+        331,
+        421
+      ],
+      "character": "e",
+      "component_ids": [
+        11
+      ],
+      "glyph_name": "uni0065",
+      "index": 4,
+      "ink_pixels": 904,
+      "lsb": 40,
+      "mask": "glyphs/uni0065-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0065-source.png",
+      "status": "accepted",
+      "unicode": 101
+    },
+    {
+      "advance": 320,
+      "baseline_from_mask_top": 57,
+      "bbox": [
+        339,
+        363,
+        363,
+        421
+      ],
+      "character": "f",
+      "component_ids": [
+        1
+      ],
+      "glyph_name": "uni0066",
+      "index": 5,
+      "ink_pixels": 683,
+      "lsb": 40,
+      "mask": "glyphs/uni0066-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0066-source.png",
+      "status": "accepted",
+      "unicode": 102
+    },
+    {
+      "advance": 470,
+      "baseline_from_mask_top": 39,
+      "bbox": [
+        367,
+        381,
+        406,
+        435
+      ],
+      "character": "g",
+      "component_ids": [
+        13
+      ],
+      "glyph_name": "uni0067",
+      "index": 6,
+      "ink_pixels": 1271,
+      "lsb": 40,
+      "mask": "glyphs/uni0067-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0067-source.png",
+      "status": "accepted",
+      "unicode": 103
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        416,
+        365,
+        456,
+        422
+      ],
+      "character": "h",
+      "component_ids": [
+        4
+      ],
+      "glyph_name": "uni0068",
+      "index": 7,
+      "ink_pixels": 1120,
+      "lsb": 40,
+      "mask": "glyphs/uni0068-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0068-source.png",
+      "status": "accepted",
+      "unicode": 104
+    },
+    {
+      "advance": 270,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        466,
+        368,
+        485,
+        421
+      ],
+      "character": "i",
+      "component_ids": [
+        7,
+        14
+      ],
+      "glyph_name": "uni0069",
+      "index": 8,
+      "ink_pixels": 505,
+      "lsb": 40,
+      "mask": "glyphs/uni0069-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni0069-source.png",
+      "status": "accepted",
+      "unicode": 105
+    },
+    {
+      "advance": 360,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        494,
+        368,
+        522,
+        436
+      ],
+      "character": "j",
+      "component_ids": [
+        8,
+        15
+      ],
+      "glyph_name": "uni006A",
+      "index": 9,
+      "ink_pixels": 804,
+      "lsb": 40,
+      "mask": "glyphs/uni006A-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni006A-source.png",
+      "status": "accepted",
+      "unicode": 106
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        532,
+        365,
+        576,
+        422
+      ],
+      "character": "k",
+      "component_ids": [
+        5
+      ],
+      "glyph_name": "uni006B",
+      "index": 10,
+      "ink_pixels": 1112,
+      "lsb": 40,
+      "mask": "glyphs/uni006B-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni006B-source.png",
+      "status": "accepted",
+      "unicode": 107
+    },
+    {
+      "advance": 260,
+      "baseline_from_mask_top": 55,
+      "bbox": [
+        585,
+        365,
+        603,
+        421
+      ],
+      "character": "l",
+      "component_ids": [
+        6
+      ],
+      "glyph_name": "uni006C",
+      "index": 11,
+      "ink_pixels": 593,
+      "lsb": 40,
+      "mask": "glyphs/uni006C-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni006C-source.png",
+      "status": "accepted",
+      "unicode": 108
+    },
+    {
+      "advance": 720,
+      "baseline_from_mask_top": 40,
+      "bbox": [
+        615,
+        380,
+        679,
+        422
+      ],
+      "character": "m",
+      "component_ids": [
+        12
+      ],
+      "glyph_name": "uni006D",
+      "index": 12,
+      "ink_pixels": 1443,
+      "lsb": 40,
+      "mask": "glyphs/uni006D-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-1",
+      "source": "glyphs/uni006D-source.png",
+      "status": "accepted",
+      "unicode": 109
+    },
+    {
+      "advance": 490,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        57,
+        488,
+        98,
+        530
+      ],
+      "character": "n",
+      "component_ids": [
+        2
+      ],
+      "glyph_name": "uni006E",
+      "index": 0,
+      "ink_pixels": 944,
+      "lsb": 40,
+      "mask": "glyphs/uni006E-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni006E-source.png",
+      "status": "accepted",
+      "unicode": 110
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        108,
+        488,
+        148,
+        529
+      ],
+      "character": "o",
+      "component_ids": [
+        3
+      ],
+      "glyph_name": "uni006F",
+      "index": 1,
+      "ink_pixels": 934,
+      "lsb": 40,
+      "mask": "glyphs/uni006F-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni006F-source.png",
+      "status": "accepted",
+      "unicode": 111
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        155,
+        488,
+        199,
+        543
+      ],
+      "character": "p",
+      "component_ids": [
+        4
+      ],
+      "glyph_name": "uni0070",
+      "index": 2,
+      "ink_pixels": 1258,
+      "lsb": 40,
+      "mask": "glyphs/uni0070-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0070-source.png",
+      "status": "accepted",
+      "unicode": 112
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        209,
+        488,
+        253,
+        543
+      ],
+      "character": "q",
+      "component_ids": [
+        5
+      ],
+      "glyph_name": "uni0071",
+      "index": 3,
+      "ink_pixels": 1168,
+      "lsb": 40,
+      "mask": "glyphs/uni0071-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0071-source.png",
+      "status": "accepted",
+      "unicode": 113
+    },
+    {
+      "advance": 420,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        261,
+        488,
+        295,
+        529
+      ],
+      "character": "r",
+      "component_ids": [
+        6
+      ],
+      "glyph_name": "uni0072",
+      "index": 4,
+      "ink_pixels": 668,
+      "lsb": 40,
+      "mask": "glyphs/uni0072-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0072-source.png",
+      "status": "accepted",
+      "unicode": 114
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        304,
+        488,
+        344,
+        528
+      ],
+      "character": "s",
+      "component_ids": [
+        7
+      ],
+      "glyph_name": "uni0073",
+      "index": 5,
+      "ink_pixels": 961,
+      "lsb": 40,
+      "mask": "glyphs/uni0073-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0073-source.png",
+      "status": "accepted",
+      "unicode": 115
+    },
+    {
+      "advance": 320,
+      "baseline_from_mask_top": 53,
+      "bbox": [
+        353,
+        476,
+        377,
+        529
+      ],
+      "character": "t",
+      "component_ids": [
+        1
+      ],
+      "glyph_name": "uni0074",
+      "index": 6,
+      "ink_pixels": 675,
+      "lsb": 40,
+      "mask": "glyphs/uni0074-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0074-source.png",
+      "status": "accepted",
+      "unicode": 116
+    },
+    {
+      "advance": 500,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        387,
+        488,
+        429,
+        530
+      ],
+      "character": "u",
+      "component_ids": [
+        8
+      ],
+      "glyph_name": "uni0075",
+      "index": 7,
+      "ink_pixels": 886,
+      "lsb": 40,
+      "mask": "glyphs/uni0075-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0075-source.png",
+      "status": "accepted",
+      "unicode": 117
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        439,
+        488,
+        483,
+        529
+      ],
+      "character": "v",
+      "component_ids": [
+        9
+      ],
+      "glyph_name": "uni0076",
+      "index": 8,
+      "ink_pixels": 779,
+      "lsb": 40,
+      "mask": "glyphs/uni0076-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0076-source.png",
+      "status": "accepted",
+      "unicode": 118
+    },
+    {
+      "advance": 640,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        493,
+        488,
+        549,
+        530
+      ],
+      "character": "w",
+      "component_ids": [
+        10
+      ],
+      "glyph_name": "uni0077",
+      "index": 9,
+      "ink_pixels": 1197,
+      "lsb": 40,
+      "mask": "glyphs/uni0077-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0077-source.png",
+      "status": "accepted",
+      "unicode": 119
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 40,
+      "bbox": [
+        557,
+        489,
+        601,
+        530
+      ],
+      "character": "x",
+      "component_ids": [
+        12
+      ],
+      "glyph_name": "uni0078",
+      "index": 10,
+      "ink_pixels": 868,
+      "lsb": 40,
+      "mask": "glyphs/uni0078-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0078-source.png",
+      "status": "accepted",
+      "unicode": 120
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 40,
+      "bbox": [
+        609,
+        489,
+        653,
+        542
+      ],
+      "character": "y",
+      "component_ids": [
+        13
+      ],
+      "glyph_name": "uni0079",
+      "index": 11,
+      "ink_pixels": 862,
+      "lsb": 40,
+      "mask": "glyphs/uni0079-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni0079-source.png",
+      "status": "accepted",
+      "unicode": 121
+    },
+    {
+      "advance": 510,
+      "baseline_from_mask_top": 41,
+      "bbox": [
+        662,
+        488,
+        705,
+        530
+      ],
+      "character": "z",
+      "component_ids": [
+        11
+      ],
+      "glyph_name": "uni007A",
+      "index": 12,
+      "ink_pixels": 1038,
+      "lsb": 40,
+      "mask": "glyphs/uni007A-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "lower-2",
+      "source": "glyphs/uni007A-source.png",
+      "status": "accepted",
+      "unicode": 122
+    },
+    {
+      "advance": 340,
+      "baseline_from_mask_top": 54,
+      "bbox": [
+        108,
+        583,
+        134,
+        636
+      ],
+      "character": "1",
+      "component_ids": [
+        2
+      ],
+      "glyph_name": "uni0031",
+      "index": 0,
+      "ink_pixels": 563,
+      "lsb": 40,
+      "mask": "glyphs/uni0031-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0031-source.png",
+      "status": "accepted",
+      "unicode": 49
+    },
+    {
+      "advance": 500,
+      "baseline_from_mask_top": 53,
+      "bbox": [
+        144,
+        584,
+        186,
+        638
+      ],
+      "character": "2",
+      "component_ids": [
+        3
+      ],
+      "glyph_name": "uni0032",
+      "index": 1,
+      "ink_pixels": 1251,
+      "lsb": 40,
+      "mask": "glyphs/uni0032-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0032-source.png",
+      "status": "accepted",
+      "unicode": 50
+    },
+    {
+      "advance": 520,
+      "baseline_from_mask_top": 53,
+      "bbox": [
+        196,
+        584,
+        240,
+        638
+      ],
+      "character": "3",
+      "component_ids": [
+        4
+      ],
+      "glyph_name": "uni0033",
+      "index": 2,
+      "ink_pixels": 1176,
+      "lsb": 40,
+      "mask": "glyphs/uni0033-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0033-source.png",
+      "status": "accepted",
+      "unicode": 51
+    },
+    {
+      "advance": 530,
+      "baseline_from_mask_top": 53,
+      "bbox": [
+        250,
+        584,
+        295,
+        636
+      ],
+      "character": "4",
+      "component_ids": [
+        5,
+        12
+      ],
+      "glyph_name": "uni0034",
+      "index": 3,
+      "ink_pixels": 1076,
+      "lsb": 40,
+      "mask": "glyphs/uni0034-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0034-source.png",
+      "status": "accepted",
+      "unicode": 52
+    },
+    {
+      "advance": 500,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        302,
+        585,
+        344,
+        636
+      ],
+      "character": "5",
+      "component_ids": [
+        7
+      ],
+      "glyph_name": "uni0035",
+      "index": 4,
+      "ink_pixels": 1158,
+      "lsb": 40,
+      "mask": "glyphs/uni0035-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0035-source.png",
+      "status": "accepted",
+      "unicode": 53
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        355,
+        585,
+        395,
+        638
+      ],
+      "character": "6",
+      "component_ids": [
+        8
+      ],
+      "glyph_name": "uni0036",
+      "index": 5,
+      "ink_pixels": 1173,
+      "lsb": 40,
+      "mask": "glyphs/uni0036-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0036-source.png",
+      "status": "accepted",
+      "unicode": 54
+    },
+    {
+      "advance": 490,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        403,
+        585,
+        444,
+        636
+      ],
+      "character": "7",
+      "component_ids": [
+        9
+      ],
+      "glyph_name": "uni0037",
+      "index": 6,
+      "ink_pixels": 801,
+      "lsb": 40,
+      "mask": "glyphs/uni0037-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0037-source.png",
+      "status": "accepted",
+      "unicode": 55
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 53,
+      "bbox": [
+        452,
+        584,
+        492,
+        638
+      ],
+      "character": "8",
+      "component_ids": [
+        6
+      ],
+      "glyph_name": "uni0038",
+      "index": 7,
+      "ink_pixels": 1137,
+      "lsb": 40,
+      "mask": "glyphs/uni0038-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0038-source.png",
+      "status": "accepted",
+      "unicode": 56
+    },
+    {
+      "advance": 500,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        503,
+        585,
+        545,
+        638
+      ],
+      "character": "9",
+      "component_ids": [
+        10
+      ],
+      "glyph_name": "uni0039",
+      "index": 8,
+      "ink_pixels": 1146,
+      "lsb": 40,
+      "mask": "glyphs/uni0039-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0039-source.png",
+      "status": "accepted",
+      "unicode": 57
+    },
+    {
+      "advance": 480,
+      "baseline_from_mask_top": 52,
+      "bbox": [
+        554,
+        585,
+        594,
+        638
+      ],
+      "character": "0",
+      "component_ids": [
+        11
+      ],
+      "glyph_name": "uni0030",
+      "index": 9,
+      "ink_pixels": 977,
+      "lsb": 40,
+      "mask": "glyphs/uni0030-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0030-source.png",
+      "status": "accepted",
+      "unicode": 48
+    },
+    {
+      "advance": 580,
+      "baseline_from_mask_top": 56,
+      "bbox": [
+        603,
+        581,
+        653,
+        638
+      ],
+      "character": "&",
+      "component_ids": [
+        1
+      ],
+      "glyph_name": "uni0026",
+      "index": 10,
+      "ink_pixels": 1617,
+      "lsb": 40,
+      "mask": "glyphs/uni0026-mask.png",
+      "reason": "Separate nonempty column band; manually transcribed identity; all ink retained, including detached marks.",
+      "render_check": {
+        "binary_threshold": 127,
+        "hinting": false,
+        "mask_equal": true,
+        "placement_equal": true,
+        "ppem": 100
+      },
+      "row": "digits-ampersand",
+      "source": "glyphs/uni0026-source.png",
+      "status": "accepted",
+      "unicode": 38
+    }
+  ],
+  "rows": [
+    {
+      "bands": [
+        [
+          62,
+          111
+        ],
+        [
+          118,
+          170
+        ],
+        [
+          178,
+          225
+        ],
+        [
+          231,
+          283
+        ],
+        [
+          290,
+          338
+        ],
+        [
+          349,
+          395
+        ],
+        [
+          399,
+          447
+        ],
+        [
+          452,
+          501
+        ],
+        [
+          507,
+          534
+        ],
+        [
+          544,
+          582
+        ],
+        [
+          589,
+          643
+        ]
+      ],
+      "components": [
+        {
+          "area": 1138.0,
+          "label": 1,
+          "x0": 178,
+          "x1": 225,
+          "y0": 15,
+          "y1": 73
+        },
+        {
+          "area": 1376.0,
+          "label": 2,
+          "x0": 290,
+          "x1": 338,
+          "y0": 15,
+          "y1": 73
+        },
+        {
+          "area": 1143.0,
+          "label": 3,
+          "x0": 349,
+          "x1": 395,
+          "y0": 15,
+          "y1": 72
+        },
+        {
+          "area": 1389.0,
+          "label": 4,
+          "x0": 399,
+          "x1": 447,
+          "y0": 15,
+          "y1": 73
+        },
+        {
+          "area": 1172.0,
+          "label": 5,
+          "x0": 544,
+          "x1": 582,
+          "y0": 15,
+          "y1": 84
+        },
+        {
+          "area": 1304.0,
+          "label": 6,
+          "x0": 62,
+          "x1": 111,
+          "y0": 16,
+          "y1": 73
+        },
+        {
+          "area": 816.0,
+          "label": 7,
+          "x0": 507,
+          "x1": 534,
+          "y0": 16,
+          "y1": 72
+        },
+        {
+          "area": 1432.0,
+          "label": 8,
+          "x0": 589,
+          "x1": 643,
+          "y0": 16,
+          "y1": 73
+        },
+        {
+          "area": 1492.0,
+          "label": 9,
+          "x0": 118,
+          "x1": 170,
+          "y0": 17,
+          "y1": 72
+        },
+        {
+          "area": 1388.0,
+          "label": 10,
+          "x0": 231,
+          "x1": 283,
+          "y0": 17,
+          "y1": 72
+        },
+        {
+          "area": 1425.0,
+          "label": 11,
+          "x0": 452,
+          "x1": 501,
+          "y0": 17,
+          "y1": 85
+        }
+      ],
+      "edge_ink": false,
+      "id": "upper-1",
+      "observed_sequence": "ABCDEFGHIJK",
+      "reason": null,
+      "status": "accepted"
+    },
+    {
+      "bands": [
+        [
+          21,
+          69
+        ],
+        [
+          80,
+          155
+        ],
+        [
+          163,
+          221
+        ],
+        [
+          227,
+          274
+        ],
+        [
+          282,
+          333
+        ],
+        [
+          341,
+          388
+        ],
+        [
+          394,
+          450
+        ],
+        [
+          457,
+          501
+        ],
+        [
+          507,
+          559
+        ],
+        [
+          567,
+          617
+        ],
+        [
+          626,
+          684
+        ]
+      ],
+      "components": [
+        {
+          "area": 1388.0,
+          "label": 1,
+          "x0": 227,
+          "x1": 274,
+          "y0": 13,
+          "y1": 71
+        },
+        {
+          "area": 1399.0,
+          "label": 2,
+          "x0": 341,
+          "x1": 388,
+          "y0": 13,
+          "y1": 71
+        },
+        {
+          "area": 1101.0,
+          "label": 3,
+          "x0": 21,
+          "x1": 69,
+          "y0": 14,
+          "y1": 72
+        },
+        {
+          "area": 1081.0,
+          "label": 4,
+          "x0": 507,
+          "x1": 559,
+          "y0": 14,
+          "y1": 70
+        },
+        {
+          "area": 1623.0,
+          "label": 5,
+          "x0": 567,
+          "x1": 617,
+          "y0": 14,
+          "y1": 71
+        },
+        {
+          "area": 1245.0,
+          "label": 6,
+          "x0": 626,
+          "x1": 684,
+          "y0": 14,
+          "y1": 71
+        },
+        {
+          "area": 1734.0,
+          "label": 7,
+          "x0": 80,
+          "x1": 155,
+          "y0": 15,
+          "y1": 71
+        },
+        {
+          "area": 1651.0,
+          "label": 8,
+          "x0": 163,
+          "x1": 221,
+          "y0": 15,
+          "y1": 71
+        },
+        {
+          "area": 1354.0,
+          "label": 9,
+          "x0": 282,
+          "x1": 333,
+          "y0": 15,
+          "y1": 70
+        },
+        {
+          "area": 1473.0,
+          "label": 10,
+          "x0": 394,
+          "x1": 450,
+          "y0": 15,
+          "y1": 71
+        },
+        {
+          "area": 1459.0,
+          "label": 11,
+          "x0": 457,
+          "x1": 501,
+          "y0": 15,
+          "y1": 71
+        },
+        {
+          "area": 408.0,
+          "label": 12,
+          "x0": 104,
+          "x1": 125,
+          "y0": 36,
+          "y1": 71
+        },
+        {
+          "area": 87.0,
+          "label": 13,
+          "x0": 360,
+          "x1": 374,
+          "y0": 72,
+          "y1": 81
+        }
+      ],
+      "edge_ink": false,
+      "id": "upper-2",
+      "observed_sequence": "LMNOPQRSTUV",
+      "reason": null,
+      "status": "accepted"
+    },
+    {
+      "bands": [
+        [
+          221,
+          297
+        ],
+        [
+          303,
+          358
+        ],
+        [
+          364,
+          420
+        ],
+        [
+          430,
+          482
+        ]
+      ],
+      "components": [
+        {
+          "area": 1806.0,
+          "label": 1,
+          "x0": 221,
+          "x1": 297,
+          "y0": 14,
+          "y1": 72
+        },
+        {
+          "area": 1624.0,
+          "label": 2,
+          "x0": 430,
+          "x1": 482,
+          "y0": 14,
+          "y1": 73
+        },
+        {
+          "area": 1389.0,
+          "label": 3,
+          "x0": 303,
+          "x1": 358,
+          "y0": 15,
+          "y1": 72
+        },
+        {
+          "area": 1130.0,
+          "label": 4,
+          "x0": 364,
+          "x1": 420,
+          "y0": 15,
+          "y1": 71
+        }
+      ],
+      "edge_ink": false,
+      "id": "upper-3",
+      "observed_sequence": "WXYZ",
+      "reason": null,
+      "status": "accepted"
+    },
+    {
+      "bands": [
+        [
+          54,
+          95
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          159,
+          196
+        ],
+        [
+          207,
+          249
+        ],
+        [
+          261,
+          301
+        ],
+        [
+          309,
+          333
+        ],
+        [
+          337,
+          376
+        ],
+        [
+          386,
+          426
+        ],
+        [
+          436,
+          455
+        ],
+        [
+          464,
+          492
+        ],
+        [
+          502,
+          546
+        ],
+        [
+          555,
+          573
+        ],
+        [
+          585,
+          649
+        ]
+      ],
+      "components": [
+        {
+          "area": 683.0,
+          "label": 1,
+          "x0": 309,
+          "x1": 333,
+          "y0": 11,
+          "y1": 69
+        },
+        {
+          "area": 1187.0,
+          "label": 2,
+          "x0": 104,
+          "x1": 148,
+          "y0": 13,
+          "y1": 69
+        },
+        {
+          "area": 1213.0,
+          "label": 3,
+          "x0": 207,
+          "x1": 249,
+          "y0": 13,
+          "y1": 69
+        },
+        {
+          "area": 1120.0,
+          "label": 4,
+          "x0": 386,
+          "x1": 426,
+          "y0": 13,
+          "y1": 70
+        },
+        {
+          "area": 1112.0,
+          "label": 5,
+          "x0": 502,
+          "x1": 546,
+          "y0": 13,
+          "y1": 70
+        },
+        {
+          "area": 593.0,
+          "label": 6,
+          "x0": 555,
+          "x1": 573,
+          "y0": 13,
+          "y1": 69
+        },
+        {
+          "area": 56.0,
+          "label": 7,
+          "x0": 441,
+          "x1": 451,
+          "y0": 16,
+          "y1": 23
+        },
+        {
+          "area": 56.0,
+          "label": 8,
+          "x0": 478,
+          "x1": 488,
+          "y0": 16,
+          "y1": 23
+        },
+        {
+          "area": 1054.0,
+          "label": 9,
+          "x0": 54,
+          "x1": 95,
+          "y0": 28,
+          "y1": 69
+        },
+        {
+          "area": 843.0,
+          "label": 10,
+          "x0": 159,
+          "x1": 196,
+          "y0": 28,
+          "y1": 69
+        },
+        {
+          "area": 904.0,
+          "label": 11,
+          "x0": 261,
+          "x1": 301,
+          "y0": 28,
+          "y1": 69
+        },
+        {
+          "area": 1443.0,
+          "label": 12,
+          "x0": 585,
+          "x1": 649,
+          "y0": 28,
+          "y1": 70
+        },
+        {
+          "area": 1271.0,
+          "label": 13,
+          "x0": 337,
+          "x1": 376,
+          "y0": 29,
+          "y1": 83
+        },
+        {
+          "area": 449.0,
+          "label": 14,
+          "x0": 436,
+          "x1": 455,
+          "y0": 29,
+          "y1": 69
+        },
+        {
+          "area": 748.0,
+          "label": 15,
+          "x0": 464,
+          "x1": 492,
+          "y0": 29,
+          "y1": 84
+        }
+      ],
+      "edge_ink": false,
+      "id": "lower-1",
+      "observed_sequence": "abcdefghijklm",
+      "reason": null,
+      "status": "accepted"
+    },
+    {
+      "bands": [
+        [
+          27,
+          68
+        ],
+        [
+          78,
+          118
+        ],
+        [
+          125,
+          169
+        ],
+        [
+          179,
+          223
+        ],
+        [
+          231,
+          265
+        ],
+        [
+          274,
+          314
+        ],
+        [
+          323,
+          347
+        ],
+        [
+          357,
+          399
+        ],
+        [
+          409,
+          453
+        ],
+        [
+          463,
+          519
+        ],
+        [
+          527,
+          571
+        ],
+        [
+          579,
+          623
+        ],
+        [
+          632,
+          675
+        ]
+      ],
+      "components": [
+        {
+          "area": 675.0,
+          "label": 1,
+          "x0": 323,
+          "x1": 347,
+          "y0": 11,
+          "y1": 64
+        },
+        {
+          "area": 944.0,
+          "label": 2,
+          "x0": 27,
+          "x1": 68,
+          "y0": 23,
+          "y1": 65
+        },
+        {
+          "area": 934.0,
+          "label": 3,
+          "x0": 78,
+          "x1": 118,
+          "y0": 23,
+          "y1": 64
+        },
+        {
+          "area": 1258.0,
+          "label": 4,
+          "x0": 125,
+          "x1": 169,
+          "y0": 23,
+          "y1": 78
+        },
+        {
+          "area": 1168.0,
+          "label": 5,
+          "x0": 179,
+          "x1": 223,
+          "y0": 23,
+          "y1": 78
+        },
+        {
+          "area": 668.0,
+          "label": 6,
+          "x0": 231,
+          "x1": 265,
+          "y0": 23,
+          "y1": 64
+        },
+        {
+          "area": 961.0,
+          "label": 7,
+          "x0": 274,
+          "x1": 314,
+          "y0": 23,
+          "y1": 63
+        },
+        {
+          "area": 886.0,
+          "label": 8,
+          "x0": 357,
+          "x1": 399,
+          "y0": 23,
+          "y1": 65
+        },
+        {
+          "area": 779.0,
+          "label": 9,
+          "x0": 409,
+          "x1": 453,
+          "y0": 23,
+          "y1": 64
+        },
+        {
+          "area": 1197.0,
+          "label": 10,
+          "x0": 463,
+          "x1": 519,
+          "y0": 23,
+          "y1": 65
+        },
+        {
+          "area": 1038.0,
+          "label": 11,
+          "x0": 632,
+          "x1": 675,
+          "y0": 23,
+          "y1": 65
+        },
+        {
+          "area": 868.0,
+          "label": 12,
+          "x0": 527,
+          "x1": 571,
+          "y0": 24,
+          "y1": 65
+        },
+        {
+          "area": 862.0,
+          "label": 13,
+          "x0": 579,
+          "x1": 623,
+          "y0": 24,
+          "y1": 77
+        }
+      ],
+      "edge_ink": false,
+      "id": "lower-2",
+      "observed_sequence": "nopqrstuvwxyz",
+      "reason": null,
+      "status": "accepted"
+    },
+    {
+      "bands": [
+        [
+          78,
+          104
+        ],
+        [
+          114,
+          156
+        ],
+        [
+          166,
+          210
+        ],
+        [
+          220,
+          265
+        ],
+        [
+          272,
+          314
+        ],
+        [
+          325,
+          365
+        ],
+        [
+          373,
+          414
+        ],
+        [
+          422,
+          462
+        ],
+        [
+          473,
+          515
+        ],
+        [
+          524,
+          564
+        ],
+        [
+          573,
+          623
+        ]
+      ],
+      "components": [
+        {
+          "area": 1617.0,
+          "label": 1,
+          "x0": 573,
+          "x1": 623,
+          "y0": 13,
+          "y1": 70
+        },
+        {
+          "area": 563.0,
+          "label": 2,
+          "x0": 78,
+          "x1": 104,
+          "y0": 15,
+          "y1": 68
+        },
+        {
+          "area": 1251.0,
+          "label": 3,
+          "x0": 114,
+          "x1": 156,
+          "y0": 16,
+          "y1": 70
+        },
+        {
+          "area": 1176.0,
+          "label": 4,
+          "x0": 166,
+          "x1": 210,
+          "y0": 16,
+          "y1": 70
+        },
+        {
+          "area": 905.0,
+          "label": 5,
+          "x0": 220,
+          "x1": 265,
+          "y0": 16,
+          "y1": 57
+        },
+        {
+          "area": 1137.0,
+          "label": 6,
+          "x0": 422,
+          "x1": 462,
+          "y0": 16,
+          "y1": 70
+        },
+        {
+          "area": 1158.0,
+          "label": 7,
+          "x0": 272,
+          "x1": 314,
+          "y0": 17,
+          "y1": 68
+        },
+        {
+          "area": 1173.0,
+          "label": 8,
+          "x0": 325,
+          "x1": 365,
+          "y0": 17,
+          "y1": 70
+        },
+        {
+          "area": 801.0,
+          "label": 9,
+          "x0": 373,
+          "x1": 414,
+          "y0": 17,
+          "y1": 68
+        },
+        {
+          "area": 1146.0,
+          "label": 10,
+          "x0": 473,
+          "x1": 515,
+          "y0": 17,
+          "y1": 70
+        },
+        {
+          "area": 977.0,
+          "label": 11,
+          "x0": 524,
+          "x1": 564,
+          "y0": 17,
+          "y1": 70
+        },
+        {
+          "area": 171.0,
+          "label": 12,
+          "x0": 238,
+          "x1": 258,
+          "y0": 56,
+          "y1": 68
+        }
+      ],
+      "edge_ink": false,
+      "id": "digits-ampersand",
+      "observed_sequence": "1234567890&",
+      "reason": null,
+      "status": "accepted"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Unserved technical feasibility experiment; manually configured; no historical attribution or rights clearance; no inferred characters."
+}
