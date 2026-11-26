@@ -16,8 +16,8 @@ archive and all its public actions are removed. Research details remain intact.
 
 ## Gates
 
-- Private complete regression suite: 75 passed in 106.18s.
-- Sanitized public complete suite: 57 passed in 57.55s, including rebuilding both
+- Private complete regression suite: 76 passed in 108.24s.
+- Sanitized public complete suite: 58 passed in 57.34s, including rebuilding both
   active faces twice from authorized inputs and matching the frozen font hashes.
 - Generator: 45 artifacts; deterministic regeneration and obsolete-file cleanup
   checked by pytest. The unchanged font ZIP SHA-256 is
@@ -52,7 +52,11 @@ byte equality for all 45 artifacts, including all four active font downloads and
 all twelve original images. Home includes both custom inputs and recycle controls,
 and Study links the verified public repository. The originals ZIP and withdrawn
 TTF/WOFF2 paths return 404. See live-verification.json for per-artifact SHA-256.
-Public code/artifact release: df07bcfe2c9e1c8e737ea886a1357fff1d14ae5b.
+Public code/artifact release: 732a3fbc2b6b4af145e64cf8f1b48f749878a47c.
+Final spacing revision gives both download rows a deliberate 16px top margin
+and 8px horizontal gap while retaining the 490px cards and 188px control areas.
+A focused DOM/CSS test checks both rows immediately follow their inputs, contain
+both downloads, and preserve fixed dimensions. Live HTML confirms the spacing.
 The publisher's route warning was checked against the existing generated route:
 the unchanged app hostname points at its expected static root through the central
 gate. GitHub API reports public visibility and main as default; its public page
