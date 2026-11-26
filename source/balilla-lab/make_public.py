@@ -31,8 +31,8 @@ from pathlib import Path
 LAB = Path(__file__).resolve().parent
 PUBLIC = LAB.parent.parent / "public"
 RELEASE = "0.8"
-# Supervisor: set only after creating and verifying the public repository.
-SOURCE_REPOSITORY_URL = None
+# Public sanitized snapshot; verified through GitHub before linking.
+SOURCE_REPOSITORY_URL = "https://github.com/yolo-maxi/ricostruzioni-digitali"
 EXPERIMENTS = LAB.parent.parent / "experiments"
 # Explicit publication boundary: no recursive copying of probe outputs.
 EXPERIMENT_FILES = {
